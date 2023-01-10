@@ -12,30 +12,29 @@ ExaDroid is designed to find robustness issues in exported activities (EA) in An
   - **benchmark**: Adopted benchmark (BenchFdroid), available from [Google Drive](https://drive.google.com/drive/folders/1i2ETA4xBaxpSFORvA95ylATOgcuPv4XJ?usp=share_link)
   - **libs**: Tools adpoted in this work
     - android-1: Android platform library
-    - ICCBot: [ICCBot](https://github.com/hanada31/ICCBot/tree/8d85a0cad5d03380430165f1107a59d257cb8d17) adopted by ExaDroid
-    - AACT.jar: Android Application Component Tester (independent jar)
+    - ICCBot: [ICCBot](https://github.com/hanada31/ICCBot/tree/8d85a0cad5d03380430165f1107a59d257cb8d17) tool adopted by ExaDroid
+    - Mist: [Mist](https://github.com/hanada31/Mist) tool adpoted by ExaDroid
     - AACT-Test-Bridge.apk: Android Application Component Tester Bridge (should be install on Android device)
+    - AACT.jar: Android Application Component Tester (independent jar)
     - adb.exe: Android Debug Bridge (for Windows)
     - AdbWinApi.dll: Android Debug Bridge Windows API
     - AdbWinUsbApi.dll: Android Debug Bridge Windows USB API
     - apktool_2.3.1.jar: APKTool adpoted by Mist
-    - IntentFuzzer.apk: Comparation tool (related work)
-    - Mist.jar: Mist tool (independent jar)
-    - MistResultAnalyzer.jar: Mist result analyzer (independent jar)
-  - **result**: Data of experiment result
+    - IntentFuzzer.apk: Comparation tool [IntentFuzzer](https://github.com/MindMac/IntentFuzzer)
+  - **exp-result**: Data of experiment result
     - FICs: Manual analysis result of Failure-inducing interaction
     - ICCResults: Static analysis result from ICCBot (packed in zip format)
     - MisexposurePredictions: Result of mis-exposure prediction from Mist
     - RelatedWorkResults: Result from related works (including [Fax](https://github.com/hanada31/Fax) and [IntentFuzzer](https://github.com/MindMac/IntentFuzzer))
     - TestcasesGenerated: Testcases geneerated by AACT (with [ACTS](https://csrc.nist.rip/groups/SNS/acts/documents/comparison-report.html) combinatorial testing model)
-    - TestExecutionResult: Dynamic execution result of generated testcases
+    - TestExecutionResults: Dynamic execution result of generated testcases
   - **scripts**: Script to run ExaDroid
   
 ## Requirements
 
-- Install Java (both 8 and 17)
+- Install Java (both 8 and 17+)
 - Install Android SDK Tools (lower than 25.2.3)
-- Install Python
+- Install Python 3
 - Install swi-prolog
 
 - For dynamical testing, please install an emulator or connect with an Android device
