@@ -1,0 +1,1300 @@
+--------- beginning of system
+08-31 15:16:35.003 I/ActivityManager( 1281): START u0 {cmp=com.android.intentfuzzer/.FuzzerActivity} from uid 10064 on display 0
+--------- beginning of main
+08-31 15:16:35.005 D/audio_hw_hal( 1087): raw_start_output_stream, stream=0xf6e43140, sampleRate=48000, channel=2, bps=16, bufSize=4096
+08-31 15:16:35.010 I/ActivityManager( 1281): Killing 1896:com.android.carrierconfig/u0a2 (adj 904): empty for 1821s
+08-31 15:16:35.010 I/ActivityManager( 1281): Killing 1901:com.android.managedprovisioning/u0a11 (adj 904): empty for 1821s
+08-31 15:16:35.012 I/ActivityManager( 1281): Killing 1706:com.android.keychain/1000 (adj 904): empty for 1826s
+08-31 15:16:35.019 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 15:16:35.052 D/ActivityManager( 1281): cleanUpApplicationRecord -- 1896
+08-31 15:16:35.055 D/ActivityManager( 1281): cleanUpApplicationRecord -- 1901
+08-31 15:16:35.057 D/ActivityManager( 1281): cleanUpApplicationRecord -- 1706
+08-31 15:16:35.059 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 15:16:35.509 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:16:35.509 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb41b280, error=EGL_BAD_MATCH
+08-31 15:16:35.511 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:16:35.545 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 15:16:35.548 I/ActivityManager( 1281): Displayed com.android.intentfuzzer/.FuzzerActivity: +529ms (total +2m47s38ms)
+08-31 15:16:35.599 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 15:16:36.563 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.PlacePickerActivity} from uid 10064 on display 0
+08-31 15:16:36.563 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.PlacePickerActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.564 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.564 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.564 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.564 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.564 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.564 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.564 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.564 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.564 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.564 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.565 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.565 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.565 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.LauncherActivity} from uid 10064 on display 0
+08-31 15:16:36.581 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 15:16:36.581 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=com.oriondev.moneywallet/.ui.activity.LauncherActivity }
+08-31 15:16:36.581 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.581 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 15:16:36.581 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.582 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.582 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.582 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.582 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.582 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.582 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.582 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.582 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.585 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.MainActivity} from uid 10064 on display 0
+08-31 15:16:36.585 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.MainActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.586 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.586 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.586 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.586 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.586 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.586 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.586 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.586 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.586 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.586 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.587 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.587 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.588 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.TutorialActivity} from uid 10064 on display 0
+08-31 15:16:36.588 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.TutorialActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.590 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.590 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.590 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.590 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.590 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.590 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.590 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.590 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.590 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.590 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.590 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.590 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.608 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.WalletListActivity} from uid 10064 on display 0
+08-31 15:16:36.608 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.WalletListActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.609 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.610 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.610 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.610 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.610 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.610 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.610 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.610 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.610 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.610 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.610 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.610 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.611 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.BackupListActivity} from uid 10064 on display 0
+08-31 15:16:36.611 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.BackupListActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.612 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.613 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.613 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.613 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.613 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.613 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.613 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.613 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.613 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.613 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.613 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.613 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.616 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditWalletActivity} from uid 10064 on display 0
+08-31 15:16:36.616 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditWalletActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.617 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.618 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.618 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.618 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.618 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.618 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.618 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.618 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.618 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.618 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.618 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.618 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.619 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditTransactionActivity} from uid 10064 on display 0
+08-31 15:16:36.620 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditTransactionActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.621 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.621 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.621 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.621 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.621 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.621 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.621 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.621 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.621 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.621 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.621 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.621 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.623 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditTransferActivity} from uid 10064 on display 0
+08-31 15:16:36.623 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditTransferActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.625 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.625 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.625 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.625 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.625 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.625 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.625 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.625 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.625 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.625 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.625 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.625 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.626 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditCategoryActivity} from uid 10064 on display 0
+08-31 15:16:36.627 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditCategoryActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.628 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.628 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.628 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.628 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.629 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.629 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.629 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.629 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.629 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.629 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.629 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.629 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.630 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditDebtActivity} from uid 10064 on display 0
+08-31 15:16:36.630 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditDebtActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.632 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.632 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.632 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.632 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.632 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.632 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.633 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.633 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.633 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.633 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.633 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.633 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.635 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditBudgetActivity} from uid 10064 on display 0
+08-31 15:16:36.635 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditBudgetActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.637 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.637 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.637 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.637 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.637 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.637 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.637 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.637 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.637 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.637 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.637 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.637 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.640 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditSavingActivity} from uid 10064 on display 0
+08-31 15:16:36.640 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditSavingActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.641 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.642 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.642 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.642 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.642 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.642 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.642 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.642 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.642 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.642 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.642 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.642 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.644 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditEventActivity} from uid 10064 on display 0
+08-31 15:16:36.644 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditEventActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.646 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.646 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.646 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.646 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.646 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.646 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.647 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.647 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.647 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.647 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.647 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.647 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.648 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditRecurrentTransactionActivity} from uid 10064 on display 0
+08-31 15:16:36.649 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditRecurrentTransactionActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.651 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.651 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.652 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.652 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.652 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.652 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.652 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.652 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.652 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.652 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.652 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.652 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.654 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditRecurrentTransferActivity} from uid 10064 on display 0
+08-31 15:16:36.654 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditRecurrentTransferActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.655 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.655 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.655 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.655 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.655 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.655 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.655 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.655 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.655 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.655 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.655 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.655 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.657 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditTransactionModelActivity} from uid 10064 on display 0
+08-31 15:16:36.657 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditTransactionModelActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.658 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.658 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.658 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.658 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.658 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.658 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.658 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.658 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.658 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.658 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.658 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.658 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.660 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditTransferModelActivity} from uid 10064 on display 0
+08-31 15:16:36.660 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditTransferModelActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.661 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.661 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.661 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.661 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.661 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.661 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.661 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.661 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.661 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.661 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.661 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.661 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.663 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditPlaceActivity} from uid 10064 on display 0
+08-31 15:16:36.663 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditPlaceActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.665 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.665 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.665 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.665 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.665 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.665 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.665 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.665 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.665 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.665 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.665 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.665 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.666 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditPersonActivity} from uid 10064 on display 0
+08-31 15:16:36.666 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditPersonActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.667 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.667 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.667 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.667 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.667 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.667 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.667 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.667 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.667 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.668 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.668 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.668 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.669 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.CurrencyListActivity} from uid 10064 on display 0
+08-31 15:16:36.669 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.CurrencyListActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.670 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.671 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.671 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.671 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.671 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.671 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.671 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.671 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.671 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.671 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.671 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.671 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.672 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.CategoryPickerActivity} from uid 10064 on display 0
+08-31 15:16:36.672 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.CategoryPickerActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.673 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.673 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.673 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.673 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.673 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.673 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.673 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.673 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.673 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.673 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.673 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.673 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.677 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.IconListActivity} from uid 10064 on display 0
+08-31 15:16:36.677 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.IconListActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.678 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.678 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.678 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.678 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.678 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.678 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.678 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.678 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.678 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.678 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.678 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.678 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.679 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.CalculatorActivity} from uid 10064 on display 0
+08-31 15:16:36.679 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.CalculatorActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.680 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.681 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.681 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.681 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.681 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.681 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.681 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.681 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.681 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.681 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.681 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.681 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.682 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.CurrencyConverterActivity} from uid 10064 on display 0
+08-31 15:16:36.682 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.CurrencyConverterActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.683 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.683 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.683 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.683 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.683 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.683 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.683 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.683 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.683 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.683 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.683 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.683 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.684 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.AboutActivity} from uid 10064 on display 0
+08-31 15:16:36.684 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.AboutActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.685 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.686 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.686 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.686 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.686 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.686 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.686 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.686 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.686 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.686 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.686 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.686 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.689 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.SearchActivity} from uid 10064 on display 0
+08-31 15:16:36.689 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.SearchActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.690 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.690 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.690 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.690 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.690 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.690 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.690 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.690 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.690 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.690 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.690 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.690 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.692 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.CalendarActivity} from uid 10064 on display 0
+08-31 15:16:36.692 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.CalendarActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.693 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.693 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.693 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.693 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.693 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.693 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.693 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.693 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.693 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.693 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.693 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.693 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.694 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.MapActivity} from uid 10064 on display 0
+08-31 15:16:36.694 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.MapActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.695 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.695 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.695 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.695 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.695 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.695 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.695 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.695 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.695 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.695 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.695 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.695 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.696 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.PeriodDetailActivity} from uid 10064 on display 0
+08-31 15:16:36.696 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.PeriodDetailActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.697 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.697 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.697 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.697 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.697 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.697 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.697 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.697 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.697 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.705 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.706 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.706 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.708 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.TransactionListActivity} from uid 10064 on display 0
+08-31 15:16:36.708 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.TransactionListActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.709 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.709 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.709 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.709 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.709 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.709 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.709 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.709 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.709 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.709 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.709 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.709 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.710 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.LockActivity} from uid 10064 on display 0
+08-31 15:16:36.710 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.LockActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:16:36.712 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:16:36.712 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:16:36.712 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 15:16:36.712 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:16:36.712 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:16:36.712 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:16:36.712 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:16:36.712 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:16:36.712 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:16:36.712 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:16:36.712 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:16:36.712 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:16:36.732 I/ActivityManager( 1281): Start proc 2370:com.oriondev.moneywallet/u0a32 for activity com.oriondev.moneywallet/.ui.activity.LauncherActivity
+08-31 15:16:36.746 D/libnativebridge( 2370): call UnloadNativeBridge! state=1
+08-31 15:16:36.789 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 15:16:36.864 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:16:36.864 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:16:36.870 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:16:37.359 W/System  ( 2370): ClassLoader referenced unknown path: /data/app/com.oriondev.moneywallet-1/lib/x86_64
+08-31 15:16:37.378 I/MultiDex( 2370): VM with version 2.1.0 has multidex support
+08-31 15:16:37.378 I/MultiDex( 2370): Installing application
+08-31 15:16:37.378 I/MultiDex( 2370): VM has multidex support, MultiDex support library is disabled.
+08-31 15:16:37.594 W/art     ( 2370): Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+08-31 15:16:37.732 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 15:16:37.740 I/HostConnection( 2370): HostConnection::HostConnection: pid=2370, tid=2370, this=0x7fffe8bcff00
+08-31 15:16:37.743 I/        ( 2370): fastpipe: Connect success
+08-31 15:16:37.743 D/HostConnection( 2370): HostRPC::connect sucess: app=com.oriondev.moneywallet, pid=2370, tid=2370, this=0x7fffd63498c0
+08-31 15:16:37.744 D/HostConnection( 2370): queryAndSetGLESMaxVersion select gles-version: 3.1 hostGLVersion:46 process:com.oriondev.moneywallet
+08-31 15:16:37.746 I/        ( 2370): fastpipe: Connect success
+08-31 15:16:37.747 D/HostConnection( 2370): recv ProcessPuidReply name=com.oriondev.moneywallet puid=12 g_u64CapsFlag=1d
+08-31 15:16:37.794 I/HostConnection( 2370): HostConnection::HostConnection: pid=2370, tid=2388, this=0x7fffeb41c4e0
+08-31 15:16:37.797 I/        ( 2370): fastpipe: Connect success
+08-31 15:16:37.797 D/HostConnection( 2370): HostRPC::connect sucess: app=com.oriondev.moneywallet, pid=2370, tid=2388, this=0x7fffeb468940
+08-31 15:16:37.798 D/HostConnection( 2370): queryAndSetGLESMaxVersion select gles-version: 3.1 hostGLVersion:46 process:com.oriondev.moneywallet
+08-31 15:16:37.799 I/OpenGLRenderer( 2370): Initialized EGL, version 1.4
+08-31 15:16:37.799 D/OpenGLRenderer( 2370): Swap behavior 1
+08-31 15:16:37.799 I/EGL_adreno( 2370): eglCreateContext request GLES major-version=2
+08-31 15:16:37.851 D/EGL_adreno( 2370): eglCreateContext: 0x7fffeb44f320: maj 3 min 1 rcv 4
+08-31 15:16:37.958 D/EGL_adreno( 2370): eglMakeCurrent: 0x7fffeb44f320: ver 3 1 (tinfo 0x7fffeb40d300)
+08-31 15:16:37.961 D/HostConnection( 2370): ExtendedRCEncoderContext GL_VERSION return OpenGL ES 3.1
+08-31 15:16:37.979 E/EGL_adreno( 2370): tid 2388: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:16:37.980 W/OpenGLRenderer( 2370): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb459b80, error=EGL_BAD_MATCH
+08-31 15:16:37.981 D/EGL_adreno( 2370): eglMakeCurrent: 0x7fffeb44f320: ver 3 1 (tinfo 0x7fffeb40d300)
+08-31 15:16:38.067 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 15:16:38.068 I/ActivityManager( 1281): Displayed com.oriondev.moneywallet/.ui.activity.LauncherActivity: +1s351ms
+08-31 15:16:38.073 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 15:16:39.671 D/audio_hw_hal( 1087): log_func, out_standby
+08-31 15:16:39.671 D/audio_hw_hal( 1087): raw_close_output_stream, dev=0xf6e480c0, stream =0xf6e43140
+08-31 15:16:39.672 D/audio_hw_hal( 1087): raw_close_output_stream, stream=0xf6e43140,  success!
+08-31 15:16:40.069 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@eb1733a
+08-31 15:16:40.070 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:16:40.130 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:16:40.130 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:16:40.134 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:16:43.573 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@c1ed63
+08-31 15:16:43.576 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:16:43.637 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:16:43.637 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:16:43.639 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:16:45.562 D/WifiStateMachine( 1281): setScanResults mScanResults.size=1
+08-31 15:16:47.077 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@3ccb2de
+08-31 15:16:47.079 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:16:47.141 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:16:47.141 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:16:47.145 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:16:50.582 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@25bfcbf
+08-31 15:16:50.584 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:16:50.636 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:16:50.636 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:16:50.637 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:16:54.085 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@2e6ff8c
+08-31 15:16:54.087 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:16:54.135 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:16:54.135 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:16:54.137 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:16:57.591 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@7fa6d5
+08-31 15:16:57.593 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:16:57.661 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:16:57.661 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:16:57.663 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:01.094 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@8ed1eea
+08-31 15:17:01.097 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:01.169 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:17:01.169 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:17:01.184 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:04.596 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@f5da5db
+08-31 15:17:04.598 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:04.660 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:17:04.660 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:17:04.662 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:08.101 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@5ca8878
+08-31 15:17:08.104 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:08.150 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:17:08.150 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:17:08.152 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:11.606 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@1a0db51
+08-31 15:17:11.609 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:11.669 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:17:11.669 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:17:11.670 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:15.110 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@5f63fb6
+08-31 15:17:15.112 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:15.168 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:17:15.168 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:17:15.174 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:18.615 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@e06c4b7
+08-31 15:17:18.618 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:18.669 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:17:18.669 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:17:18.671 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:22.122 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@55bb424
+08-31 15:17:22.125 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:22.193 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:17:22.194 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:17:22.196 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:25.628 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@c6db8d
+08-31 15:17:25.629 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:25.694 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:17:25.694 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:17:25.696 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:29.133 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@79ea142
+08-31 15:17:29.136 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:29.186 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:17:29.186 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:17:29.190 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:32.639 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@eb8f553
+08-31 15:17:32.641 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:32.706 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:17:32.706 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:17:32.708 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:36.143 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@b1ee90
+08-31 15:17:36.146 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:36.201 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:17:36.201 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:17:36.203 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:39.652 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@5d2a389
+08-31 15:17:39.707 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:39.855 W/WindowManager( 1281): Failed looking up window
+08-31 15:17:39.855 W/WindowManager( 1281): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@d11e905 does not exist
+08-31 15:17:39.855 W/WindowManager( 1281): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:9459)
+08-31 15:17:39.855 W/WindowManager( 1281): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:9450)
+08-31 15:17:39.855 W/WindowManager( 1281): 	at com.android.server.wm.WindowManagerService.removeWindow(WindowManagerService.java:2410)
+08-31 15:17:39.855 W/WindowManager( 1281): 	at com.android.server.wm.Session.remove(Session.java:202)
+08-31 15:17:39.855 W/WindowManager( 1281): 	at android.view.IWindowSession$Stub.onTransact(IWindowSession.java:242)
+08-31 15:17:39.855 W/WindowManager( 1281): 	at com.android.server.wm.Session.onTransact(Session.java:145)
+08-31 15:17:39.855 W/WindowManager( 1281): 	at android.os.Binder.execTransact(Binder.java:565)
+08-31 15:17:40.034 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:17:40.034 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:17:40.036 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:43.164 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@d798f8e
+08-31 15:17:43.169 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:43.266 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:17:43.266 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:17:43.268 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:46.673 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@c5393af
+08-31 15:17:46.675 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:46.735 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:17:46.735 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:17:46.736 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:50.187 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@eef63bc
+08-31 15:17:50.191 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:50.251 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:17:50.251 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:17:50.274 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:53.695 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@bb8ef45
+08-31 15:17:53.698 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:53.753 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:17:53.753 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:17:53.757 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:57.199 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@b03169a
+08-31 15:17:57.201 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:17:57.250 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:17:57.250 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:17:57.252 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:00.710 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@64fbbcb
+08-31 15:18:00.713 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:00.778 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:18:00.778 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:18:00.781 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:04.214 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@52cffa8
+08-31 15:18:04.217 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:04.269 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:18:04.269 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:18:04.271 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:07.719 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@dfe3ac1
+08-31 15:18:07.722 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:07.769 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:18:07.769 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:18:07.773 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:11.238 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:11.239 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@d6c0266
+08-31 15:18:11.305 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:18:11.305 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:18:11.308 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:14.745 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@9c49a7
+08-31 15:18:14.747 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:14.815 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:18:14.816 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:18:14.819 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:18.255 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@f266e54
+08-31 15:18:18.259 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:18.329 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:18:18.329 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:18:18.330 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:21.760 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@1f2c1fd
+08-31 15:18:21.763 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:21.827 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:18:21.827 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:18:21.830 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:25.264 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@225def2
+08-31 15:18:25.267 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:25.319 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:18:25.319 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:18:25.321 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:28.770 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@539d943
+08-31 15:18:28.772 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:31.729 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 15:18:31.744 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 15:18:31.855 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 15:18:31.857 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 15:18:31.870 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:18:31.870 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:18:31.872 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:31.930 D/EGL_adreno( 2370): eglMakeCurrent: 0x7fffeb44f320: ver 3 1 (tinfo 0x7fffeb40d300)
+08-31 15:18:31.993 I/ActivityManager( 1281): Killing 1764:android.process.media/u0a7 (adj 906): empty for 1938s
+08-31 15:18:32.025 D/ActivityManager( 1281): cleanUpApplicationRecord -- 1764
+08-31 15:18:33.297 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.PlacePickerActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.297 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.PlacePickerActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.298 D/audio_hw_hal( 1087): raw_start_output_stream, stream=0xf6e43140, sampleRate=48000, channel=2, bps=16, bufSize=4096
+08-31 15:18:33.300 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.300 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.300 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.300 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.300 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.300 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.300 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.300 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.300 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.300 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.300 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.300 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.302 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.LauncherActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.307 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 15:18:33.307 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=com.oriondev.moneywallet/.ui.activity.LauncherActivity (has extras) }
+08-31 15:18:33.307 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.307 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 15:18:33.307 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.307 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.307 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.307 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.307 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.307 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.307 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.307 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.307 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.308 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.MainActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.309 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.MainActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.310 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.310 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.310 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.310 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.310 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.310 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.310 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.310 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.310 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.310 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.310 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.310 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.311 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.TutorialActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.311 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.TutorialActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.312 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.312 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.312 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.312 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.312 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.312 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.312 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.312 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.312 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.312 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.312 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.312 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.313 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.WalletListActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.313 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.WalletListActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.315 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.315 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.315 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.315 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.315 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.315 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.315 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.315 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.315 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.315 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.315 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.315 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.317 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.BackupListActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.317 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.BackupListActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.318 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.319 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.319 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.319 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.319 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.319 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.319 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.319 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.319 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.319 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.319 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.319 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.320 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditWalletActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.320 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditWalletActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.321 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.322 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.322 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.322 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.322 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.322 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.322 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.322 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.322 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.322 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.322 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.322 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.323 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditTransactionActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.323 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditTransactionActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.324 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.324 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.324 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.324 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.324 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.324 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.324 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.324 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.324 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.324 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.324 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.324 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.324 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditTransferActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.324 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditTransferActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.325 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.325 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.325 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.325 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.325 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.325 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.325 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.325 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.325 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.325 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.325 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.325 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.326 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditCategoryActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.326 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditCategoryActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.328 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.328 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.328 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.328 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.328 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.328 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.328 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.328 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.328 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.328 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.328 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.328 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.329 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditDebtActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.329 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditDebtActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.330 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.330 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.330 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.330 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.331 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.331 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.331 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.331 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.331 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.331 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.331 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.331 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.331 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditBudgetActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.332 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditBudgetActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.333 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.333 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.333 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.333 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.333 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.333 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.333 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.333 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.333 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.333 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.333 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.333 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.334 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditSavingActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.335 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditSavingActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.336 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.336 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.336 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.336 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.336 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.336 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.336 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.336 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.336 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.336 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.336 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.336 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.337 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditEventActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.337 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditEventActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.338 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.338 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.338 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.338 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.338 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.339 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.339 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.339 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.339 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.339 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.339 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.339 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.340 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditRecurrentTransactionActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.340 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditRecurrentTransactionActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.342 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.343 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.343 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.343 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.343 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.343 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.343 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.343 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.343 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.343 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.343 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.343 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.344 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditRecurrentTransferActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.344 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditRecurrentTransferActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.345 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.345 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.345 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.345 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.345 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.346 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.346 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.346 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.346 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.346 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.346 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.346 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.347 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditTransactionModelActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.347 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditTransactionModelActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.348 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.348 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.348 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.348 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.348 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.348 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.348 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.348 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.348 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.348 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.348 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.348 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.350 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditTransferModelActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.350 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditTransferModelActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.351 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.351 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.352 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.352 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.352 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.352 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.352 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.352 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.352 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.352 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.352 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.352 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.353 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditPlaceActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.353 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditPlaceActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.355 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.355 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.355 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.355 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.355 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.355 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.355 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.355 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.355 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.355 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.355 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.355 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.357 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.NewEditPersonActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.357 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.NewEditPersonActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.358 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.359 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.359 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.359 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.359 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.359 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.359 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.359 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.359 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.359 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.359 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.359 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.360 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.CurrencyListActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.360 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.CurrencyListActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.361 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.362 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.362 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.362 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.362 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.362 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.362 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.362 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.362 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.362 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.362 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.362 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.363 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.CategoryPickerActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.364 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.CategoryPickerActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.365 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.365 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.365 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.365 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.365 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.365 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.365 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.365 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.365 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.365 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.365 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.365 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.367 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.IconListActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.367 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.IconListActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.369 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.369 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.369 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.369 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.369 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.369 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.369 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.369 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.369 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.369 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.369 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.369 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.371 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.CalculatorActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.371 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.CalculatorActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.372 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.372 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.372 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.372 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.372 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.372 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.372 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.372 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.373 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.373 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.373 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.373 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.374 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.CurrencyConverterActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.374 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.CurrencyConverterActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.375 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.375 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.375 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.375 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.375 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.375 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.375 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.375 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.375 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.375 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.375 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.375 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.377 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.AboutActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.377 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.AboutActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.378 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.378 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.378 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.379 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.379 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.379 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.379 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.379 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.379 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.379 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.379 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.379 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.380 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.SearchActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.380 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.SearchActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.381 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.381 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.382 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.382 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.382 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.382 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.382 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.382 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.382 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.382 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.382 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.382 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.383 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.CalendarActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.383 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.CalendarActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.385 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.385 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.385 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.385 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.385 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.385 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.385 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.385 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.385 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.385 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.385 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.385 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.386 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.MapActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.386 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.MapActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.387 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.387 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.387 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.387 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.387 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.387 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.387 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.387 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.387 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.387 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.388 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.388 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.388 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.PeriodDetailActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.388 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.PeriodDetailActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.390 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.390 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.390 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.390 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.390 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.390 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.390 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.390 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.390 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.390 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.390 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.390 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.391 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.TransactionListActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.391 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.TransactionListActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.392 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.392 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.392 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.392 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.392 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.392 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.392 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.392 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.392 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.392 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.392 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.392 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.394 I/ActivityManager( 1281): START u0 {cmp=com.oriondev.moneywallet/.ui.activity.LockActivity (has extras)} from uid 10064 on display 0
+08-31 15:18:33.394 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.oriondev.moneywallet/.ui.activity.LockActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10032
+08-31 15:18:33.395 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 15:18:33.395 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 15:18:33.395 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 15:18:33.395 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 15:18:33.395 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 15:18:33.395 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 15:18:33.395 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 15:18:33.395 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 15:18:33.395 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 15:18:33.395 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 15:18:33.395 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 15:18:33.395 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 15:18:33.420 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 15:18:33.455 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:18:33.455 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb41b280, error=EGL_BAD_MATCH
+08-31 15:18:33.459 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:33.560 E/EGL_adreno( 2370): tid 2388: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:18:33.560 W/OpenGLRenderer( 2370): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb459b80, error=EGL_BAD_MATCH
+08-31 15:18:33.562 D/EGL_adreno( 2370): eglMakeCurrent: 0x7fffeb44f320: ver 3 1 (tinfo 0x7fffeb40d300)
+08-31 15:18:33.647 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 15:18:33.651 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 15:18:33.658 I/ActivityManager( 1281): Displayed com.oriondev.moneywallet/.ui.activity.LauncherActivity: +259ms
+08-31 15:18:36.399 D/audio_hw_hal( 1087): log_func, out_standby
+08-31 15:18:36.399 D/audio_hw_hal( 1087): raw_close_output_stream, dev=0xf6e480c0, stream =0xf6e43140
+08-31 15:18:36.399 D/audio_hw_hal( 1087): raw_close_output_stream, stream=0xf6e43140,  success!
+08-31 15:18:36.806 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@578e361
+08-31 15:18:36.808 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:36.886 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:18:36.886 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb41b280, error=EGL_BAD_MATCH
+08-31 15:18:36.888 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:40.311 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@e7f549d
+08-31 15:18:40.314 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:40.369 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:18:40.369 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb41b280, error=EGL_BAD_MATCH
+08-31 15:18:40.371 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:43.819 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@66d0d12
+08-31 15:18:43.822 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:43.870 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:18:43.870 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb41b280, error=EGL_BAD_MATCH
+08-31 15:18:43.872 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:47.324 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@4563ce3
+08-31 15:18:47.326 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:47.385 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:18:47.385 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb41b280, error=EGL_BAD_MATCH
+08-31 15:18:47.390 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:50.831 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@9d746e0
+08-31 15:18:50.833 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:50.903 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:18:50.903 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb41b280, error=EGL_BAD_MATCH
+08-31 15:18:50.905 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:54.334 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@9819d99
+08-31 15:18:54.338 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:54.411 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:18:54.411 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb41b280, error=EGL_BAD_MATCH
+08-31 15:18:54.413 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:57.836 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@78ae85e
+08-31 15:18:57.839 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:18:57.886 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:18:57.886 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb41b280, error=EGL_BAD_MATCH
+08-31 15:18:57.890 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:01.338 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@fa5c43f
+08-31 15:19:01.341 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:01.414 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:19:01.414 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb41b280, error=EGL_BAD_MATCH
+08-31 15:19:01.416 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:04.851 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@319f10c
+08-31 15:19:04.853 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:04.902 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:19:04.902 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb41b280, error=EGL_BAD_MATCH
+08-31 15:19:04.904 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:08.356 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@4c57a55
+08-31 15:19:08.360 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:08.462 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:19:08.463 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb41b280, error=EGL_BAD_MATCH
+08-31 15:19:08.465 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:11.861 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@6192c6a
+08-31 15:19:11.864 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:11.925 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:19:11.925 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb41b280, error=EGL_BAD_MATCH
+08-31 15:19:11.927 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:15.366 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@83c655b
+08-31 15:19:15.386 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:15.484 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:19:15.484 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:19:15.491 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:18.885 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@7fb11f8
+08-31 15:19:18.898 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:19.034 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:19:19.034 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:19:19.036 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:22.395 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@33066d1
+08-31 15:19:22.401 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:22.492 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:19:22.492 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:19:22.495 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:25.565 D/WifiStateMachine( 1281): setScanResults mScanResults.size=1
+08-31 15:19:25.906 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@195a536
+08-31 15:19:25.910 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:25.985 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:19:25.985 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:19:25.991 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:29.412 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@2d1fc37
+08-31 15:19:29.415 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:29.472 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:19:29.472 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:19:29.475 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:32.922 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@7cb55a4
+08-31 15:19:32.924 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:32.988 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:19:32.988 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:19:33.009 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:36.431 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@6839f0d
+08-31 15:19:36.434 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:36.483 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:19:36.483 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:19:36.485 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:39.936 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@18edec2
+08-31 15:19:39.938 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:39.993 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:19:39.993 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:19:39.995 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:43.442 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@dc024d3
+08-31 15:19:43.444 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:43.506 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:19:43.506 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:19:43.508 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:46.946 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@43a2810
+08-31 15:19:46.949 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:47.009 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:19:47.009 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:19:47.012 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:50.452 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@1581f09
+08-31 15:19:50.455 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:50.513 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:19:50.513 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:19:50.515 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:53.960 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@5f0250e
+08-31 15:19:53.964 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:54.031 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:19:54.031 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:19:54.033 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:57.501 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:19:57.502 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@95e3b2f
+08-31 15:19:57.554 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:19:57.554 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:19:57.557 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:20:01.004 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@881b53c
+08-31 15:20:01.006 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:20:01.052 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:20:01.052 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:20:01.055 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:20:04.506 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@cdaa2c5
+08-31 15:20:04.508 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:20:04.577 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:20:04.577 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:20:04.578 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:20:08.020 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@d841a
+08-31 15:20:08.023 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:20:08.077 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:20:08.077 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:20:08.080 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:20:11.525 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@a1d5b4b
+08-31 15:20:11.528 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:20:11.592 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:20:11.592 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:20:11.595 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:20:15.028 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@752e928
+08-31 15:20:15.031 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:20:15.086 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:20:15.086 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:20:15.090 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:20:18.535 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@e47a641
+08-31 15:20:18.536 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:20:18.584 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:20:18.584 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:20:18.586 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:20:22.039 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@6fc7e6
+08-31 15:20:22.042 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:20:22.116 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 15:20:22.116 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9900, error=EGL_BAD_MATCH
+08-31 15:20:22.118 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 15:20:25.945 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@646127
+08-31 15:20:25.948 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)

@@ -1,0 +1,460 @@
+filename: eu.vranckaert.worktime_1.1.13.4_260_eu.vranckaert.worktime.activities.backup.RestoreFromSDActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: net.mabako.steamgifts_1.5.11_1005511_net.mabako.steamgifts.activities.UrlHandlingActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: org.sufficientlysecure.keychain_5.2_52009_org.sufficientlysecure.keychain.ui.PanicResponderActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: com.fsck.k9_5.600_26000_com.fsck.k9.activity.UnreadWidgetConfiguration_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: org.inaturalist.android_1.11.19_343_com.google.android.gms.appinvite.PreviewActivity_misExpose.txt
+reason: 5 clsDeclare
+result: mustEA
+
+filename: fr.ybo.transportsrennes_3.8.4_384_fr.ybo.transportsrennes.activity.bus.BusFavorisShortcutPicker_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+
+filename: de.danoeh.antennapod_1.7.1_1070195_de.danoeh.antennapod.activity.FlattrAuthActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: org.tasks_4.8.2_383_org.tasks.voice.VoiceCommandActivity_misExpose.txt
+reason: 4 clsInvoke or actInvoke
+result: mustEA
+
+filename: com.forrestguice.suntimeswidget_0.11.3_44_com.forrestguice.suntimeswidget.alarmclock.ui.AlarmClockActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: org.sufficientlysecure.keychain_5.2_52009_org.sufficientlysecure.keychain.ui.RedirectImportKeysActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: dev.ukanth.ufirewall_3.1.0_17111_dev.ukanth.ufirewall.plugin.LocaleEdit_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: com.csipsimple_0.04-01_1841_com.csipsimple.ui.outgoingcall.OutgoingCallChooser_misExpose.txt
+reason: 6 priority or permission
+result: mustEA
+
+filename: net.osmand.plus_3.5.2_352_net.osmand.plus.activities.search.GeoIntentActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: com.forrestguice.suntimeswidget_0.11.3_44_com.forrestguice.suntimeswidget.SuntimesConfigActivity2_3x1_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: org.smssecure.smssecure_0.15.1_129_org.smssecure.smssecure.ShareActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: fr.ybo.transportsrennes_3.8.4_384_fr.ybo.transportsrennes.activity.widgets.TransportsWidget21Configure_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: org.smssecure.smssecure_0.15.1_129_org.smssecure.smssecure.SmsSendtoActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: fr.ybo.transportsrennes_3.8.4_384_fr.ybo.transportsrennes.activity.bus.ListArret_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+
+filename: com.forrestguice.suntimeswidget_0.11.3_44_com.forrestguice.suntimeswidget.SuntimesConfigActivity0_2x1_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: fr.ybo.transportsrennes_3.8.4_384_fr.ybo.transportsrennes.activity.widgets.TransportsWidgetConfigure_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: fr.ybo.transportsrennes_3.8.4_384_fr.ybo.transportsrennes.activity.parkrelais.ParkRelaisShortcutPicker_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+
+filename: org.sufficientlysecure.keychain_5.2_52009_org.sufficientlysecure.keychain.ui.keyview.ViewKeyActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: com.forrestguice.suntimeswidget_0.11.3_44_com.forrestguice.suntimeswidget.SolsticeWidget0ConfigActivity_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: com.csipsimple_0.04-01_1841_com.csipsimple.ui.prefs.cupcake.MainPrefs_misExpose.txt
+reason: 6 priority or permission
+result: mustEA
+
+filename: fr.ybo.transportsrennes_3.8.4_384_fr.ybo.transportsrennes.activity.velos.StationsFavorisShortcutPicker_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+
+filename: org.tasks_4.8.2_383_com.todoroo.astrid.activity.ShortcutActivity_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+
+filename: eu.siacs.conversations_2.5.1+pcr_327_eu.siacs.conversations.ui.SettingsActivity_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: org.sufficientlysecure.keychain_5.2_52009_org.sufficientlysecure.keychain.ui.SettingsActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: com.forrestguice.suntimeswidget_0.11.3_44_com.forrestguice.suntimeswidget.SuntimesConfigActivity2_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: fr.ybo.transportsrennes_3.8.4_384_fr.ybo.transportsrennes.activity.widgets.TransportsWidgetLowResConfigure_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: eu.siacs.conversations_2.5.1+pcr_327_eu.siacs.conversations.ui.AboutActivity_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+
+filename: org.smssecure.smssecure_0.15.1_129_org.smssecure.smssecure.PanicResponderActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: com.csipsimple_0.04-01_1841_com.csipsimple.ui.prefs.PrefsFast_misExpose.txt
+reason: 6 priority or permission
+result: mustEA
+
+filename: com.forrestguice.suntimeswidget_0.11.3_44_com.forrestguice.suntimeswidget.MoonWidget0ConfigActivity_2x1_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: org.tasks_4.8.2_383_com.todoroo.astrid.activity.FilterShortcutActivity_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+
+filename: com.farmerbb.taskbar_3.1_123_com.farmerbb.taskbar.activity.HomeActivity_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+
+filename: org.sufficientlysecure.keychain_5.2_52009_org.sufficientlysecure.keychain.ui.EncryptTextActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: com.integreight.onesheeld_1.9.0_190401_com.integreight.onesheeld.plugin.condition.ConditionActivity_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: com.forrestguice.suntimeswidget_0.11.3_44_com.forrestguice.suntimeswidget.ClockWidget0ConfigActivity_3x1_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: com.fsck.k9_5.600_26000_com.fsck.k9.activity.FolderList_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+
+filename: com.fsck.k9_5.600_26000_com.fsck.k9.activity.LauncherShortcuts_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+
+filename: eu.siacs.conversations_2.5.1+pcr_327_eu.siacs.conversations.ui.UriHandlerActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: dev.ukanth.ufirewall_3.1.0_17111_dev.ukanth.ufirewall.widget.ToggleWidgetActivity_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: com.farmerbb.taskbar_3.1_123_com.farmerbb.taskbar.activity.IconPackApplyActivity_misExpose.txt
+reason: 9 exTrue
+result: unclear
+
+filename: org.tasks_4.8.2_383_com.todoroo.astrid.activity.ShareLinkActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: com.ichi2.anki_2.8.4_20804300_com.ichi2.anki.NoteEditor_misExpose.txt
+reason: 4 clsInvoke or actInvoke
+result: mustEA
+
+filename: com.csipsimple_0.04-01_1841_com.csipsimple.widgets.AccountWidgetConfigure_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: com.forrestguice.suntimeswidget_0.11.3_44_com.forrestguice.suntimeswidget.SuntimesConfigActivity2_3x2_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: com.csipsimple_0.04-01_1841_com.csipsimple.widgets.ShortcutWidgetConfigure_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: org.tasks_4.8.2_383_com.todoroo.astrid.activity.TaskEditActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: de.danoeh.antennapod_1.7.1_1070195_de.danoeh.antennapod.activity.OpmlImportFromIntentActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: com.etesync.syncadapter_1.4.6_71_com.etesync.syncadapter.ui.setup.LoginActivity_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+
+filename: com.farmerbb.taskbar_3.1_123_com.farmerbb.taskbar.activity.StartTaskbarActivity_misExpose.txt
+reason: 9 exTrue
+result: unclear
+
+filename: fr.ybo.transportsrennes_3.8.4_384_fr.ybo.transportsrennes.activity.timeo.TimeoActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: net.osmand.plus_3.5.2_352_net.osmand.plus.wikivoyage.explore.WikivoyageExploreActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: es.usc.citius.servando.calendula_2.5.11_42_es.usc.citius.servando.calendula.activities.UpdateFromFileActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: de.danoeh.antennapod_1.7.1_1070195_de.danoeh.antennapod.activity.OnlineFeedViewActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: fr.ybo.transportsrennes_3.8.4_384_fr.ybo.transportsrennes.activity.velos.ListStationsFavoris_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+
+filename: fr.ybo.transportsrennes_3.8.4_384_fr.ybo.transportsrennes.activity.velos.StationsShortcutPicker_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+
+filename: org.sufficientlysecure.keychain_5.2_52009_org.sufficientlysecure.keychain.ui.CreateKeyActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: com.mikifus.padland_1.5_20_com.mikifus.padland.PadListActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: de.danoeh.antennapod_1.7.1_1070195_de.danoeh.antennapod.activity.AudioplayerActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: fr.ybo.transportsrennes_3.8.4_384_fr.ybo.transportsrennes.activity.bus.BusShortcutPicker_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+
+filename: org.sufficientlysecure.keychain_5.2_52009_org.sufficientlysecure.keychain.ui.DebugActionsActivity_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: com.fsck.k9_5.600_26000_com.fsck.k9.activity.Search_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+
+filename: com.forrestguice.suntimeswidget_0.11.3_44_com.forrestguice.suntimeswidget.MoonWidget0ConfigActivity_3x1_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: ch.hgdev.toposuite_1.0.3_56_ch.hgdev.toposuite.points.PointsManagerActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: eu.siacs.conversations_2.5.1+pcr_327_eu.siacs.conversations.ui.ShareWithActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: com.farmerbb.taskbar_3.1_123_com.farmerbb.taskbar.activity.ShortcutActivity_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+
+filename: org.sufficientlysecure.keychain_5.2_52009_org.sufficientlysecure.keychain.ui.ImportKeysActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: fr.ybo.transportsrennes_3.8.4_384_fr.ybo.transportsrennes.activity.parkrelais.ListParkRelais_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+
+filename: org.sufficientlysecure.keychain_5.2_52009_org.sufficientlysecure.keychain.ui.DecryptActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: ch.hgdev.toposuite_1.0.3_56_ch.hgdev.toposuite.jobs.JobsActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: com.csipsimple_0.04-01_1841_com.csipsimple.ui.prefs.hc.MainPrefs_misExpose.txt
+reason: 6 priority or permission
+result: mustEA
+
+filename: org.sufficientlysecure.keychain_5.2_52009_org.sufficientlysecure.keychain.ui.ImportKeysProxyActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: com.forrestguice.suntimeswidget_0.11.3_44_com.forrestguice.suntimeswidget.SuntimesConfigActivity1_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: com.fsck.k9_5.600_26000_com.fsck.k9.activity.MessageList_misExpose.txt
+reason: 5 clsDeclare
+result: mustEA
+
+filename: com.ichi2.anki_2.8.4_20804300_com.ichi2.anki.Reviewer_misExpose.txt
+reason: 9 exTrue
+result: unclear
+
+filename: eu.vranckaert.worktime_1.1.13.4_260_eu.vranckaert.worktime.activities.backup.BackupRestoreInfoActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: eu.siacs.conversations_2.5.1+pcr_327_eu.siacs.conversations.ui.ChooseAccountForProfilePictureActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: org.liberty.android.fantastischmemo_10.6.3_211_org.liberty.android.fantastischmemo.ui.ShareScreen_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: com.nutomic.syncthingandroid_1.2.0_4180_com.nutomic.syncthingandroid.activities.ShareActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: org.sufficientlysecure.keychain_5.2_52009_org.sufficientlysecure.keychain.ui.EncryptFilesActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: com.nutomic.syncthingandroid_1.2.0_4180_com.nutomic.syncthingandroid.activities.LogActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: nl.sogeti.android.gpstracker_1.3.5_85_nl.sogeti.android.gpstracker.viewer.TrackList_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: com.fsck.k9_5.600_26000_com.fsck.k9.activity.MessageCompose_misExpose.txt
+reason: 5 clsDeclare
+result: mustEA
+
+filename: com.forrestguice.suntimeswidget_0.11.3_44_com.forrestguice.suntimeswidget.ClockWidget0ConfigActivity_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: fr.ybo.transportsrennes_3.8.4_384_fr.ybo.transportsrennes.activity.widgets.TransportsWidget11Configure_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: nl.sogeti.android.gpstracker_1.3.5_85_nl.sogeti.android.gpstracker.viewer.TracksLiveFolder_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: felixwiemuth.lincal_1.3.1_13_felixwiemuth.lincal.ui.AddCalendarActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: org.inaturalist.android_1.11.19_343_org.inaturalist.android.ObservationEditor_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: org.ligi.passandroid_3.4.7_347_org.ligi.passandroid.ui.PassImportActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: de.danoeh.antennapod_1.7.1_1070195_de.danoeh.antennapod.activity.VideoplayerActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: net.osmand.plus_3.5.2_352_net.osmand.plus.osmo.OsMoGroupsActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: eu.vranckaert.worktime_1.1.13.4_260_eu.vranckaert.worktime.activities.backup.BackupSendFromSDActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: nl.sogeti.android.gpstracker_1.3.5_85_nl.sogeti.android.gpstracker.oauth.PrepareRequestTokenActivity_misExpose.txt
+reason: 9 exTrue
+result: unclear
+
+filename: com.integreight.onesheeld_1.9.0_190401_com.integreight.onesheeld.plugin.action.ActionActivity_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: org.ligi.passandroid_3.4.7_347_org.ligi.passandroid.ui.quirk_fix.URLRewriteActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: org.inaturalist.android_1.11.19_343_com.google.android.gms.tagmanager.TagManagerPreviewActivity_misExpose.txt
+reason: 5 clsDeclare
+result: mustEA
+
+filename: eu.vranckaert.worktime_1.1.13.4_260_eu.vranckaert.worktime.activities.backup.BackupToSDActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: com.farmerbb.taskbar_3.1_123_com.farmerbb.taskbar.activity.KeyboardShortcutActivity_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+
+filename: fr.ybo.transportsrennes_3.8.4_384_fr.ybo.transportsrennes.activity.velos.ListStationsByPosition_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+
+filename: dev.ukanth.ufirewall_3.1.0_17111_dev.ukanth.ufirewall.widget.ToggleWidgetOldActivity_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: org.ligi.passandroid_3.4.7_347_org.ligi.passandroid.ui.ExtractURLAsIphoneActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: eu.siacs.conversations_2.5.1+pcr_327_eu.siacs.conversations.ui.StartConversationActivity_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+
+filename: org.ligi.passandroid_3.4.7_347_org.ligi.passandroid.ui.quirk_fix.USAirwaysLoadActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: eu.siacs.conversations_2.5.1+pcr_327_eu.siacs.conversations.ui.ShortcutActivity_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+
+filename: com.mikifus.padland_1.5_20_com.mikifus.padland.PadViewActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: fr.ybo.transportsrennes_3.8.4_384_fr.ybo.transportsrennes.activity.bus.TabFavoris_misExpose.txt
+reason: 1 ifTrue and not exTrue and sysActNoData
+result: mustIA
+
+filename: de.danoeh.antennapod_1.7.1_1070195_de.danoeh.antennapod.activity.gpoddernet.GpodnetAuthenticationActivity_misExpose.txt
+reason: 10 ifTrue and not exTrue 
+result: unclear
+
+filename: com.csipsimple_0.04-01_1841_com.csipsimple.ui.incall.InCallActivity_misExpose.txt
+reason: 6 priority or permission
+result: mustEA
+
+filename: eu.vranckaert.worktime_1.1.13.4_260_eu.vranckaert.worktime.activities.widget.Configuration2x1Activity_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: com.forrestguice.suntimeswidget_0.11.3_44_com.forrestguice.suntimeswidget.SuntimesConfigActivity0_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: com.forrestguice.suntimeswidget_0.11.3_44_com.forrestguice.suntimeswidget.MoonWidget0ConfigActivity_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+
+filename: org.tasks_4.8.2_383_com.todoroo.astrid.widget.WidgetConfigActivity_misExpose.txt
+reason: 2 noDefault
+result: mustIA
+

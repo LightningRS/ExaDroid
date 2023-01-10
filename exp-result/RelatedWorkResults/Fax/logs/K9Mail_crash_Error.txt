@@ -1,0 +1,26 @@
+BugInfo:
+hash:250811993
+FATAL EXCEPTION: main
+android.util.SuperNotCalledException: Activity {com.fsck.k9/com.fsck.k9.activity.LauncherShortcuts} did not call through to super.onCreate()
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2913)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+
+ICC Msgs:
+68	com.fsck.k9.activity.LauncherShortcuts	null;;null;;null;;null;;Parcelable->parObj->ParcelableObj,
+
+69	com.fsck.k9.activity.LauncherShortcuts	null;;null;;null;;null;;Serializable->serObj->SerializableObj,
+
+65	com.fsck.k9.activity.LauncherShortcuts	null;;null;;null;;null;;
+
+67	com.fsck.k9.activity.LauncherShortcuts	"A";;null;;null;;null;;
+
+------------------------------------------------------------------------
+

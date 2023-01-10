@@ -1,0 +1,24 @@
+BugInfo:
+hash:-363451074
+FATAL EXCEPTION: main
+java.lang.NullPointerException: Attempt to invoke interface method 'int android.database.Cursor.getPosition()' on a null object reference
+	at org.inaturalist.android.Observation.<init>(Observation.java:265)
+	at org.inaturalist.android.ObservationCursorAdapter.isLocked(ObservationCursorAdapter.java:753)
+	at org.inaturalist.android.ObservationListActivity$ObservationsPageAdapter$5.onItemClick(ObservationListActivity.java:1146)
+	at android.widget.AdapterView.performItemClick(AdapterView.java:350)
+	at android.widget.AbsListView.performItemClick(AbsListView.java:1683)
+	at android.widget.AbsListView$PerformClick.run(AbsListView.java:4094)
+	at android.widget.AbsListView$10.run(AbsListView.java:6583)
+	at android.os.Handler.handleCallback(Handler.java:789)
+	at android.os.Handler.dispatchMessage(Handler.java:98)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+
+ICC Msgs:
+60	org.inaturalist.android.ObservationListActivity	null;;null;;"A";;null;;
+
+------------------------------------------------------------------------
+

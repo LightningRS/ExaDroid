@@ -1,0 +1,170 @@
+BugInfo:
+hash:1764085551
+FATAL EXCEPTION: main
+java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.os.Bundle.getString(java.lang.String)' on a null object reference
+	at com.ichi2.anki.NoteEditor.fetchIntentInformation(NoteEditor.java:563)
+	at com.ichi2.anki.NoteEditor.onCollectionLoaded(NoteEditor.java:407)
+	at com.ichi2.anki.AnkiActivity.onLoadFinished(AnkiActivity.java:286)
+	at com.ichi2.anki.AnkiActivity.onLoadFinished(AnkiActivity.java:42)
+	at android.support.v4.app.LoaderManagerImpl$LoaderInfo.callOnLoadFinished(LoaderManager.java:476)
+	at android.support.v4.app.LoaderManagerImpl$LoaderInfo.onLoadComplete(LoaderManager.java:444)
+	at android.support.v4.content.Loader.deliverResult(Loader.java:126)
+	at com.ichi2.async.CollectionLoader.deliverResult(CollectionLoader.java:42)
+	at com.ichi2.async.CollectionLoader.deliverResult(CollectionLoader.java:12)
+	at android.support.v4.content.AsyncTaskLoader.dispatchOnLoadComplete(AsyncTaskLoader.java:252)
+	at android.support.v4.content.AsyncTaskLoader$LoadTask.onPostExecute(AsyncTaskLoader.java:80)
+	at android.support.v4.content.ModernAsyncTask.finish(ModernAsyncTask.java:485)
+	at android.support.v4.content.ModernAsyncTask$InternalHandler.handleMessage(ModernAsyncTask.java:502)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+
+ICC Msgs:
+102	com.ichi2.anki.NoteEditor	"android.intent.action.SEND";;null;;null;;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:-940852942
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{com.ichi2.anki/com.ichi2.anki.IntentHandler}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.getScheme()' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.getScheme()' on a null object reference
+	at com.ichi2.anki.IntentHandler.onCreate(IntentHandler.java:53)
+	at android.app.Activity.performCreate(Activity.java:7183)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1220)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2910)
+	... 9 more
+
+ICC Msgs:
+41	com.ichi2.anki.IntentHandler	"android.intent.action.VIEW";;null;;"content://null:null/null";;"application/apkg";;
+
+40	com.ichi2.anki.IntentHandler	"android.intent.action.VIEW";;null;;"content://null:null/null";;"aaaaaaaaaaaaaaan";;
+
+------------------------------------------------------------------------
+BugInfo:
+hash:42595572
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{com.ichi2.anki/com.ichi2.anki.Reviewer}: java.lang.NullPointerException: Attempt to invoke virtual method 'long android.os.BaseBundle.getLong(java.lang.String, long)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'long android.os.BaseBundle.getLong(java.lang.String, long)' on a null object reference
+	at com.ichi2.anki.Reviewer.selectDeckFromExtra(Reviewer.java:81)
+	at com.ichi2.anki.Reviewer.onCreate(Reviewer.java:73)
+	at android.app.Activity.performCreate(Activity.java:7183)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1220)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2910)
+	... 9 more
+
+ICC Msgs:
+79	com.ichi2.anki.Reviewer	"android.intent.action.VIEW";;null;;null;;null;;Extras->ExtrasObj->ExtrasObj,(,long->deckId->Long.MIN_VALUE,),
+
+78	com.ichi2.anki.Reviewer	"android.intent.action.VIEW";;null;;null;;null;;
+
+80	com.ichi2.anki.Reviewer	"android.intent.action.VIEW";;null;;null;;null;;Extras->ExtrasObj->ExtrasObj,(,),
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:790652919
+FATAL EXCEPTION: main
+java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+	at com.ichi2.anki.NoteEditor.onCollectionLoaded(NoteEditor.java:412)
+	at com.ichi2.anki.AnkiActivity.onLoadFinished(AnkiActivity.java:286)
+	at com.ichi2.anki.AnkiActivity.onLoadFinished(AnkiActivity.java:42)
+	at android.support.v4.app.LoaderManagerImpl$LoaderInfo.callOnLoadFinished(LoaderManager.java:476)
+	at android.support.v4.app.LoaderManagerImpl$LoaderInfo.onLoadComplete(LoaderManager.java:444)
+	at android.support.v4.content.Loader.deliverResult(Loader.java:126)
+	at com.ichi2.async.CollectionLoader.deliverResult(CollectionLoader.java:42)
+	at com.ichi2.async.CollectionLoader.deliverResult(CollectionLoader.java:12)
+	at android.support.v4.content.AsyncTaskLoader.dispatchOnLoadComplete(AsyncTaskLoader.java:252)
+	at android.support.v4.content.AsyncTaskLoader$LoadTask.onPostExecute(AsyncTaskLoader.java:80)
+	at android.support.v4.content.ModernAsyncTask.finish(ModernAsyncTask.java:485)
+	at android.support.v4.content.ModernAsyncTask$InternalHandler.handleMessage(ModernAsyncTask.java:502)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+
+ICC Msgs:
+103	com.ichi2.anki.NoteEditor	"org.openintents.action.CREATE_FLASHCARD";;null;;null;;null;;int->CALLER->0,
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:-1043096199
+FATAL EXCEPTION: main
+java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.os.Bundle.getString(java.lang.String)' on a null object reference
+	at com.ichi2.anki.NoteEditor.fetchIntentInformation(NoteEditor.java:558)
+	at com.ichi2.anki.NoteEditor.onCollectionLoaded(NoteEditor.java:407)
+	at com.ichi2.anki.AnkiActivity.onLoadFinished(AnkiActivity.java:286)
+	at com.ichi2.anki.AnkiActivity.onLoadFinished(AnkiActivity.java:42)
+	at android.support.v4.app.LoaderManagerImpl$LoaderInfo.callOnLoadFinished(LoaderManager.java:476)
+	at android.support.v4.app.LoaderManagerImpl$LoaderInfo.onLoadComplete(LoaderManager.java:444)
+	at android.support.v4.content.Loader.deliverResult(Loader.java:126)
+	at com.ichi2.async.CollectionLoader.deliverResult(CollectionLoader.java:42)
+	at com.ichi2.async.CollectionLoader.deliverResult(CollectionLoader.java:12)
+	at android.support.v4.content.AsyncTaskLoader.dispatchOnLoadComplete(AsyncTaskLoader.java:252)
+	at android.support.v4.content.AsyncTaskLoader$LoadTask.onPostExecute(AsyncTaskLoader.java:80)
+	at android.support.v4.content.ModernAsyncTask.finish(ModernAsyncTask.java:485)
+	at android.support.v4.content.ModernAsyncTask$InternalHandler.handleMessage(ModernAsyncTask.java:502)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+
+ICC Msgs:
+100	com.ichi2.anki.NoteEditor	"org.openintents.action.CREATE_FLASHCARD";;null;;null;;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:1996137787
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{com.ichi2.anki/com.ichi2.anki.IntentHandler}: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+	at com.ichi2.anki.IntentHandler.onCreate(IntentHandler.java:69)
+	at android.app.Activity.performCreate(Activity.java:7183)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1220)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2910)
+	... 9 more
+
+ICC Msgs:
+44	com.ichi2.anki.IntentHandler	"android.intent.action.VIEW";;null;;"content://null:null/null";;null;;
+
+------------------------------------------------------------------------
+

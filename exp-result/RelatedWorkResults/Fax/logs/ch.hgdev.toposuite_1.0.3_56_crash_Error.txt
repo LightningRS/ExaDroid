@@ -1,0 +1,30 @@
+BugInfo:
+hash:-1513093014
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{ch.hgdev.toposuite/ch.hgdev.toposuite.points.PointsManagerActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2698)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2759)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6190)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+	at ch.hgdev.toposuite.points.PointsManagerActivity.onCreate(PointsManagerActivity.java)
+	at android.app.Activity.performCreate(Activity.java:6701)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2651)
+	... 9 more
+
+ICC Msgs:
+168	ch.hgdev.toposuite.points.PointsManagerActivity	null;;null;;"aaaag";;null;;
+
+171	ch.hgdev.toposuite.points.PointsManagerActivity	null;;null;;"l";;null;;
+
+167	ch.hgdev.toposuite.points.PointsManagerActivity	null;;null;;"A";;null;;
+
+------------------------------------------------------------------------
+

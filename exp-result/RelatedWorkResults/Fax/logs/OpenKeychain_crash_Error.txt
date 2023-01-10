@@ -1,0 +1,320 @@
+BugInfo:
+hash:-883474560
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{org.sufficientlysecure.keychain/org.sufficientlysecure.keychain.ui.keyview.ViewKeyActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+	at org.sufficientlysecure.keychain.ui.keyview.ViewKeyActivity.onCreate(ViewKeyActivity.java:244)
+	at android.app.Activity.performCreate(Activity.java:7183)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1220)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2910)
+	... 9 more
+
+ICC Msgs:
+301	org.sufficientlysecure.keychain.ui.keyview.ViewKeyActivity	null;;null;;"aaK";;null;;
+
+302	org.sufficientlysecure.keychain.ui.keyview.ViewKeyActivity	null;;null;;"l";;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:1613679557
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to resume activity {org.sufficientlysecure.keychain/org.sufficientlysecure.keychain.ui.UsbEventReceiverActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.hardware.usb.UsbDevice.getDeviceName()' on a null object reference
+	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:3790)
+	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:3830)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3038)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.hardware.usb.UsbDevice.getDeviceName()' on a null object reference
+	at org.sufficientlysecure.keychain.securitytoken.UsbConnectionDispatcher.requestPermissionForUsbDevice(UsbConnectionDispatcher.java:128)
+	at org.sufficientlysecure.keychain.ui.UsbEventReceiverActivity.onResume(UsbEventReceiverActivity.java:39)
+	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1361)
+	at android.app.Activity.performResume(Activity.java:7415)
+	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:3765)
+	... 10 more
+
+ICC Msgs:
+156	org.sufficientlysecure.keychain.ui.UsbEventReceiverActivity	"android.hardware.usb.action.USB_DEVICE_ATTACHED";;null;;null;;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:453512363
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{org.sufficientlysecure.keychain/org.sufficientlysecure.keychain.ui.keyview.ViewKeyActivity}: java.lang.IllegalArgumentException: Missing required extra master_key_id or contact uri
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.IllegalArgumentException: Missing required extra master_key_id or contact uri
+	at org.sufficientlysecure.keychain.ui.keyview.ViewKeyActivity.onCreate(ViewKeyActivity.java:254)
+	at android.app.Activity.performCreate(Activity.java:7183)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1220)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2910)
+	... 9 more
+
+ICC Msgs:
+297	org.sufficientlysecure.keychain.ui.keyview.ViewKeyActivity	null;;null;;"null://aaaaaag:null/null";;null;;
+
+294	org.sufficientlysecure.keychain.ui.keyview.ViewKeyActivity	null;;null;;null;;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:-1774366322
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{org.sufficientlysecure.keychain/org.sufficientlysecure.keychain.ui.DecryptActivity}: java.lang.NullPointerException: Attempt to invoke interface method 'int java.lang.CharSequence.length()' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke interface method 'int java.lang.CharSequence.length()' on a null object reference
+	at java.util.regex.Matcher.reset(Matcher.java:1045)
+	at java.util.regex.Matcher.<init>(Matcher.java:174)
+	at java.util.regex.Pattern.matcher(Pattern.java:1006)
+	at org.sufficientlysecure.keychain.pgp.PgpHelper.getPgpMessageContent(PgpHelper.java:87)
+	at org.sufficientlysecure.keychain.ui.DecryptActivity.readToTempFile(DecryptActivity.java:208)
+	at org.sufficientlysecure.keychain.ui.DecryptActivity.handleActions(DecryptActivity.java:101)
+	at org.sufficientlysecure.keychain.ui.DecryptActivity.onCreate(DecryptActivity.java:57)
+	at android.app.Activity.performCreate(Activity.java:7183)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1220)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2910)
+	... 9 more
+
+ICC Msgs:
+121	org.sufficientlysecure.keychain.ui.DecryptActivity	"android.intent.action.SEND";;null;;null;;null;;StringArrayList->android.intent.extra.TEXT->abcde,
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:-967629448
+FATAL EXCEPTION: main
+java.lang.IllegalStateException: Fragment CreateKeyEmailFragment{a84b52a} not attached to a context.
+	at android.support.v4.app.Fragment.requireContext(Fragment.java:614)
+	at android.support.v4.app.Fragment.getResources(Fragment.java:678)
+	at android.support.v4.app.Fragment.getString(Fragment.java:700)
+	at org.sufficientlysecure.keychain.ui.CreateKeyEmailFragment.checkEmail(CreateKeyEmailFragment.java:126)
+	at org.sufficientlysecure.keychain.ui.CreateKeyEmailFragment.access$100(CreateKeyEmailFragment.java:49)
+	at org.sufficientlysecure.keychain.ui.CreateKeyEmailFragment$1.handleMessage(CreateKeyEmailFragment.java:169)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+
+ICC Msgs:
+------------------------------------------------------------------------
+
+BugInfo:
+hash:49374131
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{org.sufficientlysecure.keychain/org.sufficientlysecure.keychain.ui.EncryptFilesActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.getScheme()' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.getScheme()' on a null object reference
+	at org.sufficientlysecure.keychain.ui.EncryptFilesFragment.checkAndRequestReadPermission(EncryptFilesFragment.java:283)
+	at org.sufficientlysecure.keychain.ui.EncryptFilesFragment.processPendingInputUris(EncryptFilesFragment.java:253)
+	at org.sufficientlysecure.keychain.ui.EncryptFilesFragment.onCreateView(EncryptFilesFragment.java:168)
+	at android.support.v4.app.Fragment.performCreateView(Fragment.java:2346)
+	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1428)
+	at android.support.v4.app.FragmentManagerImpl.moveFragmentToExpectedState(FragmentManager.java:1759)
+	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1827)
+	at android.support.v4.app.BackStackRecord.executeOps(BackStackRecord.java:797)
+	at android.support.v4.app.FragmentManagerImpl.executeOps(FragmentManager.java:2596)
+	at android.support.v4.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2383)
+	at android.support.v4.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManager.java:2338)
+	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:2245)
+	at android.support.v4.app.FragmentManagerImpl.dispatchStateChange(FragmentManager.java:3248)
+	at android.support.v4.app.FragmentManagerImpl.dispatchActivityCreated(FragmentManager.java:3200)
+	at android.support.v4.app.FragmentController.dispatchActivityCreated(FragmentController.java:195)
+	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:597)
+	at android.support.v7.app.AppCompatActivity.onStart(AppCompatActivity.java:177)
+	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1340)
+	at android.app.Activity.performStart(Activity.java:7200)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2920)
+	... 9 more
+
+ICC Msgs:
+335	org.sufficientlysecure.keychain.ui.EncryptFilesActivity	"android.intent.action.SEND";;null;;null;;"aah";;
+
+318	org.sufficientlysecure.keychain.ui.EncryptFilesActivity	"android.intent.action.SEND";;null;;"aas";;"aaaaaaaaaaaaaaI";;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:49375444
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{org.sufficientlysecure.keychain/org.sufficientlysecure.keychain.ui.ImportKeysProxyActivity}: java.lang.NullPointerException: Attempt to read from null array
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to read from null array
+	at org.sufficientlysecure.keychain.ui.ImportKeysProxyActivity.handleActionNdefDiscovered(ImportKeysProxyActivity.java:288)
+	at org.sufficientlysecure.keychain.ui.ImportKeysProxyActivity.handleActions(ImportKeysProxyActivity.java:97)
+	at org.sufficientlysecure.keychain.ui.ImportKeysProxyActivity.onCreate(ImportKeysProxyActivity.java:79)
+	at android.app.Activity.performCreate(Activity.java:7183)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1220)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2910)
+	... 9 more
+
+ICC Msgs:
+267	org.sufficientlysecure.keychain.ui.ImportKeysProxyActivity	"android.nfc.action.NDEF_DISCOVERED";;null;;null;;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:1415836149
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{org.sufficientlysecure.keychain/org.sufficientlysecure.keychain.ui.DecryptActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.util.Iterator java.util.ArrayList.iterator()' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.util.Iterator java.util.ArrayList.iterator()' on a null object reference
+	at org.sufficientlysecure.keychain.ui.DecryptActivity.handleActions(DecryptActivity.java:114)
+	at org.sufficientlysecure.keychain.ui.DecryptActivity.onCreate(DecryptActivity.java:57)
+	at android.app.Activity.performCreate(Activity.java:7183)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1220)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2910)
+	... 9 more
+
+ICC Msgs:
+119	org.sufficientlysecure.keychain.ui.DecryptActivity	"android.intent.action.SEND_MULTIPLE";;null;;null;;null;;String->android.intent.extra.TEXT->!@#$%^ds:+_,
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:1212201048
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{org.sufficientlysecure.keychain/org.sufficientlysecure.keychain.ui.DebugActionsActivity}: java.lang.UnsupportedOperationException
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.UnsupportedOperationException
+	at org.sufficientlysecure.keychain.ui.DebugActionsActivity.onCreate(DebugActionsActivity.java:68)
+	at android.app.Activity.performCreate(Activity.java:7183)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1220)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2910)
+	... 9 more
+
+ICC Msgs:
+243	org.sufficientlysecure.keychain.ui.DebugActionsActivity	null;;null;;null;;null;;Parcelable->parObj->ParcelableObj,
+
+242	org.sufficientlysecure.keychain.ui.DebugActionsActivity	null;;null;;null;;null;;
+
+244	org.sufficientlysecure.keychain.ui.DebugActionsActivity	null;;null;;null;;null;;Serializable->serObj->SerializableObj,
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:2048496511
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{org.sufficientlysecure.keychain/org.sufficientlysecure.keychain.ui.EncryptFilesActivity}: java.lang.NullPointerException: name
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: name
+	at com.android.internal.util.Preconditions.checkNotNull(Preconditions.java:128)
+	at android.content.ContentResolver.acquireUnstableContentProviderClient(ContentResolver.java:1888)
+	at android.provider.DocumentsContract.getDocumentThumbnail(DocumentsContract.java:1042)
+	at org.sufficientlysecure.keychain.util.FileHelper.getThumbnail(FileHelper.java:222)
+	at org.sufficientlysecure.keychain.ui.EncryptFilesFragment$FilesAdapter$ViewModel.<init>(EncryptFilesFragment.java:794)
+	at org.sufficientlysecure.keychain.ui.EncryptFilesFragment$FilesAdapter.add(EncryptFilesFragment.java:927)
+	at org.sufficientlysecure.keychain.ui.EncryptFilesFragment.processPendingInputUris(EncryptFilesFragment.java:259)
+	at org.sufficientlysecure.keychain.ui.EncryptFilesFragment.onCreateView(EncryptFilesFragment.java:168)
+	at android.support.v4.app.Fragment.performCreateView(Fragment.java:2346)
+	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1428)
+	at android.support.v4.app.FragmentManagerImpl.moveFragmentToExpectedState(FragmentManager.java:1759)
+	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1827)
+	at android.support.v4.app.BackStackRecord.executeOps(BackStackRecord.java:797)
+	at android.support.v4.app.FragmentManagerImpl.executeOps(FragmentManager.java:2596)
+	at android.support.v4.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2383)
+	at android.support.v4.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(FragmentManager.java:2338)
+	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:2245)
+	at android.support.v4.app.FragmentManagerImpl.dispatchStateChange(FragmentManager.java:3248)
+	at android.support.v4.app.FragmentManagerImpl.dispatchActivityCreated(FragmentManager.java:3200)
+	at android.support.v4.app.FragmentController.dispatchActivityCreated(FragmentController.java:195)
+	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:597)
+	at android.support.v7.app.AppCompatActivity.onStart(AppCompatActivity.java:177)
+	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1340)
+	at android.app.Activity.performStart(Activity.java:7200)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2920)
+	... 9 more
+
+ICC Msgs:
+334	org.sufficientlysecure.keychain.ui.EncryptFilesActivity	"android.intent.action.SEND";;null;;"aah";;null;;
+
+338	org.sufficientlysecure.keychain.ui.EncryptFilesActivity	"android.intent.action.SEND_MULTIPLE";;null;;"aah";;null;;
+
+326	org.sufficientlysecure.keychain.ui.EncryptFilesActivity	"aaaaaag";;null;;"l";;null;;
+
+317	org.sufficientlysecure.keychain.ui.EncryptFilesActivity	null;;null;;"l";;null;;
+
+319	org.sufficientlysecure.keychain.ui.EncryptFilesActivity	null;;null;;"aah";;null;;
+
+------------------------------------------------------------------------
+

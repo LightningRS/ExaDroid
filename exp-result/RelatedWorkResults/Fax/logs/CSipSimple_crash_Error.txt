@@ -1,0 +1,79 @@
+BugInfo:
+hash:2094976291
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to resume activity {com.csipsimple/com.csipsimple.ui.incall.InCallActivity}: java.lang.NullPointerException: Attempt to invoke a virtual method on a null object reference
+	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:3790)
+	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:3830)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3038)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke a virtual method on a null object reference
+	at com.csipsimple.ui.incall.InCallActivity$UpdateUIFromCallRunnable.run(InCallActivity.java:497)
+	at android.app.Activity.runOnUiThread(Activity.java:6281)
+	at com.csipsimple.ui.incall.InCallActivity.onResume(InCallActivity.java:255)
+	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1361)
+	at android.app.Activity.performResume(Activity.java:7415)
+	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:3765)
+	... 10 more
+
+ICC Msgs:
+111	com.csipsimple.ui.incall.InCallActivity	null;;null;;null;;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:-1289525826
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{com.csipsimple/com.csipsimple.ui.outgoingcall.OutgoingCallChooser}: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+	at android.telephony.PhoneNumberUtils.getNumberFromIntent(PhoneNumberUtils.java:268)
+	at com.csipsimple.ui.outgoingcall.OutgoingCallChooser.getPhoneNumber(OutgoingCallChooser.java:85)
+	at com.csipsimple.ui.outgoingcall.OutgoingCallChooser.onCreate(OutgoingCallChooser.java:56)
+	at android.app.Activity.performCreate(Activity.java:7183)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1220)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2910)
+	... 9 more
+
+ICC Msgs:
+89	com.csipsimple.ui.outgoingcall.OutgoingCallChooser	"aaaaaaab";;null;;"aaaao";;null;;
+
+97	com.csipsimple.ui.outgoingcall.OutgoingCallChooser	null;;null;;"aaaao";;null;;
+
+98	com.csipsimple.ui.outgoingcall.OutgoingCallChooser	"android.intent.action.SENDTO";;null;;"aaaaaaaaaaaaaaI";;null;;
+
+103	com.csipsimple.ui.outgoingcall.OutgoingCallChooser	"aaaaaaaaaaaaaaI";;null;;"aas";;null;;
+
+90	com.csipsimple.ui.outgoingcall.OutgoingCallChooser	null;;null;;"aaaaaaaaaaaaaaI";;null;;
+
+107	com.csipsimple.ui.outgoingcall.OutgoingCallChooser	null;;null;;"aas";;null;;
+
+104	com.csipsimple.ui.outgoingcall.OutgoingCallChooser	"aaaaaaaaaaaaaaI";;null;;"aas";;null;;
+
+95	com.csipsimple.ui.outgoingcall.OutgoingCallChooser	null;;null;;"aah";;null;;
+
+105	com.csipsimple.ui.outgoingcall.OutgoingCallChooser	null;;null;;"aas";;null;;
+
+101	com.csipsimple.ui.outgoingcall.OutgoingCallChooser	"android.intent.action.SENDTO";;null;;"aah";;null;;
+
+106	com.csipsimple.ui.outgoingcall.OutgoingCallChooser	null;;null;;"t";;null;;
+
+92	com.csipsimple.ui.outgoingcall.OutgoingCallChooser	"x";;null;;"t";;null;;
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,98 @@
+BugInfo:
+hash:-2017879855
+FATAL EXCEPTION: main
+java.lang.VerifyError: Verifier rejected class de.danoeh.antennapod.core.gpoddernet.GpodnetService: java.lang.String de.danoeh.antennapod.core.gpoddernet.GpodnetService.executeRequestWithAuthentication(okhttp3.Request$Builder, java.lang.String, java.lang.String) failed to verify: java.lang.String de.danoeh.antennapod.core.gpoddernet.GpodnetService.executeRequestWithAuthentication(okhttp3.Request$Builder, java.lang.String, java.lang.String): [0x2A] 'this' argument 'Precise Reference: okhttp3.Request$Builder' not instance of 'Unresolved Reference: okhttv5.Request$Builder' (declaration of 'de.danoeh.antennapod.core.gpoddernet.GpodnetService' appears in /data/app/de.danoeh.antennapod-vCZIm9SQe_As-VYjSQKolQ==/base.apk)
+	at de.danoeh.antennapod.activity.gpoddernet.GpodnetAuthenticationActivity.onCreate(GpodnetAuthenticationActivity.java:71)
+	at android.app.Activity.performCreate(Activity.java:7183)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1220)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2910)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+
+ICC Msgs:
+75	de.danoeh.antennapod.activity.gpoddernet.GpodnetAuthenticationActivity	null;;null;;null;;null;;
+
+77	de.danoeh.antennapod.activity.gpoddernet.GpodnetAuthenticationActivity	null;;null;;null;;null;;Serializable->serObj->SerializableObj,
+
+76	de.danoeh.antennapod.activity.gpoddernet.GpodnetAuthenticationActivity	null;;null;;null;;null;;Parcelable->parObj->ParcelableObj,
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:-540246830
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{de.danoeh.antennapod/de.danoeh.antennapod.activity.OnlineFeedViewActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String java.lang.String.trim()' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String java.lang.String.trim()' on a null object reference
+	at android.arch.core.internal.SafeIterableMap$1.prepareURL(SafeIterableMap.java:53162)
+	at de.danoeh.antennapod.activity.OnlineFeedViewActivity.startFeedDownload(OnlineFeedViewActivity.java:258)
+	at de.danoeh.antennapod.activity.OnlineFeedViewActivity.onCreate(OnlineFeedViewActivity.java:159)
+	at android.app.Activity.performCreate(Activity.java:7183)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1220)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2910)
+	... 9 more
+
+ICC Msgs:
+94	de.danoeh.antennapod.activity.OnlineFeedViewActivity	"android.intent.action.VIEW";;null;;null;;null;;String->title->abcde,
+
+84	de.danoeh.antennapod.activity.OnlineFeedViewActivity	"android.intent.action.VIEW";;null;;null;;null;;
+
+83	de.danoeh.antennapod.activity.OnlineFeedViewActivity	"android.intent.action.SEND";;null;;null;;null;;
+
+79	de.danoeh.antennapod.activity.OnlineFeedViewActivity	"android.intent.action.SEND";;null;;null;;null;;String->title->!@#$%^ds:+_,
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:-1392308843
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{de.danoeh.antennapod/de.danoeh.antennapod.activity.OnlineFeedViewActivity}: java.lang.IllegalArgumentException: Activity must be started with feedurl argument!
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.IllegalArgumentException: Activity must be started with feedurl argument!
+	at de.danoeh.antennapod.activity.OnlineFeedViewActivity.onCreate(OnlineFeedViewActivity.java:153)
+	at android.app.Activity.performCreate(Activity.java:7183)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1220)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2910)
+	... 9 more
+
+ICC Msgs:
+78	de.danoeh.antennapod.activity.OnlineFeedViewActivity	null;;null;;null;;null;;
+
+92	de.danoeh.antennapod.activity.OnlineFeedViewActivity	null;;null;;null;;null;;String->title->!@#$%^ds:+_,String->android.intent.extra.TEXT->!@#$%^ds:+_,
+
+90	de.danoeh.antennapod.activity.OnlineFeedViewActivity	null;;null;;null;;null;;String->title->abcde,
+
+91	de.danoeh.antennapod.activity.OnlineFeedViewActivity	null;;null;;null;;null;;String->title->abcde,
+
+86	de.danoeh.antennapod.activity.OnlineFeedViewActivity	"A";;null;;null;;null;;
+
+82	de.danoeh.antennapod.activity.OnlineFeedViewActivity	"A";;null;;null;;null;;String->title->abcde,
+
+85	de.danoeh.antennapod.activity.OnlineFeedViewActivity	null;;null;;null;;null;;String->android.intent.extra.TEXT->999999999999999999999999999999999999999999999999999,
+
+------------------------------------------------------------------------

@@ -1,0 +1,1032 @@
+--------- beginning of system
+08-31 14:46:40.632 D/ConnectivityService( 1281): handleLingerComplete for NetworkAgentInfo [Ethernet () - 100]
+--------- beginning of main
+08-31 14:46:40.633 D/Ethernet( 1281): NetworkAgent: NetworkAgent channel lost
+08-31 14:46:40.633 D/ConnectivityService( 1281): NetworkAgentInfo [Ethernet () - 100] got DISCONNECTED, was satisfying 2
+08-31 14:46:40.636 D/DhcpClient( 1281): doQuit
+08-31 14:46:40.642 I/EthernetNetworkFactory( 1281): Updating mNetworkAgent with: [ Transports: ETHERNET Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN LinkUpBandwidth>=100000Kbps LinkDnBandwidth>=100000Kbps], [type: Ethernet[], state: DISCONNECTED/DISCONNECTED, reason: (unspecified), extra: 00:db:1a:cf:bf:a9, failover: false, available: true, roaming: false, metered: false], {LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null MTU: 0}
+08-31 14:46:40.649 D/DhcpClient( 1281): onQuitting
+08-31 14:46:40.667 D/DhcpClient( 1281): Receive thread stopped
+08-31 14:47:04.614 D/WifiStateMachine( 1281): setScanResults mScanResults.size=1
+08-31 14:47:06.918 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.SuntimesActivity} from uid 10064 on display 0
+08-31 14:47:06.923 D/audio_hw_hal( 1087): raw_start_output_stream, stream=0xf6e43140, sampleRate=48000, channel=2, bps=16, bufSize=4096
+08-31 14:47:06.932 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:06.949 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=com.forrestguice.suntimeswidget/.SuntimesActivity }
+08-31 14:47:06.951 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:47:06.952 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:47:06.952 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:47:06.952 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:47:06.952 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:47:06.952 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:47:06.952 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:06.952 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:47:06.952 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:47:06.952 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:47:06.952 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:47:06.978 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.SuntimesSettingsActivity} from uid 10064 on display 0
+08-31 14:47:06.982 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.forrestguice.suntimeswidget/.SuntimesSettingsActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10040
+08-31 14:47:06.987 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:47:06.988 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:47:06.988 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:47:06.988 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:47:06.988 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:47:06.988 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:47:06.988 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:47:06.988 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:06.988 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:47:06.988 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:47:06.988 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:47:06.988 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:47:06.990 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.SuntimesWidgetListActivity} from uid 10064 on display 0
+08-31 14:47:06.990 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.forrestguice.suntimeswidget/.SuntimesWidgetListActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10040
+08-31 14:47:06.992 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:47:06.992 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:47:06.992 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:47:06.992 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:47:06.992 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:47:06.992 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:47:06.992 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:47:06.992 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:06.992 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:47:06.992 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:47:06.992 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:47:06.992 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:47:06.993 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.themes.WidgetThemeListActivity} from uid 10064 on display 0
+08-31 14:47:06.994 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.forrestguice.suntimeswidget/.themes.WidgetThemeListActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10040
+08-31 14:47:06.995 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:47:06.995 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:47:06.995 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:47:06.995 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:47:06.995 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:47:06.995 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:47:06.995 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:47:06.995 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:06.995 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:47:06.995 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:47:06.995 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:47:06.995 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:47:06.998 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.themes.WidgetThemeConfigActivity} from uid 10064 on display 0
+08-31 14:47:06.998 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.forrestguice.suntimeswidget/.themes.WidgetThemeConfigActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10040
+08-31 14:47:06.999 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:47:06.999 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:47:06.999 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:47:06.999 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:47:07.000 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:47:07.000 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:47:07.000 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:47:07.000 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:07.000 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:47:07.000 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:47:07.000 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:47:07.000 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:47:07.003 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.alarmclock.ui.AlarmClockActivity} from uid 10064 on display 0
+08-31 14:47:07.008 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:07.009 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=com.forrestguice.suntimeswidget/.alarmclock.ui.AlarmClockActivity }
+08-31 14:47:07.009 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:47:07.009 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:47:07.009 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:47:07.009 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:47:07.009 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:47:07.009 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:47:07.009 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:07.009 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:47:07.009 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:47:07.009 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:47:07.009 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:47:07.011 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.alarmclock.ui.AlarmClockActivityLauncher} from uid 10064 on display 0
+08-31 14:47:07.017 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=com.forrestguice.suntimeswidget/.alarmclock.ui.AlarmClockActivityLauncher }
+08-31 14:47:07.017 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:47:07.017 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:47:07.017 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:47:07.017 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:47:07.017 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:47:07.017 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:47:07.017 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:07.017 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:47:07.017 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:47:07.017 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:47:07.017 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:47:07.018 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:07.020 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.alarmclock.ui.AlarmDismissActivity} from uid 10064 on display 0
+08-31 14:47:07.026 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=com.forrestguice.suntimeswidget/.alarmclock.ui.AlarmDismissActivity }
+08-31 14:47:07.026 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:47:07.026 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:47:07.027 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:47:07.027 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:47:07.027 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:47:07.027 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:47:07.027 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:07.027 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:47:07.027 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:47:07.027 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:47:07.027 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:47:07.028 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:07.029 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity0} from uid 10064 on display 0
+08-31 14:47:07.044 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity0 }
+08-31 14:47:07.044 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:47:07.044 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:47:07.044 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:47:07.044 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:47:07.044 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:47:07.044 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:47:07.044 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:07.044 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:47:07.044 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:47:07.044 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:47:07.044 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:47:07.044 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:07.045 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity0_2x1} from uid 10064 on display 0
+08-31 14:47:07.049 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity0_2x1 }
+08-31 14:47:07.049 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:47:07.049 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:47:07.049 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:47:07.049 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:47:07.049 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:47:07.049 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:47:07.049 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:07.049 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:47:07.049 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:47:07.049 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:47:07.049 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:47:07.049 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:07.050 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity1} from uid 10064 on display 0
+08-31 14:47:07.053 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity1 }
+08-31 14:47:07.053 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:47:07.053 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:47:07.053 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:47:07.053 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:47:07.053 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:47:07.053 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:47:07.053 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:07.053 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:47:07.053 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:47:07.053 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:47:07.053 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:47:07.053 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:07.056 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:07.058 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity2} from uid 10064 on display 0
+08-31 14:47:07.063 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity2 }
+08-31 14:47:07.063 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:47:07.063 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:47:07.063 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:47:07.063 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:47:07.063 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:47:07.063 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:07.063 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:47:07.063 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:07.063 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:47:07.063 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:47:07.063 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:47:07.063 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:47:07.064 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity2_3x1} from uid 10064 on display 0
+08-31 14:47:07.068 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity2_3x1 }
+08-31 14:47:07.068 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:47:07.068 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:47:07.068 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:47:07.068 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:47:07.068 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:47:07.068 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:47:07.068 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:07.068 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:47:07.068 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:47:07.068 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:47:07.068 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:47:07.069 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity2_3x2} from uid 10064 on display 0
+08-31 14:47:07.069 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:07.073 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity2_3x2 }
+08-31 14:47:07.073 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:47:07.073 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:47:07.073 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:47:07.073 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:47:07.073 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:47:07.073 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:47:07.073 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:07.073 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:47:07.073 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:47:07.073 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:47:07.073 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:47:07.074 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.SolsticeWidget0ConfigActivity} from uid 10064 on display 0
+08-31 14:47:07.079 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=com.forrestguice.suntimeswidget/.SolsticeWidget0ConfigActivity }
+08-31 14:47:07.079 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:47:07.079 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:47:07.079 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:47:07.079 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:47:07.079 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:47:07.079 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:47:07.079 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:07.079 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:47:07.079 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:47:07.079 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:47:07.079 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:47:07.080 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:07.080 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.MoonWidget0ConfigActivity} from uid 10064 on display 0
+08-31 14:47:07.086 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=com.forrestguice.suntimeswidget/.MoonWidget0ConfigActivity }
+08-31 14:47:07.086 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:47:07.086 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:47:07.086 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:47:07.086 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:47:07.086 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:47:07.086 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:47:07.086 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:07.086 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:47:07.086 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:47:07.086 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:47:07.086 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:47:07.088 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:07.088 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.MoonWidget0ConfigActivity_2x1} from uid 10064 on display 0
+08-31 14:47:07.092 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=com.forrestguice.suntimeswidget/.MoonWidget0ConfigActivity_2x1 }
+08-31 14:47:07.092 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:47:07.092 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:47:07.092 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:47:07.092 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:47:07.092 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:47:07.092 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:47:07.092 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:07.092 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:47:07.092 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:47:07.092 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:47:07.092 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:47:07.093 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.MoonWidget0ConfigActivity_3x1} from uid 10064 on display 0
+08-31 14:47:07.098 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:07.098 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=com.forrestguice.suntimeswidget/.MoonWidget0ConfigActivity_3x1 }
+08-31 14:47:07.098 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:47:07.098 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:47:07.098 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:47:07.098 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:47:07.098 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:47:07.098 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:47:07.098 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:07.098 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:47:07.098 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:47:07.098 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:47:07.098 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:47:07.099 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.ClockWidget0ConfigActivity} from uid 10064 on display 0
+08-31 14:47:07.104 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=com.forrestguice.suntimeswidget/.ClockWidget0ConfigActivity }
+08-31 14:47:07.104 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:47:07.104 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:47:07.104 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:47:07.104 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:47:07.104 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:47:07.104 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:47:07.104 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:07.104 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:47:07.104 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:47:07.104 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:47:07.104 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:47:07.105 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:07.109 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.ClockWidget0ConfigActivity_3x1} from uid 10064 on display 0
+08-31 14:47:07.115 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=com.forrestguice.suntimeswidget/.ClockWidget0ConfigActivity_3x1 }
+08-31 14:47:07.116 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:47:07.116 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:47:07.116 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:47:07.116 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:47:07.116 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:47:07.116 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:47:07.116 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:07.116 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:47:07.116 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:47:07.116 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:47:07.116 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:47:07.116 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:07.131 I/ActivityManager( 1281): Start proc 1964:com.forrestguice.suntimeswidget/u0a40 for activity com.forrestguice.suntimeswidget/.ClockWidget0ConfigActivity_3x1
+08-31 14:47:07.136 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:07.139 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:07.145 D/libnativebridge( 1964): call UnloadNativeBridge! state=1
+08-31 14:47:07.203 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:07.227 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:47:07.227 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5e2fc0, error=EGL_BAD_MATCH
+08-31 14:47:07.230 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:07.455 I/HostConnection( 1082): HostConnection::HostConnection: pid=1082, tid=1953, this=0x7ffff5e1d660
+08-31 14:47:07.457 I/        ( 1082): fastpipe: Connect success
+08-31 14:47:07.457 D/HostConnection( 1082): HostRPC::connect sucess: app=/system/bin/surfaceflinger, pid=1082, tid=1953, this=0x7ffff5f83580
+08-31 14:47:07.459 D/HostConnection( 1082): queryAndSetGLESMaxVersion select gles-version: 3.1 hostGLVersion:46 process:/system/bin/surfaceflinger
+08-31 14:47:07.592 W/System  ( 1964): ClassLoader referenced unknown path: /data/app/com.forrestguice.suntimeswidget-1/lib/x86_64
+08-31 14:47:07.724 I/TIME4A  ( 1964): Starting Time4A (v4.2-2018g published on 2018-12-21)
+08-31 14:47:07.724 I/TIME4A  ( 1964): Main-Thread consumed in ms: 41
+08-31 14:47:07.794 W/art     ( 1964): Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+08-31 14:47:07.939 W/CONFIG  ( 1964): Invalid widget ID! returning early.
+08-31 14:47:07.946 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:07.951 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.004 W/CONFIG  ( 1964): Invalid widget ID! returning early.
+08-31 14:47:08.012 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.017 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.065 W/CONFIG  ( 1964): Invalid widget ID! returning early.
+08-31 14:47:08.071 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.075 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.116 W/CONFIG  ( 1964): Invalid widget ID! returning early.
+08-31 14:47:08.121 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.126 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.164 W/CONFIG  ( 1964): Invalid widget ID! returning early.
+08-31 14:47:08.174 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.183 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.221 W/CONFIG  ( 1964): Invalid widget ID! returning early.
+08-31 14:47:08.226 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.231 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.283 W/CONFIG  ( 1964): Invalid widget ID! returning early.
+08-31 14:47:08.283 I/art     ( 1964): Do partial code cache collection, code=29KB, data=26KB
+08-31 14:47:08.284 I/art     ( 1964): After code cache collection, code=29KB, data=26KB
+08-31 14:47:08.284 I/art     ( 1964): Increasing code cache capacity to 128KB
+08-31 14:47:08.287 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.294 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.326 W/CONFIG  ( 1964): Invalid widget ID! returning early.
+08-31 14:47:08.332 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.337 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.370 W/CONFIG  ( 1964): Invalid widget ID! returning early.
+08-31 14:47:08.375 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.379 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.414 W/CONFIG  ( 1964): Invalid widget ID! returning early.
+08-31 14:47:08.420 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.426 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.466 W/CONFIG  ( 1964): Invalid widget ID! returning early.
+08-31 14:47:08.481 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.489 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.530 W/CONFIG  ( 1964): Invalid widget ID! returning early.
+08-31 14:47:08.535 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.540 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.712 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:08.719 I/HostConnection( 1964): HostConnection::HostConnection: pid=1964, tid=1964, this=0x7fffd6081780
+08-31 14:47:08.723 I/        ( 1964): fastpipe: Connect success
+08-31 14:47:08.724 D/HostConnection( 1964): HostRPC::connect sucess: app=com.forrestguice.suntimeswidget, pid=1964, tid=1964, this=0x7fffd5cac100
+08-31 14:47:08.724 D/HostConnection( 1964): queryAndSetGLESMaxVersion select gles-version: 3.1 hostGLVersion:46 process:com.forrestguice.suntimeswidget
+08-31 14:47:08.726 I/        ( 1964): fastpipe: Connect success
+08-31 14:47:08.727 D/HostConnection( 1964): recv ProcessPuidReply name=com.forrestguice.suntimeswidget puid=7 g_u64CapsFlag=1d
+08-31 14:47:08.775 I/HostConnection( 1964): HostConnection::HostConnection: pid=1964, tid=1985, this=0x7fffd60818a0
+08-31 14:47:08.777 I/        ( 1964): fastpipe: Connect success
+08-31 14:47:08.782 I/OpenGLRenderer( 1964): Initialized EGL, version 1.4
+08-31 14:47:08.782 D/OpenGLRenderer( 1964): Swap behavior 1
+08-31 14:47:08.783 I/EGL_adreno( 1964): eglCreateContext request GLES major-version=2
+08-31 14:47:08.860 D/EGL_adreno( 1964): eglCreateContext: 0x7fffd5f8e5a0: maj 3 min 1 rcv 4
+08-31 14:47:08.987 D/EGL_adreno( 1964): eglMakeCurrent: 0x7fffd5f8e5a0: ver 3 1 (tinfo 0x7fffd5c99340)
+08-31 14:47:08.991 D/HostConnection( 1964): ExtendedRCEncoderContext GL_VERSION return OpenGL ES 3.1
+08-31 14:47:09.019 E/EGL_adreno( 1964): tid 1985: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:47:09.019 W/OpenGLRenderer( 1964): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffe8bdefc0, error=EGL_BAD_MATCH
+08-31 14:47:09.048 D/EGL_adreno( 1964): eglMakeCurrent: 0x7fffd5f8e5a0: ver 3 1 (tinfo 0x7fffd5c99340)
+08-31 14:47:09.160 I/ActivityManager( 1281): Displayed com.forrestguice.suntimeswidget/.alarmclock.ui.AlarmClockActivityLauncher: +626ms (total +2s41ms)
+08-31 14:47:09.166 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:09.170 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:09.256 D/AndroidRuntime( 1964): Shutting down VM
+--------- beginning of crash
+08-31 14:47:09.260 E/AndroidRuntime( 1964): FATAL EXCEPTION: main
+08-31 14:47:09.260 E/AndroidRuntime( 1964): Process: com.forrestguice.suntimeswidget, PID: 1964
+08-31 14:47:09.260 E/AndroidRuntime( 1964): java.lang.RuntimeException: Unable to destroy activity {com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesConfigActivity0}: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+08-31 14:47:09.260 E/AndroidRuntime( 1964): 	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4239)
+08-31 14:47:09.260 E/AndroidRuntime( 1964): 	at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:4257)
+08-31 14:47:09.260 E/AndroidRuntime( 1964): 	at android.app.ActivityThread.-wrap6(ActivityThread.java)
+08-31 14:47:09.260 E/AndroidRuntime( 1964): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1543)
+08-31 14:47:09.260 E/AndroidRuntime( 1964): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-31 14:47:09.260 E/AndroidRuntime( 1964): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:09.260 E/AndroidRuntime( 1964): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:47:09.260 E/AndroidRuntime( 1964): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:47:09.260 E/AndroidRuntime( 1964): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:47:09.260 E/AndroidRuntime( 1964): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:47:09.260 E/AndroidRuntime( 1964): Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+08-31 14:47:09.260 E/AndroidRuntime( 1964): 	at com.forrestguice.suntimeswidget.SuntimesConfigActivity0.onDestroy(SuntimesConfigActivity0.java:191)
+08-31 14:47:09.260 E/AndroidRuntime( 1964): 	at android.app.Activity.performDestroy(Activity.java:6920)
+08-31 14:47:09.260 E/AndroidRuntime( 1964): 	at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1153)
+08-31 14:47:09.260 E/AndroidRuntime( 1964): 	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4226)
+08-31 14:47:09.260 E/AndroidRuntime( 1964): 	... 9 more
+08-31 14:47:09.267 W/WindowManager( 1281): Failed looking up window
+08-31 14:47:09.267 W/WindowManager( 1281): java.lang.IllegalArgumentException: Requested window android.view.ViewRootImpl$W@43b7e28 does not exist
+08-31 14:47:09.267 W/WindowManager( 1281): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:9459)
+08-31 14:47:09.267 W/WindowManager( 1281): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:9450)
+08-31 14:47:09.267 W/WindowManager( 1281): 	at com.android.server.wm.WindowManagerService.removeWindow(WindowManagerService.java:2410)
+08-31 14:47:09.267 W/WindowManager( 1281): 	at com.android.server.wm.Session.remove(Session.java:202)
+08-31 14:47:09.267 W/WindowManager( 1281): 	at android.view.ViewRootImpl.dispatchDetachedFromWindow(ViewRootImpl.java:3290)
+08-31 14:47:09.267 W/WindowManager( 1281): 	at android.view.ViewRootImpl.doDie(ViewRootImpl.java:5917)
+08-31 14:47:09.267 W/WindowManager( 1281): 	at android.view.ViewRootImpl$ViewRootHandler.handleMessage(ViewRootImpl.java:3626)
+08-31 14:47:09.267 W/WindowManager( 1281): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-31 14:47:09.267 W/WindowManager( 1281): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:09.267 W/WindowManager( 1281): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+08-31 14:47:09.267 W/WindowManager( 1281): 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+08-31 14:47:09.286 W/ActivityManager( 1281):   Force finishing activity com.forrestguice.suntimeswidget/.alarmclock.ui.AlarmClockActivityLauncher
+08-31 14:47:09.298 W/System.err( 1281): java.lang.Exception: show AlertDialog! title=Suntimes已停止运行
+08-31 14:47:09.300 W/System.err( 1281): 	at android.app.AlertDialog.show(AlertDialog.java:134)
+08-31 14:47:09.301 W/System.err( 1281): 	at com.android.server.am.AppErrors.handleShowAppErrorUi(AppErrors.java:719)
+08-31 14:47:09.301 W/System.err( 1281): 	at com.android.server.am.ActivityManagerService$UiHandler.handleMessage(ActivityManagerService.java:1637)
+08-31 14:47:09.301 W/System.err( 1281): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-31 14:47:09.301 W/System.err( 1281): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:47:09.301 W/System.err( 1281): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+08-31 14:47:09.301 W/System.err( 1281): 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+08-31 14:47:09.377 I/HostConnection( 1281): HostConnection::HostConnection: pid=1281, tid=1989, this=0x7fffcdb9dd60
+08-31 14:47:09.379 I/        ( 1281): fastpipe: Connect success
+08-31 14:47:09.379 D/HostConnection( 1281): HostRPC::connect sucess: app=system_server, pid=1281, tid=1989, this=0x7fffcb5f2f00
+08-31 14:47:09.380 D/HostConnection( 1281): queryAndSetGLESMaxVersion select gles-version: 3.1 hostGLVersion:46 process:system_server
+08-31 14:47:09.382 I/OpenGLRenderer( 1281): Initialized EGL, version 1.4
+08-31 14:47:09.382 D/OpenGLRenderer( 1281): Swap behavior 1
+08-31 14:47:09.382 I/EGL_adreno( 1281): eglCreateContext request GLES major-version=2
+08-31 14:47:09.487 D/EGL_adreno( 1281): eglCreateContext: 0x7fffccffacc0: maj 3 min 1 rcv 4
+08-31 14:47:09.581 D/EGL_adreno( 1281): eglMakeCurrent: 0x7fffccffacc0: ver 3 1 (tinfo 0x7fffcdb14d40)
+08-31 14:47:09.588 D/HostConnection( 1281): ExtendedRCEncoderContext GL_VERSION return OpenGL ES 3.1
+08-31 14:47:09.617 E/EGL_adreno( 1281): tid 1989: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:47:09.618 W/OpenGLRenderer( 1281): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffccf71e40, error=EGL_BAD_MATCH
+08-31 14:47:09.621 D/EGL_adreno( 1281): eglMakeCurrent: 0x7fffccffacc0: ver 3 1 (tinfo 0x7fffcdb14d40)
+08-31 14:47:09.790 W/ActivityManager( 1281): Activity pause timeout for ActivityRecord{a2968 u0 com.forrestguice.suntimeswidget/.alarmclock.ui.AlarmClockActivityLauncher t3 f}
+08-31 14:47:09.909 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:47:10.025 D/audio_hw_hal( 1087): log_func, out_standby
+08-31 14:47:10.025 D/audio_hw_hal( 1087): raw_close_output_stream, dev=0xf6e480c0, stream =0xf6e43140
+08-31 14:47:10.025 D/audio_hw_hal( 1087): raw_close_output_stream, stream=0xf6e43140,  success!
+08-31 14:47:10.481 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:10.489 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@45a0d02
+08-31 14:47:10.596 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:47:10.596 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5e2fc0, error=EGL_BAD_MATCH
+08-31 14:47:10.598 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:13.997 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:14.005 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@7e2a050
+08-31 14:47:14.143 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:47:14.143 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5e2fc0, error=EGL_BAD_MATCH
+08-31 14:47:14.145 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:17.513 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:17.522 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@636d249
+08-31 14:47:17.640 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:47:17.640 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5e2fc0, error=EGL_BAD_MATCH
+08-31 14:47:17.642 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:19.278 W/ActivityManager( 1281): Activity destroy timeout for ActivityRecord{fdbdfb9 u0 com.forrestguice.suntimeswidget/.SuntimesConfigActivity0 t3 f}
+08-31 14:47:19.278 W/ActivityManager( 1281): Activity destroy timeout for ActivityRecord{451be75 u0 com.forrestguice.suntimeswidget/.SuntimesConfigActivity0_2x1 t3 f}
+08-31 14:47:19.278 W/ActivityManager( 1281): Activity destroy timeout for ActivityRecord{a0cccf1 u0 com.forrestguice.suntimeswidget/.SuntimesConfigActivity1 t3 f}
+08-31 14:47:19.278 W/ActivityManager( 1281): Activity destroy timeout for ActivityRecord{690472d u0 com.forrestguice.suntimeswidget/.SuntimesConfigActivity2 t3 f}
+08-31 14:47:19.279 W/ActivityManager( 1281): Activity destroy timeout for ActivityRecord{a572929 u0 com.forrestguice.suntimeswidget/.SuntimesConfigActivity2_3x1 t3 f}
+08-31 14:47:19.279 W/ActivityManager( 1281): Activity destroy timeout for ActivityRecord{8902ee5 u0 com.forrestguice.suntimeswidget/.SuntimesConfigActivity2_3x2 t3 f}
+08-31 14:47:19.279 W/ActivityManager( 1281): Activity destroy timeout for ActivityRecord{e99d461 u0 com.forrestguice.suntimeswidget/.SolsticeWidget0ConfigActivity t3 f}
+08-31 14:47:19.279 W/ActivityManager( 1281): Activity destroy timeout for ActivityRecord{73e559d u0 com.forrestguice.suntimeswidget/.MoonWidget0ConfigActivity t3 f}
+08-31 14:47:19.279 W/ActivityManager( 1281): Activity destroy timeout for ActivityRecord{5afae99 u0 com.forrestguice.suntimeswidget/.MoonWidget0ConfigActivity_2x1 t3 f}
+08-31 14:47:19.279 W/ActivityManager( 1281): Activity destroy timeout for ActivityRecord{4439b55 u0 com.forrestguice.suntimeswidget/.MoonWidget0ConfigActivity_3x1 t3 f}
+08-31 14:47:19.279 W/ActivityManager( 1281): Activity destroy timeout for ActivityRecord{2ef97d1 u0 com.forrestguice.suntimeswidget/.ClockWidget0ConfigActivity t3 f}
+08-31 14:47:19.279 W/ActivityManager( 1281): Activity destroy timeout for ActivityRecord{184e00d u0 com.forrestguice.suntimeswidget/.ClockWidget0ConfigActivity_3x1 t3 f}
+08-31 14:47:19.290 W/ActivityManager( 1281): Launch timeout has expired, giving up wake lock!
+08-31 14:47:21.030 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:21.039 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@6dff74e
+08-31 14:47:21.143 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:47:21.143 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5e2fc0, error=EGL_BAD_MATCH
+08-31 14:47:21.145 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:24.546 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:24.555 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@f0a406f
+08-31 14:47:24.666 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:47:24.666 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5e2fc0, error=EGL_BAD_MATCH
+08-31 14:47:24.669 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:28.063 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:28.073 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@a4748b
+08-31 14:47:28.186 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:47:28.186 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5e2fc0, error=EGL_BAD_MATCH
+08-31 14:47:28.189 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:31.581 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:31.589 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@c63ce67
+08-31 14:47:31.716 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:47:31.716 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5e2fc0, error=EGL_BAD_MATCH
+08-31 14:47:31.718 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:35.130 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:35.139 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@f46bd80
+08-31 14:47:35.243 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:47:35.243 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5e2fc0, error=EGL_BAD_MATCH
+08-31 14:47:35.246 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:38.656 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:38.656 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@31a31ac
+08-31 14:47:38.782 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:47:38.782 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5e2fc0, error=EGL_BAD_MATCH
+08-31 14:47:38.784 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:42.166 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:42.175 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@bcebc98
+08-31 14:47:42.278 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:47:42.278 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5e2fc0, error=EGL_BAD_MATCH
+08-31 14:47:42.280 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:44.623 D/WifiStateMachine( 1281): setScanResults mScanResults.size=1
+08-31 14:47:45.690 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:45.706 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@a3f0a44
+08-31 14:47:45.830 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:47:45.830 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5e2fc0, error=EGL_BAD_MATCH
+08-31 14:47:45.833 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:49.217 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:49.222 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@4486b0
+08-31 14:47:49.334 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:47:49.334 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5e2fc0, error=EGL_BAD_MATCH
+08-31 14:47:49.336 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:52.728 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:52.739 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@1e35ddc
+08-31 14:47:52.850 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:47:52.850 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5e2fc0, error=EGL_BAD_MATCH
+08-31 14:47:52.853 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:56.247 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:56.255 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@d367bc8
+08-31 14:47:56.385 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:47:56.385 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5e2fc0, error=EGL_BAD_MATCH
+08-31 14:47:56.387 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:59.762 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:47:59.772 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@51b8c74
+08-31 14:47:59.892 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:47:59.892 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5e2fc0, error=EGL_BAD_MATCH
+08-31 14:47:59.895 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:48:03.287 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:48:03.289 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@a9efbe0
+08-31 14:48:03.400 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:48:03.401 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5e2fc0, error=EGL_BAD_MATCH
+08-31 14:48:03.403 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:48:06.795 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:48:06.806 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@127f60c
+08-31 14:48:06.920 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:48:06.920 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5e2fc0, error=EGL_BAD_MATCH
+08-31 14:48:06.924 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:48:10.316 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:48:10.322 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@96466f8
+08-31 14:48:10.435 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:48:10.435 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5e2fc0, error=EGL_BAD_MATCH
+08-31 14:48:10.437 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:48:13.827 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:48:13.840 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@ef4faa4
+08-31 14:48:13.948 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:48:13.948 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5e2fc0, error=EGL_BAD_MATCH
+08-31 14:48:13.951 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:48:17.355 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:48:17.356 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@4d91d10
+08-31 14:48:43.106 W/ActivityManager( 1281):   Force finishing activity com.forrestguice.suntimeswidget/.alarmclock.ui.AlarmClockActivityLauncher
+08-31 14:48:43.122 W/SurfaceFlinger( 1082): couldn't log to binary event log: overflow.
+08-31 14:48:43.122 W/ActivityManager( 1281):   Force finishing activity com.forrestguice.suntimeswidget/.alarmclock.ui.AlarmClockActivity
+08-31 14:48:43.738 D/EGL_adreno( 1281): eglMakeCurrent: 0x7fffccffacc0: ver 3 1 (tinfo 0x7fffcdb14d40)
+08-31 14:48:43.759 W/art     ( 1281): Long monitor contention with owner Binder:1281_1 (1292) at void com.android.server.wm.WindowManagerService.moveTaskToTop(int)(WindowManagerService.java:5101) waiters=0 in void com.android.server.wm.WindowManagerService$H.handleMessage(android.os.Message) for 636ms
+08-31 14:48:43.782 I/HostConnection( 1281): HostConnection::~HostConnection, pid=1281, tid=1989, this=0x7fffcdb9dd60, m_stream=0x7fffcb5f2f00
+08-31 14:48:43.784 I/        ( 1281): fastpipe: close connect
+08-31 14:48:43.820 W/ActivityManager( 1281):   Force finishing activity com.forrestguice.suntimeswidget/.SuntimesActivity
+08-31 14:48:43.828 E/ActivityManager( 1281): Found activity ActivityRecord{a2968 u0 com.forrestguice.suntimeswidget/.alarmclock.ui.AlarmClockActivityLauncher t3 f} in proc activity list using null instead of expected ProcessRecord{562d560 1964:com.forrestguice.suntimeswidget/u0a40}
+08-31 14:48:43.859 I/ActivityManager( 1281): Killing 1964:com.forrestguice.suntimeswidget/u0a40 (adj 199): crash
+08-31 14:48:43.859 D/ActivityManager( 1281): cleanUpApplicationRecord -- 1964
+08-31 14:48:43.861 W/InputEventReceiver( 1281): Attempted to finish an input event but the input event receiver has already been disposed.
+08-31 14:48:43.862 I/Choreographer( 1281): Skipped 44 frames!  The application may be doing too much work on its main thread.
+08-31 14:48:43.863 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:43.867 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:43.869 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:43.877 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:43.903 D/GraphicsStats( 1281): Buffer count: 5
+08-31 14:48:43.978 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:48:43.978 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5e2fc0, error=EGL_BAD_MATCH
+08-31 14:48:44.074 W/AppOps  ( 1281): Finishing op nesting under-run: uid 1000 pkg android code 24 time=0 duration=0 nesting=0
+08-31 14:48:44.198 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:44.204 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:48:45.296 D/audio_hw_hal( 1087): raw_start_output_stream, stream=0xf6e43140, sampleRate=48000, channel=2, bps=16, bufSize=4096
+08-31 14:48:45.299 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.SuntimesActivity (has extras)} from uid 10064 on display 0
+08-31 14:48:45.303 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=com.forrestguice.suntimeswidget/.SuntimesActivity (has extras) }
+08-31 14:48:45.304 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:48:45.304 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:48:45.304 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:48:45.304 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:48:45.304 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:48:45.304 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:45.304 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:48:45.304 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:45.304 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:48:45.304 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:48:45.304 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:48:45.304 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:48:45.306 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.SuntimesSettingsActivity (has extras)} from uid 10064 on display 0
+08-31 14:48:45.306 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.forrestguice.suntimeswidget/.SuntimesSettingsActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10040
+08-31 14:48:45.307 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:48:45.307 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:48:45.307 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:48:45.307 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:48:45.307 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:48:45.307 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:48:45.307 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:48:45.307 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:45.307 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:48:45.307 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:48:45.307 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:48:45.307 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:48:45.310 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.SuntimesWidgetListActivity (has extras)} from uid 10064 on display 0
+08-31 14:48:45.310 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.forrestguice.suntimeswidget/.SuntimesWidgetListActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10040
+08-31 14:48:45.311 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:48:45.311 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:48:45.312 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:48:45.312 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:48:45.312 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:48:45.312 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:48:45.312 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:48:45.312 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:45.312 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:48:45.312 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:48:45.312 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:48:45.312 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:48:45.313 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.themes.WidgetThemeListActivity (has extras)} from uid 10064 on display 0
+08-31 14:48:45.313 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.forrestguice.suntimeswidget/.themes.WidgetThemeListActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10040
+08-31 14:48:45.314 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:48:45.314 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:48:45.314 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:48:45.314 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:48:45.314 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:48:45.314 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:48:45.315 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:48:45.315 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:45.315 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:48:45.315 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:48:45.315 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:48:45.315 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:48:45.316 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.themes.WidgetThemeConfigActivity (has extras)} from uid 10064 on display 0
+08-31 14:48:45.316 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=com.forrestguice.suntimeswidget/.themes.WidgetThemeConfigActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10040
+08-31 14:48:45.317 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:48:45.317 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:48:45.317 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:48:45.317 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:48:45.317 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:48:45.317 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:48:45.317 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:48:45.317 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:45.317 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:48:45.317 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:48:45.317 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:48:45.317 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:48:45.319 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.alarmclock.ui.AlarmClockActivity (has extras)} from uid 10064 on display 0
+08-31 14:48:45.322 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=com.forrestguice.suntimeswidget/.alarmclock.ui.AlarmClockActivity (has extras) }
+08-31 14:48:45.322 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:48:45.322 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:48:45.322 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:48:45.322 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:48:45.322 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:48:45.323 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:48:45.323 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:45.323 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:48:45.323 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:48:45.323 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:48:45.323 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:48:45.324 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:45.332 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.alarmclock.ui.AlarmClockActivityLauncher (has extras)} from uid 10064 on display 0
+08-31 14:48:45.336 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=com.forrestguice.suntimeswidget/.alarmclock.ui.AlarmClockActivityLauncher (has extras) }
+08-31 14:48:45.336 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:48:45.336 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:48:45.336 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:48:45.336 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:48:45.336 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:48:45.336 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:48:45.336 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:45.336 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:48:45.336 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:48:45.336 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:48:45.336 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:48:45.337 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:45.337 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.alarmclock.ui.AlarmDismissActivity (has extras)} from uid 10064 on display 0
+08-31 14:48:45.341 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=com.forrestguice.suntimeswidget/.alarmclock.ui.AlarmDismissActivity (has extras) }
+08-31 14:48:45.342 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:48:45.342 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:48:45.342 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:48:45.342 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:48:45.342 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:48:45.342 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:48:45.342 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:45.342 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:48:45.343 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:48:45.343 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:48:45.343 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:48:45.343 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:45.344 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity0 (has extras)} from uid 10064 on display 0
+08-31 14:48:45.349 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity0 (has extras) }
+08-31 14:48:45.349 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:48:45.349 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:48:45.349 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:48:45.349 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:48:45.349 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:48:45.349 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:48:45.349 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:45.349 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:48:45.349 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:48:45.350 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:48:45.350 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:48:45.350 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity0_2x1 (has extras)} from uid 10064 on display 0
+08-31 14:48:45.354 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity0_2x1 (has extras) }
+08-31 14:48:45.354 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:48:45.354 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:48:45.354 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:48:45.354 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:48:45.354 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:48:45.354 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:48:45.354 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:45.354 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:48:45.354 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:48:45.354 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:48:45.354 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:48:45.356 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity1 (has extras)} from uid 10064 on display 0
+08-31 14:48:45.357 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:45.361 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity1 (has extras) }
+08-31 14:48:45.361 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:48:45.361 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:48:45.361 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:48:45.362 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:48:45.362 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:48:45.362 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:48:45.362 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:45.362 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:48:45.362 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:48:45.362 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:48:45.362 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:48:45.362 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity2 (has extras)} from uid 10064 on display 0
+08-31 14:48:45.367 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity2 (has extras) }
+08-31 14:48:45.367 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:48:45.367 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:48:45.367 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:48:45.367 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:48:45.367 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:48:45.367 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:48:45.367 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:45.367 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:48:45.367 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:48:45.367 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:48:45.367 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:48:45.369 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity2_3x1 (has extras)} from uid 10064 on display 0
+08-31 14:48:45.374 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity2_3x1 (has extras) }
+08-31 14:48:45.374 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:48:45.374 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:48:45.374 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:48:45.374 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:48:45.374 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:48:45.374 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:48:45.374 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:45.374 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:48:45.374 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:48:45.374 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:48:45.374 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:48:45.375 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:45.375 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity2_3x2 (has extras)} from uid 10064 on display 0
+08-31 14:48:45.378 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=com.forrestguice.suntimeswidget/.SuntimesConfigActivity2_3x2 (has extras) }
+08-31 14:48:45.378 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:48:45.378 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:48:45.378 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:48:45.378 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:48:45.378 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:48:45.378 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:48:45.378 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:45.378 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:48:45.378 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:48:45.378 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:48:45.378 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:48:45.379 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:45.379 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.SolsticeWidget0ConfigActivity (has extras)} from uid 10064 on display 0
+08-31 14:48:45.382 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:45.383 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=com.forrestguice.suntimeswidget/.SolsticeWidget0ConfigActivity (has extras) }
+08-31 14:48:45.383 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:48:45.383 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:48:45.383 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:48:45.383 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:48:45.383 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:48:45.383 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:48:45.383 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:45.383 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:48:45.383 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:48:45.383 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:48:45.383 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:48:45.385 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.MoonWidget0ConfigActivity (has extras)} from uid 10064 on display 0
+08-31 14:48:45.388 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:45.388 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=com.forrestguice.suntimeswidget/.MoonWidget0ConfigActivity (has extras) }
+08-31 14:48:45.388 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:48:45.388 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:48:45.388 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:48:45.389 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:48:45.389 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:48:45.389 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:48:45.389 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:45.389 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:48:45.389 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:48:45.389 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:48:45.389 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:48:45.392 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.MoonWidget0ConfigActivity_2x1 (has extras)} from uid 10064 on display 0
+08-31 14:48:45.393 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:45.395 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=com.forrestguice.suntimeswidget/.MoonWidget0ConfigActivity_2x1 (has extras) }
+08-31 14:48:45.395 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:48:45.395 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:48:45.395 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:48:45.395 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:48:45.395 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:48:45.395 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:48:45.395 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:45.395 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:48:45.395 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:48:45.395 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:48:45.395 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:48:45.399 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.MoonWidget0ConfigActivity_3x1 (has extras)} from uid 10064 on display 0
+08-31 14:48:45.403 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:45.406 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:45.406 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=com.forrestguice.suntimeswidget/.MoonWidget0ConfigActivity_3x1 (has extras) }
+08-31 14:48:45.406 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:48:45.406 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:48:45.406 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:48:45.406 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:48:45.406 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:48:45.407 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:48:45.407 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:45.407 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:48:45.407 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:48:45.407 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:48:45.407 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:48:45.408 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:45.409 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.ClockWidget0ConfigActivity (has extras)} from uid 10064 on display 0
+08-31 14:48:45.413 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:45.414 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=com.forrestguice.suntimeswidget/.ClockWidget0ConfigActivity (has extras) }
+08-31 14:48:45.414 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:48:45.414 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:48:45.414 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:48:45.414 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:48:45.414 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:48:45.414 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:48:45.414 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:45.414 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:48:45.414 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:48:45.414 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:48:45.414 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:48:45.417 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:45.417 I/ActivityManager( 1281): START u0 {cmp=com.forrestguice.suntimeswidget/.ClockWidget0ConfigActivity_3x1 (has extras)} from uid 10064 on display 0
+08-31 14:48:45.421 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=com.forrestguice.suntimeswidget/.ClockWidget0ConfigActivity_3x1 (has extras) }
+08-31 14:48:45.422 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:48:45.422 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:48:45.422 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:48:45.422 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:48:45.422 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:48:45.422 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:48:45.422 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:45.422 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:48:45.422 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:48:45.422 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:48:45.422 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:48:45.426 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:45.437 I/ActivityManager( 1281): Start proc 1992:com.forrestguice.suntimeswidget/u0a40 for activity com.forrestguice.suntimeswidget/.ClockWidget0ConfigActivity_3x1
+08-31 14:48:45.440 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:45.455 D/libnativebridge( 1992): call UnloadNativeBridge! state=1
+08-31 14:48:45.491 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:45.529 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:48:45.529 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:48:45.533 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:48:45.735 W/System  ( 1992): ClassLoader referenced unknown path: /data/app/com.forrestguice.suntimeswidget-1/lib/x86_64
+08-31 14:48:45.799 I/TIME4A  ( 1992): Starting Time4A (v4.2-2018g published on 2018-12-21)
+08-31 14:48:45.799 I/TIME4A  ( 1992): Main-Thread consumed in ms: 37
+08-31 14:48:45.865 W/art     ( 1992): Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+08-31 14:48:45.983 D/AndroidRuntime( 1992): Shutting down VM
+08-31 14:48:45.985 E/AndroidRuntime( 1992): FATAL EXCEPTION: main
+08-31 14:48:45.985 E/AndroidRuntime( 1992): Process: com.forrestguice.suntimeswidget, PID: 1992
+08-31 14:48:45.985 E/AndroidRuntime( 1992): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.ClockWidget0ConfigActivity_3x1}: java.lang.RuntimeException: Parcelable encountered ClassNotFoundException reading a Serializable object (name = com.android.intentfuzzer.util.SerializableTest)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2698)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2759)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): Caused by: java.lang.RuntimeException: Parcelable encountered ClassNotFoundException reading a Serializable object (name = com.android.intentfuzzer.util.SerializableTest)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at android.os.Parcel.readSerializable(Parcel.java:2630)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at android.os.Parcel.readValue(Parcel.java:2416)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at android.os.Parcel.readArrayMapInternal(Parcel.java:2732)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at android.os.BaseBundle.unparcel(BaseBundle.java:269)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at android.os.BaseBundle.getInt(BaseBundle.java:867)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at com.forrestguice.suntimeswidget.SuntimesConfigActivity0.onCreate(SuntimesConfigActivity0.java:160)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at android.app.Activity.performCreate(Activity.java:6701)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2651)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	... 9 more
+08-31 14:48:45.985 E/AndroidRuntime( 1992): Caused by: java.lang.ClassNotFoundException: com.android.intentfuzzer.util.SerializableTest
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at java.lang.Class.classForName(Native Method)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at java.lang.Class.forName(Class.java:400)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at android.os.Parcel$2.resolveClass(Parcel.java:2616)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1613)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1518)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1772)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1351)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:373)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at android.os.Parcel.readSerializable(Parcel.java:2624)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	... 17 more
+08-31 14:48:45.985 E/AndroidRuntime( 1992): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.android.intentfuzzer.util.SerializableTest" on path: DexPathList[[zip file "/data/app/com.forrestguice.suntimeswidget-1/base.apk"],nativeLibraryDirectories=[/data/app/com.forrestguice.suntimeswidget-1/lib/x86_64, /system/lib64, /vendor/lib64]]
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:380)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+08-31 14:48:45.985 E/AndroidRuntime( 1992): 	... 26 more
+08-31 14:48:45.987 W/ActivityManager( 1281):   Force finishing activity com.forrestguice.suntimeswidget/.ClockWidget0ConfigActivity_3x1
+08-31 14:48:45.990 W/System.err( 1281): java.lang.Exception: show AlertDialog! title=Suntimes已停止运行
+08-31 14:48:45.990 W/System.err( 1281): 	at android.app.AlertDialog.show(AlertDialog.java:134)
+08-31 14:48:45.990 W/System.err( 1281): 	at com.android.server.am.AppErrors.handleShowAppErrorUi(AppErrors.java:719)
+08-31 14:48:45.990 W/System.err( 1281): 	at com.android.server.am.ActivityManagerService$UiHandler.handleMessage(ActivityManagerService.java:1637)
+08-31 14:48:45.990 W/System.err( 1281): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-31 14:48:45.990 W/System.err( 1281): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:45.990 W/System.err( 1281): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+08-31 14:48:45.990 W/System.err( 1281): 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+08-31 14:48:46.026 I/HostConnection( 1281): HostConnection::HostConnection: pid=1281, tid=1989, this=0x7fffcdb9dd60
+08-31 14:48:46.028 I/        ( 1281): fastpipe: Connect success
+08-31 14:48:46.029 D/HostConnection( 1281): HostRPC::connect sucess: app=system_server, pid=1281, tid=1989, this=0x7fffcb5f2f00
+08-31 14:48:46.031 D/HostConnection( 1281): queryAndSetGLESMaxVersion select gles-version: 3.1 hostGLVersion:46 process:system_server
+08-31 14:48:46.036 I/OpenGLRenderer( 1281): Initialized EGL, version 1.4
+08-31 14:48:46.036 D/OpenGLRenderer( 1281): Swap behavior 1
+08-31 14:48:46.036 I/EGL_adreno( 1281): eglCreateContext request GLES major-version=2
+08-31 14:48:46.084 D/EGL_adreno( 1281): eglCreateContext: 0x7fffccffacc0: maj 3 min 1 rcv 4
+08-31 14:48:46.168 D/EGL_adreno( 1281): eglMakeCurrent: 0x7fffccffacc0: ver 3 1 (tinfo 0x7fffcdb14d40)
+08-31 14:48:46.217 E/EGL_adreno( 1281): tid 1989: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:48:46.218 W/OpenGLRenderer( 1281): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffcdb124c0, error=EGL_BAD_MATCH
+08-31 14:48:46.225 D/EGL_adreno( 1281): eglMakeCurrent: 0x7fffccffacc0: ver 3 1 (tinfo 0x7fffcdb14d40)
+08-31 14:48:46.489 W/ActivityManager( 1281): Activity pause timeout for ActivityRecord{d520911 u0 com.forrestguice.suntimeswidget/.ClockWidget0ConfigActivity_3x1 t3 f}
+08-31 14:48:46.526 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:48:48.396 D/audio_hw_hal( 1087): log_func, out_standby
+08-31 14:48:48.396 D/audio_hw_hal( 1087): raw_close_output_stream, dev=0xf6e480c0, stream =0xf6e43140
+08-31 14:48:48.396 D/audio_hw_hal( 1087): raw_close_output_stream, stream=0xf6e43140,  success!
+08-31 14:48:48.806 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:48:48.822 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@397e7b6
+08-31 14:48:48.946 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:48:48.946 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:48:48.947 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:48:51.628 W/WindowManager( 1281): Failed looking up window
+08-31 14:48:51.628 W/WindowManager( 1281): java.lang.IllegalArgumentException: Requested window android.view.ViewRootImpl$W@868147c does not exist
+08-31 14:48:51.628 W/WindowManager( 1281): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:9459)
+08-31 14:48:51.628 W/WindowManager( 1281): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:9450)
+08-31 14:48:51.628 W/WindowManager( 1281): 	at com.android.server.wm.WindowManagerService.removeWindow(WindowManagerService.java:2410)
+08-31 14:48:51.628 W/WindowManager( 1281): 	at com.android.server.wm.Session.remove(Session.java:202)
+08-31 14:48:51.628 W/WindowManager( 1281): 	at android.view.ViewRootImpl.dispatchDetachedFromWindow(ViewRootImpl.java:3290)
+08-31 14:48:51.628 W/WindowManager( 1281): 	at android.view.ViewRootImpl.doDie(ViewRootImpl.java:5917)
+08-31 14:48:51.628 W/WindowManager( 1281): 	at android.view.ViewRootImpl$ViewRootHandler.handleMessage(ViewRootImpl.java:3626)
+08-31 14:48:51.628 W/WindowManager( 1281): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-31 14:48:51.628 W/WindowManager( 1281): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:48:51.628 W/WindowManager( 1281): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+08-31 14:48:51.628 W/WindowManager( 1281): 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+08-31 14:48:52.327 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:48:52.339 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@372a38d
+08-31 14:48:52.443 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:48:52.443 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:48:52.445 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:48:55.305 W/ActivityManager( 1281): Launch timeout has expired, giving up wake lock!
+08-31 14:48:55.895 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:48:55.906 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@3065690
+08-31 14:48:56.024 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:48:56.024 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:48:56.026 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:48:59.411 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:48:59.422 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@b72eb89
+08-31 14:48:59.518 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:48:59.518 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:48:59.524 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:02.929 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:02.939 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@8a8378e
+08-31 14:49:03.067 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:49:03.067 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:49:03.070 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:04.626 D/WifiStateMachine( 1281): setScanResults mScanResults.size=1
+08-31 14:49:06.445 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:06.456 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@e743e9a
+08-31 14:49:06.576 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:49:06.576 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:49:06.579 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:09.968 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:09.972 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@ac7aa66
+08-31 14:49:10.107 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:49:10.107 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:49:10.110 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:13.478 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:13.489 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@cce5654
+08-31 14:49:13.603 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:49:13.603 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:49:13.607 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:17.004 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:17.005 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@ae483c0
+08-31 14:49:17.139 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:49:17.139 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:49:17.142 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:20.512 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:20.523 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@36e1bec
+08-31 14:49:20.633 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:49:20.633 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:49:20.636 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:24.026 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:24.039 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@170ad8
+08-31 14:49:24.159 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:49:24.159 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:49:24.162 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:27.548 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:27.556 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@75dfc84
+08-31 14:49:27.671 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:49:27.671 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:49:27.673 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:31.076 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:31.089 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@7005cf0
+08-31 14:49:31.224 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:49:31.224 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:49:31.226 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:34.596 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:34.606 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@926581c
+08-31 14:49:34.724 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:49:34.724 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:49:34.728 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:38.113 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:38.122 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@4eda08
+08-31 14:49:38.237 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:49:38.237 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:49:38.241 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:41.628 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:41.639 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@5fb8eb4
+08-31 14:49:41.743 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:49:41.744 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:49:41.746 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:45.152 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:45.156 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@81ce220
+08-31 14:49:45.295 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:49:45.295 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:49:45.299 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:48.692 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:48.705 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@13e004c
+08-31 14:49:48.820 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:49:48.820 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:49:48.823 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:52.217 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:52.223 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@770d538
+08-31 14:49:52.339 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:49:52.340 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:49:52.342 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:55.730 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:49:55.739 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@dfa0ce4

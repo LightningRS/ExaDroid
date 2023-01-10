@@ -1,0 +1,896 @@
+--------- beginning of system
+08-31 14:38:58.291 I/ActivityManager( 1283): START u0 {cmp=com.android.intentfuzzer/.FuzzerActivity} from uid 10064 on display 0
+--------- beginning of main
+08-31 14:38:58.295 D/audio_hw_hal( 1089): raw_start_output_stream, stream=0xf6e43140, sampleRate=48000, channel=2, bps=16, bufSize=4096
+08-31 14:38:58.301 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:38:58.335 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:38:58.612 E/EGL_adreno( 2305): tid 2321: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:38:58.612 W/OpenGLRenderer( 2305): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd4ffd580, error=EGL_BAD_MATCH
+08-31 14:38:58.614 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:38:58.645 I/ActivityManager( 1283): Displayed com.android.intentfuzzer/.FuzzerActivity: +338ms (total +3m9s741ms)
+08-31 14:38:58.648 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:38:58.704 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:38:59.700 I/ActivityManager( 1283): START u0 {cmp=com.integreight.onesheeld/.MainActivity} from uid 10064 on display 0
+08-31 14:38:59.710 W/System.err( 2305): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=com.integreight.onesheeld/.MainActivity }
+08-31 14:38:59.711 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:38:59.711 W/System.err( 2305): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:38:59.711 W/System.err( 2305): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:38:59.711 W/System.err( 2305): 	at android.view.View.performClick(View.java:5637)
+08-31 14:38:59.711 W/System.err( 2305): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:38:59.711 W/System.err( 2305): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:38:59.711 W/System.err( 2305): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:38:59.711 W/System.err( 2305): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:38:59.711 W/System.err( 2305): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:38:59.711 W/System.err( 2305): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:38:59.711 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:38:59.711 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:38:59.712 I/ActivityManager( 1283): START u0 {cmp=com.integreight.onesheeld/com.facebook.FacebookActivity} from uid 10064 on display 0
+08-31 14:38:59.712 W/ActivityManager( 1283): Permission Denial: starting Intent { cmp=com.integreight.onesheeld/com.facebook.FacebookActivity } from ProcessRecord{6d7369d 2305:com.android.intentfuzzer/u0a64} (pid=2305, uid=10064) not exported from uid 10043
+08-31 14:38:59.713 W/System.err( 2305): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:38:59.713 W/System.err( 2305): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:38:59.713 W/System.err( 2305): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:38:59.713 W/System.err( 2305): 	at android.view.View.performClick(View.java:5637)
+08-31 14:38:59.713 W/System.err( 2305): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:38:59.713 W/System.err( 2305): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:38:59.713 W/System.err( 2305): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:38:59.713 W/System.err( 2305): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:38:59.713 W/System.err( 2305): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:38:59.713 W/System.err( 2305): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:38:59.713 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:38:59.713 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:38:59.717 I/ActivityManager( 1283): START u0 {cmp=com.integreight.onesheeld/.plugin.action.ActionActivity} from uid 10064 on display 0
+08-31 14:38:59.720 W/System.err( 2305): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=com.integreight.onesheeld/.plugin.action.ActionActivity }
+08-31 14:38:59.720 W/System.err( 2305): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:38:59.720 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:38:59.720 W/System.err( 2305): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:38:59.721 W/System.err( 2305): 	at android.view.View.performClick(View.java:5637)
+08-31 14:38:59.721 W/System.err( 2305): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:38:59.721 W/System.err( 2305): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:38:59.721 W/System.err( 2305): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:38:59.721 W/System.err( 2305): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:38:59.721 W/System.err( 2305): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:38:59.721 W/System.err( 2305): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:38:59.721 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:38:59.721 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:38:59.722 I/ActivityManager( 1283): START u0 {cmp=com.integreight.onesheeld/.plugin.condition.ConditionActivity} from uid 10064 on display 0
+08-31 14:38:59.734 W/System.err( 2305): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=com.integreight.onesheeld/.plugin.condition.ConditionActivity }
+08-31 14:38:59.735 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:38:59.735 W/System.err( 2305): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:38:59.735 W/System.err( 2305): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:38:59.735 W/System.err( 2305): 	at android.view.View.performClick(View.java:5637)
+08-31 14:38:59.735 W/System.err( 2305): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:38:59.735 W/System.err( 2305): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:38:59.735 W/System.err( 2305): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:38:59.735 W/System.err( 2305): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:38:59.735 W/System.err( 2305): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:38:59.735 W/System.err( 2305): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:38:59.735 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:38:59.735 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:38:59.737 I/ActivityManager( 1283): START u0 {cmp=com.integreight.onesheeld/.shields.controller.utils.NfcUtils} from uid 10064 on display 0
+08-31 14:38:59.737 W/ActivityManager( 1283): Permission Denial: starting Intent { cmp=com.integreight.onesheeld/.shields.controller.utils.NfcUtils } from ProcessRecord{6d7369d 2305:com.android.intentfuzzer/u0a64} (pid=2305, uid=10064) not exported from uid 10043
+08-31 14:38:59.739 W/System.err( 2305): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:38:59.739 W/System.err( 2305): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:38:59.739 W/System.err( 2305): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:38:59.739 W/System.err( 2305): 	at android.view.View.performClick(View.java:5637)
+08-31 14:38:59.739 W/System.err( 2305): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:38:59.739 W/System.err( 2305): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:38:59.739 W/System.err( 2305): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:38:59.739 W/System.err( 2305): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:38:59.739 W/System.err( 2305): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:38:59.739 W/System.err( 2305): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:38:59.739 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:38:59.739 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:38:59.740 I/ActivityManager( 1283): START u0 {cmp=com.integreight.onesheeld/.NFCUtils-alias} from uid 10064 on display 0
+08-31 14:38:59.745 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:38:59.745 W/System.err( 2305): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=com.integreight.onesheeld/.NFCUtils-alias }
+08-31 14:38:59.745 W/System.err( 2305): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:38:59.745 W/System.err( 2305): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:38:59.745 W/System.err( 2305): 	at android.view.View.performClick(View.java:5637)
+08-31 14:38:59.745 W/System.err( 2305): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:38:59.745 W/System.err( 2305): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:38:59.745 W/System.err( 2305): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:38:59.745 W/System.err( 2305): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:38:59.746 W/System.err( 2305): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:38:59.746 W/System.err( 2305): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:38:59.746 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:38:59.746 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:38:59.748 I/ActivityManager( 1283): START u0 {cmp=com.integreight.onesheeld/.Tutorial} from uid 10064 on display 0
+08-31 14:38:59.748 W/ActivityManager( 1283): Permission Denial: starting Intent { cmp=com.integreight.onesheeld/.Tutorial } from ProcessRecord{6d7369d 2305:com.android.intentfuzzer/u0a64} (pid=2305, uid=10064) not exported from uid 10043
+08-31 14:38:59.749 W/System.err( 2305): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:38:59.749 W/System.err( 2305): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:38:59.749 W/System.err( 2305): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:38:59.749 W/System.err( 2305): 	at android.view.View.performClick(View.java:5637)
+08-31 14:38:59.750 W/System.err( 2305): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:38:59.750 W/System.err( 2305): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:38:59.750 W/System.err( 2305): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:38:59.750 W/System.err( 2305): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:38:59.750 W/System.err( 2305): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:38:59.750 W/System.err( 2305): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:38:59.750 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:38:59.750 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:38:59.752 I/ActivityManager( 1283): START u0 {cmp=com.integreight.onesheeld/com.google.android.gms.auth.api.signin.internal.SignInHubActivity} from uid 10064 on display 0
+08-31 14:38:59.752 W/ActivityManager( 1283): Permission Denial: starting Intent { cmp=com.integreight.onesheeld/com.google.android.gms.auth.api.signin.internal.SignInHubActivity } from ProcessRecord{6d7369d 2305:com.android.intentfuzzer/u0a64} (pid=2305, uid=10064) not exported from uid 10043
+08-31 14:38:59.753 W/System.err( 2305): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:38:59.753 W/System.err( 2305): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:38:59.753 W/System.err( 2305): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:38:59.753 W/System.err( 2305): 	at android.view.View.performClick(View.java:5637)
+08-31 14:38:59.753 W/System.err( 2305): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:38:59.753 W/System.err( 2305): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:38:59.754 W/System.err( 2305): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:38:59.754 W/System.err( 2305): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:38:59.754 W/System.err( 2305): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:38:59.754 W/System.err( 2305): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:38:59.754 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:38:59.754 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:38:59.755 I/ActivityManager( 1283): START u0 {cmp=com.integreight.onesheeld/com.google.android.gms.common.api.GoogleApiActivity} from uid 10064 on display 0
+08-31 14:38:59.755 W/ActivityManager( 1283): Permission Denial: starting Intent { cmp=com.integreight.onesheeld/com.google.android.gms.common.api.GoogleApiActivity } from ProcessRecord{6d7369d 2305:com.android.intentfuzzer/u0a64} (pid=2305, uid=10064) not exported from uid 10043
+08-31 14:38:59.757 W/System.err( 2305): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:38:59.757 W/System.err( 2305): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:38:59.757 W/System.err( 2305): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:38:59.757 W/System.err( 2305): 	at android.view.View.performClick(View.java:5637)
+08-31 14:38:59.757 W/System.err( 2305): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:38:59.757 W/System.err( 2305): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:38:59.757 W/System.err( 2305): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:38:59.757 W/System.err( 2305): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:38:59.757 W/System.err( 2305): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:38:59.757 W/System.err( 2305): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:38:59.757 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:38:59.757 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:38:59.840 W/ActivityManager( 1283): Slow operation: 81ms so far, now at startProcess: returned from zygote!
+08-31 14:38:59.840 W/ActivityManager( 1283): Slow operation: 81ms so far, now at startProcess: done updating battery stats
+08-31 14:38:59.840 W/ActivityManager( 1283): Slow operation: 81ms so far, now at startProcess: building log message
+08-31 14:38:59.840 I/ActivityManager( 1283): Start proc 2836:com.integreight.onesheeld/u0a43 for activity com.integreight.onesheeld/.NFCUtils-alias
+08-31 14:38:59.840 W/ActivityManager( 1283): Slow operation: 81ms so far, now at startProcess: starting to update pids map
+08-31 14:38:59.841 W/ActivityManager( 1283): Slow operation: 81ms so far, now at startProcess: done updating pids map
+08-31 14:38:59.841 W/ActivityManager( 1283): Slow operation: 81ms so far, now at startProcess: done starting proc!
+08-31 14:38:59.854 D/libnativebridge( 2836): call UnloadNativeBridge! state=1
+08-31 14:38:59.969 E/EGL_adreno( 2305): tid 2321: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:38:59.969 W/OpenGLRenderer( 2305): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd4ffd500, error=EGL_BAD_MATCH
+08-31 14:38:59.975 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:39:00.009 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:39:00.092 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:39:00.795 D/FirebaseApp( 2836): com.google.firebase.auth.FirebaseAuth is not linked. Skipping initialization.
+08-31 14:39:00.849 W/InstanceID/Rpc( 2836): Failed to resolve REGISTER intent, falling back
+08-31 14:39:00.850 W/InstanceID/Rpc( 2836): Both Google Play Services and legacy GSF package are missing
+08-31 14:39:00.853 D/FirebaseApp( 2836): com.google.firebase.crash.FirebaseCrash is not linked. Skipping initialization.
+08-31 14:39:00.894 I/FA      ( 2836): App measurement is starting up, version: 10084
+08-31 14:39:00.894 I/FA      ( 2836): To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+08-31 14:39:00.913 I/FA      ( 2836): To enable faster debug mode event logging run:
+08-31 14:39:00.913 I/FA      ( 2836):   adb shell setprop debug.firebase.analytics.app com.integreight.onesheeld
+08-31 14:39:00.967 I/FirebaseInitProvider( 2836): FirebaseApp initialization successful
+08-31 14:39:01.213 I/CrashlyticsCore( 2836): Initializing Crashlytics 2.3.17.dev
+08-31 14:39:01.223 W/GooglePlayServicesUtil( 2836): Google Play Store is missing.
+08-31 14:39:01.313 D/NetworkSecurityConfig( 2836): No Network Security Config specified, using platform default
+08-31 14:39:01.432 E/NFC     ( 2836): could not retrieve NFC service
+08-31 14:39:01.439 I/ActivityManager( 1283): START u0 {flg=0x4000000 cmp=com.integreight.onesheeld/.MainActivity} from uid 10043 on display 0
+08-31 14:39:01.448 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:39:01.486 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:39:01.536 I/FA      ( 2836): This instance being marked as an uploader
+08-31 14:39:01.551 E/Fabric  ( 2836): Settings request failed.
+08-31 14:39:01.556 E/Answers ( 2836): Failed to retrieve settings
+08-31 14:39:01.559 W/CrashlyticsCore( 2836): Received null settings, skipping report submission!
+08-31 14:39:01.700 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:39:01.772 I/ActivityManager( 1283): START u0 {cmp=com.integreight.onesheeld/.Tutorial} from uid 10043 on display 0
+08-31 14:39:01.778 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:39:02.013 D/com.handmark.pulltorefresh.configuration.xml.ExtendedConfigXmlParserFactory( 2836): The configuration file 'assets/pulltorefresh.xml' is missing. But the file is just an option. It is necessary only if you want to customize something in Pull To Refresh.
+08-31 14:39:02.140 W/art     ( 2836): Suspending all threads took: 7.768ms
+08-31 14:39:02.144 I/art     ( 2836): Background partial concurrent mark sweep GC freed 1733(147KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 13MB/21MB, paused 8.568ms total 53.207ms
+08-31 14:39:02.186 I/GAv4    ( 2836): Google Analytics 10.0.84 is starting up. To enable debug logging on a device run:
+08-31 14:39:02.186 I/GAv4    ( 2836):   adb shell setprop log.tag.GAv4 DEBUG
+08-31 14:39:02.186 I/GAv4    ( 2836):   adb logcat -s GAv4
+08-31 14:39:02.225 W/GAv4    ( 2836): AnalyticsReceiver is not registered or is disabled. Register the receiver for reliable dispatching on non-Google Play devices. See http://goo.gl/8Rd3yj for instructions.
+08-31 14:39:02.230 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:39:02.230 W/GAv4    ( 2836): CampaignTrackingReceiver is not registered, not exported or is disabled. Installation campaign tracking is not possible. See http://goo.gl/8Rd3yj for instructions.
+08-31 14:39:02.249 W/GAv4    ( 2836): AnalyticsService not registered in the app manifest. Hits might not be delivered reliably. See http://goo.gl/8Rd3yj for instructions.
+08-31 14:39:02.303 E/EGL_adreno( 1083): tid 1083: eglCreateSyncKHR(2089): error 0x3004 (EGL_BAD_ATTRIBUTE)
+08-31 14:39:02.368 W/art     ( 1721): Suspending all threads took: 5.236ms
+08-31 14:39:02.379 I/art     ( 1721): Background partial concurrent mark sweep GC freed 46361(3MB) AllocSpace objects, 18(1512KB) LOS objects, 39% free, 5MB/9MB, paused 5.663ms total 121.566ms
+08-31 14:39:02.407 W/ActivityManager( 1283): Unable to start service Intent { act=com.google.android.gms.analytics.service.START cmp=com.google.android.gms/.analytics.service.AnalyticsService (has extras) } U=0: not found
+08-31 14:39:02.528 I/art     ( 1283): Background partial concurrent mark sweep GC freed 37780(2MB) AllocSpace objects, 50(1000KB) LOS objects, 33% free, 12MB/18MB, paused 1.347ms total 194.115ms
+08-31 14:39:02.547 V/QuickReturnHeaderHelper( 2836): delta=-299
+08-31 14:39:02.547 V/QuickReturnHeaderHelper( 2836): topMargin=-299
+08-31 14:39:02.549 V/AsyncHttpRH( 2836): Progress 38 from 38 (100%)
+08-31 14:39:02.610 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:39:02.638 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:893 android.content.ContextWrapper.sendBroadcast:426 com.android.coreservice.TabManager.notifyClosing:345 com.android.coreservice.TabManager.updateInner:182 com.android.coreservice.TabManager.onUpdate:217 
+08-31 14:39:02.650 E/ActivityManager( 1283): Sending non-protected broadcast android.intent.action.CLOSE_TASK from system 1721:com.android.coreservice/1000 pkg com.android.coreservice
+08-31 14:39:02.650 E/ActivityManager( 1283): java.lang.Throwable
+08-31 14:39:02.650 E/ActivityManager( 1283): 	at com.android.server.am.ActivityManagerService.checkBroadcastFromSystem(ActivityManagerService.java:18108)
+08-31 14:39:02.650 E/ActivityManager( 1283): 	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:18680)
+08-31 14:39:02.650 E/ActivityManager( 1283): 	at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18771)
+08-31 14:39:02.650 E/ActivityManager( 1283): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+08-31 14:39:02.650 E/ActivityManager( 1283): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2820)
+08-31 14:39:02.650 E/ActivityManager( 1283): 	at android.os.Binder.execTransact(Binder.java:565)
+08-31 14:39:02.660 W/WindowManager( 1283): Failed looking up window
+08-31 14:39:02.660 W/WindowManager( 1283): java.lang.IllegalArgumentException: Requested window android.view.ViewRootImpl$W@f9548b does not exist
+08-31 14:39:02.660 W/WindowManager( 1283): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:9459)
+08-31 14:39:02.660 W/WindowManager( 1283): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:9450)
+08-31 14:39:02.660 W/WindowManager( 1283): 	at com.android.server.wm.WindowManagerService.removeWindow(WindowManagerService.java:2410)
+08-31 14:39:02.660 W/WindowManager( 1283): 	at com.android.server.wm.Session.remove(Session.java:202)
+08-31 14:39:02.660 W/WindowManager( 1283): 	at android.view.ViewRootImpl.dispatchDetachedFromWindow(ViewRootImpl.java:3290)
+08-31 14:39:02.660 W/WindowManager( 1283): 	at android.view.ViewRootImpl.doDie(ViewRootImpl.java:5917)
+08-31 14:39:02.660 W/WindowManager( 1283): 	at android.view.ViewRootImpl$ViewRootHandler.handleMessage(ViewRootImpl.java:3626)
+08-31 14:39:02.660 W/WindowManager( 1283): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-31 14:39:02.660 W/WindowManager( 1283): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:39:02.660 W/WindowManager( 1283): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+08-31 14:39:02.660 W/WindowManager( 1283): 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+08-31 14:39:02.676 I/CoreService( 1721): notifyClosing notify tab closed taskPackageName:com.integreight.onesheeld
+08-31 14:39:02.768 I/HostConnection( 2836): HostConnection::HostConnection: pid=2836, tid=2875, this=0xea59fb40
+08-31 14:39:02.772 I/        ( 2836): fastpipe: Connect success
+08-31 14:39:02.773 D/HostConnection( 2836): HostRPC::connect sucess: app=com.integreight.onesheeld, pid=2836, tid=2875, this=0xd4d93bc0
+08-31 14:39:02.775 D/HostConnection( 2836): queryAndSetGLESMaxVersion select gles-version: 3.1 hostGLVersion:46 process:com.integreight.onesheeld
+08-31 14:39:02.777 I/        ( 2836): fastpipe: Connect success
+08-31 14:39:02.778 D/HostConnection( 2836): recv ProcessPuidReply name=com.integreight.onesheeld puid=16 g_u64CapsFlag=1d
+08-31 14:39:02.780 I/OpenGLRenderer( 2836): Initialized EGL, version 1.4
+08-31 14:39:02.780 D/OpenGLRenderer( 2836): Swap behavior 1
+08-31 14:39:02.781 I/EGL_adreno( 2836): eglCreateContext request GLES major-version=2
+08-31 14:39:02.838 D/audio_hw_hal( 1089): log_func, out_standby
+08-31 14:39:02.838 D/audio_hw_hal( 1089): raw_close_output_stream, dev=0xf6e480c0, stream =0xf6e43140
+08-31 14:39:02.838 D/audio_hw_hal( 1089): raw_close_output_stream, stream=0xf6e43140,  success!
+08-31 14:39:02.847 D/EGL_adreno( 2836): eglCreateContext: 0xebc85180: maj 3 min 1 rcv 4
+08-31 14:39:02.943 D/EGL_adreno( 2836): eglMakeCurrent: 0xebc85180: ver 3 1 (tinfo 0xebc83250)
+08-31 14:39:02.956 D/HostConnection( 2836): ExtendedRCEncoderContext GL_VERSION return OpenGL ES 3.1
+08-31 14:39:03.023 E/EGL_adreno( 2836): tid 2875: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:39:03.023 W/OpenGLRenderer( 2836): Failed to set EGL_SWAP_BEHAVIOR on surface 0xebce4a40, error=EGL_BAD_MATCH
+08-31 14:39:03.044 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:39:03.050 D/EGL_adreno( 2836): eglMakeCurrent: 0xebc85180: ver 3 1 (tinfo 0xebc83250)
+08-31 14:39:03.053 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:39:03.164 I/ActivityManager( 1283): Displayed com.integreight.onesheeld/.Tutorial: +919ms (total +3s404ms)
+08-31 14:39:03.219 W/WindowManager( 1283): Attempted to remove non-existing token: android.os.Binder@3639984
+08-31 14:39:03.491 V/AsyncHttpRH( 2836): Progress 482 from 263 (183%)
+08-31 14:39:03.509 W/System.err( 2836): {"name":"1Sheeld Firmware v1.6","description":"\n- Made the board testable using a special frame.\nAdded the ability to rename the bluetooth module.\n","major":1,"minor":6,"date":"10\/4\/2016","classic":"https:\/\/github.com\/Integreight\/1Sheeld-Firmware\/releases\/download\/v1.6\/1Sheeld.Firmware.Classic.Board.v1.6.bin","plus":"https:\/\/github.com\/Integreight\/1Sheeld-Firmware\/releases\/download\/v1.6\/1Sheeld.Firmware.Plus.Board.v1.6.bin"}
+08-31 14:39:03.519 W/JsonHttpRH( 2836): onSuccess(int, Header[], JSONObject) was not overriden, but callback was received
+08-31 14:39:03.567 E/EGL_adreno( 2305): tid 2321: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:39:03.567 W/OpenGLRenderer( 2305): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd4ffd500, error=EGL_BAD_MATCH
+08-31 14:39:03.570 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:39:06.723 W/WindowManager( 1283): Attempted to remove non-existing token: android.os.Binder@9b49ee
+08-31 14:39:06.726 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:39:06.811 E/EGL_adreno( 2305): tid 2321: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:39:06.811 W/OpenGLRenderer( 2305): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd4ffd500, error=EGL_BAD_MATCH
+08-31 14:39:06.814 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:39:10.227 W/WindowManager( 1283): Attempted to remove non-existing token: android.os.Binder@9f616fa
+08-31 14:39:10.230 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:39:10.315 E/EGL_adreno( 2305): tid 2321: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:39:10.315 W/OpenGLRenderer( 2305): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd4ffd500, error=EGL_BAD_MATCH
+08-31 14:39:10.322 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:39:12.259 I/FA      ( 2836): Tag Manager is not found and thus will not be used
+08-31 14:39:13.732 W/WindowManager( 1283): Attempted to remove non-existing token: android.os.Binder@afea8c6
+08-31 14:39:13.735 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:39:13.803 E/EGL_adreno( 2305): tid 2321: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:39:13.803 W/OpenGLRenderer( 2305): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd4ffd500, error=EGL_BAD_MATCH
+08-31 14:39:13.806 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:39:17.237 W/WindowManager( 1283): Attempted to remove non-existing token: android.os.Binder@4fe6087
+08-31 14:39:17.240 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:39:17.313 E/EGL_adreno( 2305): tid 2321: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:39:17.313 W/OpenGLRenderer( 2305): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd4ffd500, error=EGL_BAD_MATCH
+08-31 14:39:17.316 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:39:20.740 W/WindowManager( 1283): Attempted to remove non-existing token: android.os.Binder@b548f20
+08-31 14:39:20.743 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:39:20.815 E/EGL_adreno( 2305): tid 2321: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:39:20.815 W/OpenGLRenderer( 2305): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd4ffd500, error=EGL_BAD_MATCH
+08-31 14:39:20.817 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:39:24.245 W/WindowManager( 1283): Attempted to remove non-existing token: android.os.Binder@95ce0d9
+08-31 14:39:24.247 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:39:24.310 E/EGL_adreno( 2305): tid 2321: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:39:24.310 W/OpenGLRenderer( 2305): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd4ffd500, error=EGL_BAD_MATCH
+08-31 14:39:24.312 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:39:27.747 W/WindowManager( 1283): Attempted to remove non-existing token: android.os.Binder@9e40a9e
+08-31 14:39:27.751 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:39:27.813 E/EGL_adreno( 2305): tid 2321: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:39:27.813 W/OpenGLRenderer( 2305): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd4ffd500, error=EGL_BAD_MATCH
+08-31 14:39:27.816 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:39:31.253 W/WindowManager( 1283): Attempted to remove non-existing token: android.os.Binder@588d97f
+08-31 14:39:31.255 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:40:22.803 D/WifiStateMachine( 1283): setScanResults mScanResults.size=1
+08-31 14:41:47.572 I/ActivityManager( 1283): moveTaskToBack: TaskRecord{fd4e3c5 #18 A=com.integreight.onesheeld U=0 StackId=1 sz=1}
+08-31 14:41:47.577 W/System.err( 2836): java.lang.Exception: call killProcess callstack! pid=2836
+08-31 14:41:47.631 W/System.err( 2836): 	at android.os.Process.killProcess(Process.java:1168)
+08-31 14:41:47.631 W/System.err( 2836): 	at com.integreight.onesheeld.MainActivity.killAllProcesses(MainActivity.java:428)
+08-31 14:41:47.631 W/System.err( 2836): 	at com.integreight.onesheeld.MainActivity.destroyIt(MainActivity.java:526)
+08-31 14:41:47.631 W/System.err( 2836): 	at com.integreight.onesheeld.MainActivity.finishManually(MainActivity.java:459)
+08-31 14:41:47.631 W/System.err( 2836): 	at com.integreight.onesheeld.Tutorial.onBackPressed(Tutorial.java:30)
+08-31 14:41:47.631 W/System.err( 2836): 	at android.app.Activity.onKeyUp(Activity.java:2744)
+08-31 14:41:47.631 W/System.err( 2836): 	at android.view.KeyEvent.dispatch(KeyEvent.java:2712)
+08-31 14:41:47.631 W/System.err( 2836): 	at android.app.Activity.dispatchKeyEvent(Activity.java:3048)
+08-31 14:41:47.631 W/System.err( 2836): 	at com.android.internal.policy.DecorView.dispatchKeyEvent(DecorView.java:320)
+08-31 14:41:47.631 W/System.err( 2836): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processKeyEvent(ViewRootImpl.java:4331)
+08-31 14:41:47.631 W/System.err( 2836): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:4302)
+08-31 14:41:47.631 W/System.err( 2836): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3853)
+08-31 14:41:47.631 W/System.err( 2836): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3906)
+08-31 14:41:47.631 W/System.err( 2836): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3872)
+08-31 14:41:47.631 W/System.err( 2836): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3999)
+08-31 14:41:47.631 W/System.err( 2836): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3880)
+08-31 14:41:47.631 W/System.err( 2836): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:4056)
+08-31 14:41:47.631 W/System.err( 2836): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3853)
+08-31 14:41:47.631 W/System.err( 2836): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3906)
+08-31 14:41:47.631 W/System.err( 2836): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3872)
+08-31 14:41:47.631 W/System.err( 2836): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3880)
+08-31 14:41:47.631 W/System.err( 2836): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3853)
+08-31 14:41:47.631 W/System.err( 2836): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3906)
+08-31 14:41:47.631 W/System.err( 2836): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3872)
+08-31 14:41:47.632 W/System.err( 2836): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:4032)
+08-31 14:41:47.632 W/System.err( 2836): 	at android.view.ViewRootImpl$ImeInputStage.onFinishedInputEvent(ViewRootImpl.java:4193)
+08-31 14:41:47.632 W/System.err( 2836): 	at android.view.inputmethod.InputMethodManager$PendingEvent.run(InputMethodManager.java:2400)
+08-31 14:41:47.632 W/System.err( 2836): 	at android.view.inputmethod.InputMethodManager.invokeFinishedInputEventCallback(InputMethodManager.java:1964)
+08-31 14:41:47.632 W/System.err( 2836): 	at android.view.inputmethod.InputMethodManager.finishedInputEvent(InputMethodManager.java:1955)
+08-31 14:41:47.632 W/System.err( 2836): 	at android.view.inputmethod.InputMethodManager$ImeInputEventSender.onInputEventFinished(InputMethodManager.java:2377)
+08-31 14:41:47.632 W/System.err( 2836): 	at android.view.InputEventSender.dispatchInputEventFinished(InputEventSender.java:141)
+08-31 14:41:47.632 W/System.err( 2836): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+08-31 14:41:47.632 W/System.err( 2836): 	at android.os.MessageQueue.next(MessageQueue.java:323)
+08-31 14:41:47.632 W/System.err( 2836): 	at android.os.Looper.loop(Looper.java:136)
+08-31 14:41:47.632 W/System.err( 2836): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:41:47.632 W/System.err( 2836): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:41:47.632 W/System.err( 2836): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:41:47.632 W/System.err( 2836): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:41:47.632 I/Process ( 2836): Sending signal. PID: 2836 SIG: 9
+08-31 14:41:47.681 I/WindowManager( 1283): WIN DEATH: Window{663f46b u0 com.integreight.onesheeld/com.integreight.onesheeld.Tutorial}
+08-31 14:41:47.682 D/GraphicsStats( 1283): Buffer count: 7
+08-31 14:41:47.683 I/ActivityManager( 1283): Process com.integreight.onesheeld (pid 2836) has died
+08-31 14:41:47.684 D/ActivityManager( 1283): cleanUpApplicationRecord -- 2836
+08-31 14:41:47.684 W/InputDispatcher( 1283): channel 'f54acf1 com.integreight.onesheeld/com.integreight.onesheeld.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+08-31 14:41:47.684 E/InputDispatcher( 1283): channel 'f54acf1 com.integreight.onesheeld/com.integreight.onesheeld.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+08-31 14:41:47.684 W/InputDispatcher( 1283): channel '21ff57 com.integreight.onesheeld/com.integreight.onesheeld.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+08-31 14:41:47.684 E/InputDispatcher( 1283): channel '21ff57 com.integreight.onesheeld/com.integreight.onesheeld.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+08-31 14:41:47.690 I/WindowManager( 1283): WIN DEATH: Window{f54acf1 u0 com.integreight.onesheeld/com.integreight.onesheeld.MainActivity}
+08-31 14:41:47.690 W/InputDispatcher( 1283): Attempted to unregister already unregistered input channel 'f54acf1 com.integreight.onesheeld/com.integreight.onesheeld.MainActivity (server)'
+08-31 14:41:47.691 W/ActivityManager( 1283): Force removing ActivityRecord{cb61d80 u0 com.integreight.onesheeld/.Tutorial t19}: app died, no saved state
+08-31 14:41:47.692 I/WindowManager( 1283): WIN DEATH: Window{21ff57 u0 com.integreight.onesheeld/com.integreight.onesheeld.MainActivity}
+08-31 14:41:47.692 W/InputDispatcher( 1283): Attempted to unregister already unregistered input channel '21ff57 com.integreight.onesheeld/com.integreight.onesheeld.MainActivity (server)'
+08-31 14:41:47.723 I/ActivityManager( 1283): Start proc 2890:com.integreight.onesheeld/u0a43 for activity com.integreight.onesheeld/.plugin.condition.ConditionActivity
+08-31 14:41:47.729 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:47.739 D/libnativebridge( 2890): call UnloadNativeBridge! state=1
+08-31 14:41:47.791 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:47.810 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:893 android.content.ContextWrapper.sendBroadcast:426 com.android.coreservice.TabManager.notifyClosing:345 com.android.coreservice.TabManager.updateInner:182 com.android.coreservice.TabManager.onUpdate:217 
+08-31 14:41:47.812 E/ActivityManager( 1283): Sending non-protected broadcast android.intent.action.CLOSE_TASK from system 1721:com.android.coreservice/1000 pkg com.android.coreservice
+08-31 14:41:47.812 E/ActivityManager( 1283): java.lang.Throwable
+08-31 14:41:47.812 E/ActivityManager( 1283): 	at com.android.server.am.ActivityManagerService.checkBroadcastFromSystem(ActivityManagerService.java:18108)
+08-31 14:41:47.812 E/ActivityManager( 1283): 	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:18680)
+08-31 14:41:47.812 E/ActivityManager( 1283): 	at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18771)
+08-31 14:41:47.812 E/ActivityManager( 1283): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+08-31 14:41:47.812 E/ActivityManager( 1283): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2820)
+08-31 14:41:47.812 E/ActivityManager( 1283): 	at android.os.Binder.execTransact(Binder.java:565)
+08-31 14:41:47.816 I/CoreService( 1721): notifyClosing notify tab closed taskPackageName:com.integreight.onesheeld
+08-31 14:41:48.313 D/FirebaseApp( 2890): com.google.firebase.auth.FirebaseAuth is not linked. Skipping initialization.
+08-31 14:41:48.331 W/InstanceID/Rpc( 2890): Failed to resolve REGISTER intent, falling back
+08-31 14:41:48.332 W/InstanceID/Rpc( 2890): Both Google Play Services and legacy GSF package are missing
+08-31 14:41:48.334 D/FirebaseApp( 2890): com.google.firebase.crash.FirebaseCrash is not linked. Skipping initialization.
+08-31 14:41:48.375 I/FA      ( 2890): App measurement is starting up, version: 10084
+08-31 14:41:48.375 I/FA      ( 2890): To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+08-31 14:41:48.395 I/FA      ( 2890): To enable faster debug mode event logging run:
+08-31 14:41:48.395 I/FA      ( 2890):   adb shell setprop debug.firebase.analytics.app com.integreight.onesheeld
+08-31 14:41:48.447 I/FirebaseInitProvider( 2890): FirebaseApp initialization successful
+08-31 14:41:48.610 I/CrashlyticsCore( 2890): Initializing Crashlytics 2.3.17.dev
+08-31 14:41:48.625 W/GooglePlayServicesUtil( 2890): Google Play Store is missing.
+08-31 14:41:48.669 D/NetworkSecurityConfig( 2890): No Network Security Config specified, using platform default
+08-31 14:41:48.831 E/Fabric  ( 2890): Settings request failed.
+08-31 14:41:48.832 E/Answers ( 2890): Failed to retrieve settings
+08-31 14:41:48.834 W/CrashlyticsCore( 2890): Received null settings, skipping report submission!
+08-31 14:41:48.924 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:48.962 I/HostConnection( 2890): HostConnection::HostConnection: pid=2890, tid=2924, this=0xea59fa80
+08-31 14:41:48.966 I/        ( 2890): fastpipe: Connect success
+08-31 14:41:48.967 D/HostConnection( 2890): HostRPC::connect sucess: app=com.integreight.onesheeld, pid=2890, tid=2924, this=0xd57b3700
+08-31 14:41:48.970 D/HostConnection( 2890): queryAndSetGLESMaxVersion select gles-version: 3.1 hostGLVersion:46 process:com.integreight.onesheeld
+08-31 14:41:48.973 I/        ( 2890): fastpipe: Connect success
+08-31 14:41:48.974 D/HostConnection( 2890): recv ProcessPuidReply name=com.integreight.onesheeld puid=17 g_u64CapsFlag=1d
+08-31 14:41:48.976 I/OpenGLRenderer( 2890): Initialized EGL, version 1.4
+08-31 14:41:48.976 D/OpenGLRenderer( 2890): Swap behavior 1
+08-31 14:41:48.976 I/EGL_adreno( 2890): eglCreateContext request GLES major-version=2
+08-31 14:41:49.032 D/EGL_adreno( 2890): eglCreateContext: 0xebc85900: maj 3 min 1 rcv 4
+08-31 14:41:49.148 D/EGL_adreno( 2890): eglMakeCurrent: 0xebc85900: ver 3 1 (tinfo 0xebc83370)
+08-31 14:41:49.165 D/HostConnection( 2890): ExtendedRCEncoderContext GL_VERSION return OpenGL ES 3.1
+08-31 14:41:49.181 I/FA      ( 2890): This instance being marked as an uploader
+08-31 14:41:49.187 E/EGL_adreno( 2890): tid 2924: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:41:49.187 W/OpenGLRenderer( 2890): Failed to set EGL_SWAP_BEHAVIOR on surface 0xebce4cc0, error=EGL_BAD_MATCH
+08-31 14:41:49.194 D/EGL_adreno( 2890): eglMakeCurrent: 0xebc85900: ver 3 1 (tinfo 0xebc83370)
+08-31 14:41:49.406 I/ActivityManager( 1283): Displayed com.integreight.onesheeld/.plugin.condition.ConditionActivity: +2m49s564ms (total +1s711ms)
+08-31 14:41:49.409 V/AsyncHttpRH( 2890): Progress 38 from 38 (100%)
+08-31 14:41:49.414 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:49.669 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:49.694 I/GAv4    ( 2890): Google Analytics 10.0.84 is starting up. To enable debug logging on a device run:
+08-31 14:41:49.694 I/GAv4    ( 2890):   adb shell setprop log.tag.GAv4 DEBUG
+08-31 14:41:49.694 I/GAv4    ( 2890):   adb logcat -s GAv4
+08-31 14:41:49.727 W/GAv4    ( 2890): AnalyticsReceiver is not registered or is disabled. Register the receiver for reliable dispatching on non-Google Play devices. See http://goo.gl/8Rd3yj for instructions.
+08-31 14:41:49.738 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:49.757 W/GAv4    ( 2890): CampaignTrackingReceiver is not registered, not exported or is disabled. Installation campaign tracking is not possible. See http://goo.gl/8Rd3yj for instructions.
+08-31 14:41:49.770 W/GAv4    ( 2890): AnalyticsService not registered in the app manifest. Hits might not be delivered reliably. See http://goo.gl/8Rd3yj for instructions.
+08-31 14:41:49.795 W/ActivityManager( 1283): Unable to start service Intent { act=com.google.android.gms.analytics.service.START cmp=com.google.android.gms/.analytics.service.AnalyticsService (has extras) } U=0: not found
+08-31 14:41:49.818 D/TaskPersister( 1283): getImageFromWriteQueue return null! filePath=/data/system_ce/0/recent_images/19_task_thumbnail.png
+08-31 14:41:49.868 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:49.882 E/EGL_adreno( 2890): tid 2924: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:41:49.882 W/OpenGLRenderer( 2890): Failed to set EGL_SWAP_BEHAVIOR on surface 0xd426e940, error=EGL_BAD_MATCH
+08-31 14:41:49.884 D/EGL_adreno( 2890): eglMakeCurrent: 0xebc85900: ver 3 1 (tinfo 0xebc83370)
+08-31 14:41:49.930 I/ActivityManager( 1283): Displayed com.integreight.onesheeld/.plugin.action.ActionActivity: +264ms
+08-31 14:41:50.023 W/SurfaceFlinger( 1083): couldn't log to binary event log: overflow.
+08-31 14:41:51.715 I/FA      ( 2890): Tag Manager is not found and thus will not be used
+08-31 14:41:51.719 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:51.775 I/ActivityManager( 1283): START u0 {cmp=com.integreight.onesheeld/.Tutorial} from uid 10043 on display 0
+08-31 14:41:51.783 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:51.839 D/TaskPersister( 1283): getImageFromWriteQueue return null! filePath=/data/system_ce/0/recent_images/19_task_thumbnail.png
+08-31 14:41:51.930 D/com.handmark.pulltorefresh.configuration.xml.ExtendedConfigXmlParserFactory( 2890): The configuration file 'assets/pulltorefresh.xml' is missing. But the file is just an option. It is necessary only if you want to customize something in Pull To Refresh.
+08-31 14:41:52.006 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:52.063 I/art     ( 2890): Background sticky concurrent mark sweep GC freed 8883(1112KB) AllocSpace objects, 8(160KB) LOS objects, 0% free, 17MB/17MB, paused 5.544ms total 88.169ms
+08-31 14:41:52.144 V/QuickReturnHeaderHelper( 2890): delta=-299
+08-31 14:41:52.144 V/QuickReturnHeaderHelper( 2890): topMargin=-299
+08-31 14:41:52.215 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:52.413 E/EGL_adreno( 2890): tid 2924: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:41:52.413 W/OpenGLRenderer( 2890): Failed to set EGL_SWAP_BEHAVIOR on surface 0xd3893900, error=EGL_BAD_MATCH
+08-31 14:41:52.418 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:52.424 D/EGL_adreno( 2890): eglMakeCurrent: 0xebc85900: ver 3 1 (tinfo 0xebc83370)
+08-31 14:41:52.491 I/ActivityManager( 1283): Displayed com.integreight.onesheeld/.Tutorial: +476ms (total +780ms)
+08-31 14:41:53.012 I/ActivityManager( 1283): moveTaskToBack: TaskRecord{2d7e593 #8 A=com.android.intentfuzzer U=0 StackId=1 sz=5}
+08-31 14:41:53.014 W/System.err( 2890): java.lang.Exception: call killProcess callstack! pid=2890
+08-31 14:41:53.015 W/System.err( 2890): 	at android.os.Process.killProcess(Process.java:1168)
+08-31 14:41:53.015 W/System.err( 2890): 	at com.integreight.onesheeld.MainActivity.killAllProcesses(MainActivity.java:428)
+08-31 14:41:53.015 W/System.err( 2890): 	at com.integreight.onesheeld.MainActivity.destroyIt(MainActivity.java:526)
+08-31 14:41:53.015 W/System.err( 2890): 	at com.integreight.onesheeld.MainActivity.finishManually(MainActivity.java:459)
+08-31 14:41:53.015 W/System.err( 2890): 	at com.integreight.onesheeld.Tutorial.onBackPressed(Tutorial.java:30)
+08-31 14:41:53.015 W/System.err( 2890): 	at android.app.Activity.onKeyUp(Activity.java:2744)
+08-31 14:41:53.015 W/System.err( 2890): 	at android.view.KeyEvent.dispatch(KeyEvent.java:2712)
+08-31 14:41:53.015 W/System.err( 2890): 	at android.app.Activity.dispatchKeyEvent(Activity.java:3048)
+08-31 14:41:53.015 W/System.err( 2890): 	at com.android.internal.policy.DecorView.dispatchKeyEvent(DecorView.java:320)
+08-31 14:41:53.015 W/System.err( 2890): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processKeyEvent(ViewRootImpl.java:4331)
+08-31 14:41:53.015 W/System.err( 2890): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:4302)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3853)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3906)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3872)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3999)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3880)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:4056)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3853)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3906)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3872)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3880)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3853)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3906)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3872)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:4032)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.view.ViewRootImpl$ImeInputStage.onFinishedInputEvent(ViewRootImpl.java:4193)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.view.inputmethod.InputMethodManager$PendingEvent.run(InputMethodManager.java:2400)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.view.inputmethod.InputMethodManager.invokeFinishedInputEventCallback(InputMethodManager.java:1964)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.view.inputmethod.InputMethodManager.finishedInputEvent(InputMethodManager.java:1955)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.view.inputmethod.InputMethodManager$ImeInputEventSender.onInputEventFinished(InputMethodManager.java:2377)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.view.InputEventSender.dispatchInputEventFinished(InputEventSender.java:141)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.os.MessageQueue.next(MessageQueue.java:323)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.os.Looper.loop(Looper.java:136)
+08-31 14:41:53.016 W/System.err( 2890): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:41:53.016 W/System.err( 2890): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:41:53.016 W/System.err( 2890): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:41:53.016 W/System.err( 2890): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:41:53.016 I/Process ( 2890): Sending signal. PID: 2890 SIG: 9
+08-31 14:41:53.066 I/WindowManager( 1283): WIN DEATH: Window{75dc01e u0 com.integreight.onesheeld/com.integreight.onesheeld.MainActivity}
+08-31 14:41:53.066 D/GraphicsStats( 1283): Buffer count: 7
+08-31 14:41:53.067 I/ActivityManager( 1283): Process com.integreight.onesheeld (pid 2890) has died
+08-31 14:41:53.067 D/ActivityManager( 1283): cleanUpApplicationRecord -- 2890
+08-31 14:41:53.067 W/ActivityManager( 1283): Force removing ActivityRecord{6a3807 u0 com.integreight.onesheeld/.Tutorial t20}: app died, no saved state
+08-31 14:41:53.068 I/WindowManager( 1283): WIN DEATH: Window{dddeecc u0 com.integreight.onesheeld/com.integreight.onesheeld.MainActivity}
+08-31 14:41:53.069 I/WindowManager( 1283): WIN DEATH: Window{cab30f7 u0 com.integreight.onesheeld/com.integreight.onesheeld.Tutorial}
+08-31 14:41:53.071 I/WindowManager( 1283): WIN DEATH: Window{ab286e9 u0 com.integreight.onesheeld/com.integreight.onesheeld.plugin.action.ActionActivity}
+08-31 14:41:53.087 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:53.121 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:53.139 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:893 android.content.ContextWrapper.sendBroadcast:426 com.android.coreservice.TabManager.notifyClosing:345 com.android.coreservice.TabManager.updateInner:182 com.android.coreservice.TabManager.onUpdate:217 
+08-31 14:41:53.140 E/ActivityManager( 1283): Sending non-protected broadcast android.intent.action.CLOSE_TASK from system 1721:com.android.coreservice/1000 pkg com.android.coreservice
+08-31 14:41:53.140 E/ActivityManager( 1283): java.lang.Throwable
+08-31 14:41:53.140 E/ActivityManager( 1283): 	at com.android.server.am.ActivityManagerService.checkBroadcastFromSystem(ActivityManagerService.java:18108)
+08-31 14:41:53.140 E/ActivityManager( 1283): 	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:18680)
+08-31 14:41:53.140 E/ActivityManager( 1283): 	at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18771)
+08-31 14:41:53.140 E/ActivityManager( 1283): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+08-31 14:41:53.140 E/ActivityManager( 1283): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2820)
+08-31 14:41:53.140 E/ActivityManager( 1283): 	at android.os.Binder.execTransact(Binder.java:565)
+08-31 14:41:53.150 I/CoreService( 1721): notifyClosing notify tab closed taskPackageName:com.integreight.onesheeld
+08-31 14:41:53.233 I/HostConnection( 1752): HostConnection::HostConnection: pid=1752, tid=1859, this=0x7fffeb41c7e0
+08-31 14:41:53.236 I/        ( 1752): fastpipe: Connect success
+08-31 14:41:53.237 D/HostConnection( 1752): HostRPC::connect sucess: app=com.android.launcher3, pid=1752, tid=1859, this=0x7fffeb58f780
+08-31 14:41:53.241 D/HostConnection( 1752): queryAndSetGLESMaxVersion select gles-version: 3.1 hostGLVersion:46 process:com.android.launcher3
+08-31 14:41:53.247 I/OpenGLRenderer( 1752): Initialized EGL, version 1.4
+08-31 14:41:53.247 D/OpenGLRenderer( 1752): Swap behavior 1
+08-31 14:41:53.249 I/EGL_adreno( 1752): eglCreateContext request GLES major-version=2
+08-31 14:41:53.303 D/EGL_adreno( 1752): eglCreateContext: 0x7fffeb4545a0: maj 3 min 1 rcv 4
+08-31 14:41:53.365 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:53.384 D/EGL_adreno( 1752): eglMakeCurrent: 0x7fffeb4545a0: ver 3 1 (tinfo 0x7fffeb40d600)
+08-31 14:41:53.414 E/EGL_adreno( 1752): tid 1859: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:41:53.414 W/OpenGLRenderer( 1752): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb448040, error=EGL_BAD_MATCH
+08-31 14:41:53.421 D/EGL_adreno( 1752): eglMakeCurrent: 0x7fffeb4545a0: ver 3 1 (tinfo 0x7fffeb40d600)
+08-31 14:41:53.941 W/OpenGLRenderer( 1752): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+08-31 14:41:53.941 W/OpenGLRenderer( 1752): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+08-31 14:41:55.085 I/ActivityManager( 1283): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.intentfuzzer/.MainActivity bnds=[48,1307][294,1565] (has extras)} from uid 10028 on display 0
+08-31 14:41:55.097 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:55.135 D/audio_hw_hal( 1089): raw_start_output_stream, stream=0xf6e43140, sampleRate=48000, channel=2, bps=16, bufSize=4096
+08-31 14:41:55.136 D/AudioFlinger( 1089): mixer(0xf5983b80) throttle end: throttle time(10)
+08-31 14:41:55.172 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:55.212 D/EGL_adreno( 1752): eglMakeCurrent: 0x7fffeb4545a0: ver 3 1 (tinfo 0x7fffeb40d600)
+08-31 14:41:55.304 E/EGL_adreno( 2305): tid 2321: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:41:55.304 W/OpenGLRenderer( 2305): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd4ffd580, error=EGL_BAD_MATCH
+08-31 14:41:55.312 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:55.318 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:55.321 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:41:56.612 I/ActivityManager( 1283): START u0 {cmp=com.integreight.onesheeld/.MainActivity (has extras)} from uid 10064 on display 0
+08-31 14:41:56.626 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:56.630 W/System.err( 2305): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=com.integreight.onesheeld/.MainActivity (has extras) }
+08-31 14:41:56.632 W/System.err( 2305): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:41:56.632 W/System.err( 2305): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:41:56.632 W/System.err( 2305): 	at android.view.View.performClick(View.java:5637)
+08-31 14:41:56.632 W/System.err( 2305): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:41:56.632 W/System.err( 2305): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:41:56.632 W/System.err( 2305): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:41:56.632 W/System.err( 2305): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:41:56.632 W/System.err( 2305): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:41:56.632 W/System.err( 2305): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:41:56.632 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:41:56.632 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:41:56.642 I/ActivityManager( 1283): START u0 {cmp=com.integreight.onesheeld/com.facebook.FacebookActivity (has extras)} from uid 10064 on display 0
+08-31 14:41:56.642 W/ActivityManager( 1283): Permission Denial: starting Intent { cmp=com.integreight.onesheeld/com.facebook.FacebookActivity (has extras) } from ProcessRecord{6d7369d 2305:com.android.intentfuzzer/u0a64} (pid=2305, uid=10064) not exported from uid 10043
+08-31 14:41:56.648 W/System.err( 2305): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:41:56.648 W/System.err( 2305): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:41:56.648 W/System.err( 2305): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:41:56.648 W/System.err( 2305): 	at android.view.View.performClick(View.java:5637)
+08-31 14:41:56.648 W/System.err( 2305): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:41:56.648 W/System.err( 2305): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:41:56.648 W/System.err( 2305): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:41:56.648 W/System.err( 2305): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:41:56.648 W/System.err( 2305): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:41:56.648 W/System.err( 2305): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:41:56.648 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:41:56.648 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:41:56.651 I/ActivityManager( 1283): START u0 {cmp=com.integreight.onesheeld/.plugin.action.ActionActivity (has extras)} from uid 10064 on display 0
+08-31 14:41:56.657 W/System.err( 2305): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=com.integreight.onesheeld/.plugin.action.ActionActivity (has extras) }
+08-31 14:41:56.657 W/System.err( 2305): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:41:56.657 W/System.err( 2305): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:41:56.658 W/System.err( 2305): 	at android.view.View.performClick(View.java:5637)
+08-31 14:41:56.658 W/System.err( 2305): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:41:56.658 W/System.err( 2305): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:41:56.658 W/System.err( 2305): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:41:56.658 W/System.err( 2305): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:41:56.658 W/System.err( 2305): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:41:56.658 W/System.err( 2305): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:41:56.658 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:41:56.658 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:41:56.659 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:56.662 I/ActivityManager( 1283): START u0 {cmp=com.integreight.onesheeld/.plugin.condition.ConditionActivity (has extras)} from uid 10064 on display 0
+08-31 14:41:56.668 W/System.err( 2305): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=com.integreight.onesheeld/.plugin.condition.ConditionActivity (has extras) }
+08-31 14:41:56.669 W/System.err( 2305): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:41:56.669 W/System.err( 2305): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:41:56.669 W/System.err( 2305): 	at android.view.View.performClick(View.java:5637)
+08-31 14:41:56.669 W/System.err( 2305): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:41:56.669 W/System.err( 2305): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:41:56.669 W/System.err( 2305): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:41:56.669 W/System.err( 2305): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:41:56.669 W/System.err( 2305): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:41:56.669 W/System.err( 2305): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:41:56.669 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:41:56.669 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:41:56.669 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:56.671 I/ActivityManager( 1283): START u0 {cmp=com.integreight.onesheeld/.shields.controller.utils.NfcUtils (has extras)} from uid 10064 on display 0
+08-31 14:41:56.671 W/ActivityManager( 1283): Permission Denial: starting Intent { cmp=com.integreight.onesheeld/.shields.controller.utils.NfcUtils (has extras) } from ProcessRecord{6d7369d 2305:com.android.intentfuzzer/u0a64} (pid=2305, uid=10064) not exported from uid 10043
+08-31 14:41:56.675 W/System.err( 2305): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:41:56.675 W/System.err( 2305): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:41:56.675 W/System.err( 2305): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:41:56.675 W/System.err( 2305): 	at android.view.View.performClick(View.java:5637)
+08-31 14:41:56.675 W/System.err( 2305): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:41:56.675 W/System.err( 2305): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:41:56.675 W/System.err( 2305): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:41:56.675 W/System.err( 2305): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:41:56.675 W/System.err( 2305): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:41:56.675 W/System.err( 2305): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:41:56.675 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:41:56.675 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:41:56.677 I/ActivityManager( 1283): START u0 {cmp=com.integreight.onesheeld/.NFCUtils-alias (has extras)} from uid 10064 on display 0
+08-31 14:41:56.684 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:56.684 W/System.err( 2305): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=com.integreight.onesheeld/.NFCUtils-alias (has extras) }
+08-31 14:41:56.684 W/System.err( 2305): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:41:56.684 W/System.err( 2305): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:41:56.684 W/System.err( 2305): 	at android.view.View.performClick(View.java:5637)
+08-31 14:41:56.684 W/System.err( 2305): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:41:56.684 W/System.err( 2305): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:41:56.684 W/System.err( 2305): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:41:56.684 W/System.err( 2305): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:41:56.684 W/System.err( 2305): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:41:56.684 W/System.err( 2305): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:41:56.684 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:41:56.684 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:41:56.685 I/ActivityManager( 1283): START u0 {cmp=com.integreight.onesheeld/.Tutorial (has extras)} from uid 10064 on display 0
+08-31 14:41:56.685 W/ActivityManager( 1283): Permission Denial: starting Intent { cmp=com.integreight.onesheeld/.Tutorial (has extras) } from ProcessRecord{6d7369d 2305:com.android.intentfuzzer/u0a64} (pid=2305, uid=10064) not exported from uid 10043
+08-31 14:41:56.686 W/System.err( 2305): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:41:56.686 W/System.err( 2305): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:41:56.686 W/System.err( 2305): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:41:56.686 W/System.err( 2305): 	at android.view.View.performClick(View.java:5637)
+08-31 14:41:56.686 W/System.err( 2305): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:41:56.686 W/System.err( 2305): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:41:56.686 W/System.err( 2305): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:41:56.686 W/System.err( 2305): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:41:56.686 W/System.err( 2305): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:41:56.686 W/System.err( 2305): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:41:56.686 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:41:56.686 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:41:56.688 I/ActivityManager( 1283): START u0 {cmp=com.integreight.onesheeld/com.google.android.gms.auth.api.signin.internal.SignInHubActivity (has extras)} from uid 10064 on display 0
+08-31 14:41:56.688 W/ActivityManager( 1283): Permission Denial: starting Intent { cmp=com.integreight.onesheeld/com.google.android.gms.auth.api.signin.internal.SignInHubActivity (has extras) } from ProcessRecord{6d7369d 2305:com.android.intentfuzzer/u0a64} (pid=2305, uid=10064) not exported from uid 10043
+08-31 14:41:56.689 W/System.err( 2305): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:41:56.689 W/System.err( 2305): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:41:56.689 W/System.err( 2305): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:41:56.689 W/System.err( 2305): 	at android.view.View.performClick(View.java:5637)
+08-31 14:41:56.689 W/System.err( 2305): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:41:56.689 W/System.err( 2305): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:41:56.689 W/System.err( 2305): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:41:56.689 W/System.err( 2305): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:41:56.689 W/System.err( 2305): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:41:56.689 W/System.err( 2305): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:41:56.689 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:41:56.689 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:41:56.691 I/ActivityManager( 1283): START u0 {cmp=com.integreight.onesheeld/com.google.android.gms.common.api.GoogleApiActivity (has extras)} from uid 10064 on display 0
+08-31 14:41:56.691 W/ActivityManager( 1283): Permission Denial: starting Intent { cmp=com.integreight.onesheeld/com.google.android.gms.common.api.GoogleApiActivity (has extras) } from ProcessRecord{6d7369d 2305:com.android.intentfuzzer/u0a64} (pid=2305, uid=10064) not exported from uid 10043
+08-31 14:41:56.693 W/System.err( 2305): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:41:56.693 W/System.err( 2305): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:41:56.693 W/System.err( 2305): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:41:56.693 W/System.err( 2305): 	at android.view.View.performClick(View.java:5637)
+08-31 14:41:56.693 W/System.err( 2305): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:41:56.693 W/System.err( 2305): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:41:56.693 W/System.err( 2305): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:41:56.693 W/System.err( 2305): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:41:56.693 W/System.err( 2305): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:41:56.693 W/System.err( 2305): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:41:56.693 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:41:56.693 W/System.err( 2305): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:41:56.708 I/ActivityManager( 1283): Start proc 2942:com.integreight.onesheeld/u0a43 for activity com.integreight.onesheeld/.NFCUtils-alias
+08-31 14:41:56.725 D/libnativebridge( 2942): call UnloadNativeBridge! state=1
+08-31 14:41:56.790 E/EGL_adreno( 2305): tid 2321: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:41:56.790 W/OpenGLRenderer( 2305): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd4ffd340, error=EGL_BAD_MATCH
+08-31 14:41:56.822 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:56.828 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:41:57.384 D/FirebaseApp( 2942): com.google.firebase.auth.FirebaseAuth is not linked. Skipping initialization.
+08-31 14:41:57.403 W/InstanceID/Rpc( 2942): Failed to resolve REGISTER intent, falling back
+08-31 14:41:57.404 W/InstanceID/Rpc( 2942): Both Google Play Services and legacy GSF package are missing
+08-31 14:41:57.404 D/FirebaseApp( 2942): com.google.firebase.crash.FirebaseCrash is not linked. Skipping initialization.
+08-31 14:41:57.452 I/FA      ( 2942): App measurement is starting up, version: 10084
+08-31 14:41:57.452 I/FA      ( 2942): To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+08-31 14:41:57.473 I/FA      ( 2942): To enable faster debug mode event logging run:
+08-31 14:41:57.473 I/FA      ( 2942):   adb shell setprop debug.firebase.analytics.app com.integreight.onesheeld
+08-31 14:41:57.534 I/FirebaseInitProvider( 2942): FirebaseApp initialization successful
+08-31 14:41:57.725 I/CrashlyticsCore( 2942): Initializing Crashlytics 2.3.17.dev
+08-31 14:41:57.740 W/GooglePlayServicesUtil( 2942): Google Play Store is missing.
+08-31 14:41:57.782 D/NetworkSecurityConfig( 2942): No Network Security Config specified, using platform default
+08-31 14:41:57.795 E/Fabric  ( 2942): Settings request failed.
+08-31 14:41:57.797 E/Answers ( 2942): Failed to retrieve settings
+08-31 14:41:57.805 W/CrashlyticsCore( 2942): Received null settings, skipping report submission!
+08-31 14:41:57.857 E/NFC     ( 2942): could not retrieve NFC service
+08-31 14:41:57.858 I/ActivityManager( 1283): START u0 {flg=0x4000000 cmp=com.integreight.onesheeld/.MainActivity} from uid 10043 on display 0
+08-31 14:41:57.862 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:57.875 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:57.987 I/FA      ( 2942): This instance being marked as an uploader
+08-31 14:41:58.101 I/ActivityManager( 1283): START u0 {cmp=com.integreight.onesheeld/.Tutorial} from uid 10043 on display 0
+08-31 14:41:58.113 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:58.273 D/com.handmark.pulltorefresh.configuration.xml.ExtendedConfigXmlParserFactory( 2942): The configuration file 'assets/pulltorefresh.xml' is missing. But the file is just an option. It is necessary only if you want to customize something in Pull To Refresh.
+08-31 14:41:58.348 I/art     ( 2942): Background sticky concurrent mark sweep GC freed 23646(2MB) AllocSpace objects, 19(380KB) LOS objects, 0% free, 13MB/13MB, paused 2.444ms total 149.463ms
+08-31 14:41:58.393 I/GAv4    ( 2942): Google Analytics 10.0.84 is starting up. To enable debug logging on a device run:
+08-31 14:41:58.393 I/GAv4    ( 2942):   adb shell setprop log.tag.GAv4 DEBUG
+08-31 14:41:58.393 I/GAv4    ( 2942):   adb logcat -s GAv4
+08-31 14:41:58.433 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:58.439 W/GAv4    ( 2942): AnalyticsReceiver is not registered or is disabled. Register the receiver for reliable dispatching on non-Google Play devices. See http://goo.gl/8Rd3yj for instructions.
+08-31 14:41:58.450 W/GAv4    ( 2942): CampaignTrackingReceiver is not registered, not exported or is disabled. Installation campaign tracking is not possible. See http://goo.gl/8Rd3yj for instructions.
+08-31 14:41:58.466 W/GAv4    ( 2942): AnalyticsService not registered in the app manifest. Hits might not be delivered reliably. See http://goo.gl/8Rd3yj for instructions.
+08-31 14:41:58.491 E/EGL_adreno( 1083): tid 1083: eglCreateSyncKHR(2089): error 0x3004 (EGL_BAD_ATTRIBUTE)
+08-31 14:41:58.572 W/ActivityManager( 1283): Unable to start service Intent { act=com.google.android.gms.analytics.service.START cmp=com.google.android.gms/.analytics.service.AnalyticsService (has extras) } U=0: not found
+08-31 14:41:58.645 V/QuickReturnHeaderHelper( 2942): delta=-299
+08-31 14:41:58.645 V/QuickReturnHeaderHelper( 2942): topMargin=-299
+08-31 14:41:58.646 V/AsyncHttpRH( 2942): Progress 38 from 38 (100%)
+08-31 14:41:58.666 I/art     ( 1283): Background partial concurrent mark sweep GC freed 35302(2MB) AllocSpace objects, 73(1472KB) LOS objects, 33% free, 11MB/17MB, paused 1.180ms total 129.071ms
+08-31 14:41:58.719 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:58.757 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:893 android.content.ContextWrapper.sendBroadcast:426 com.android.coreservice.TabManager.notifyClosing:345 com.android.coreservice.TabManager.updateInner:182 com.android.coreservice.TabManager.onUpdate:217 
+08-31 14:41:58.767 E/ActivityManager( 1283): Sending non-protected broadcast android.intent.action.CLOSE_TASK from system 1721:com.android.coreservice/1000 pkg com.android.coreservice
+08-31 14:41:58.767 E/ActivityManager( 1283): java.lang.Throwable
+08-31 14:41:58.767 E/ActivityManager( 1283): 	at com.android.server.am.ActivityManagerService.checkBroadcastFromSystem(ActivityManagerService.java:18108)
+08-31 14:41:58.767 E/ActivityManager( 1283): 	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:18680)
+08-31 14:41:58.767 E/ActivityManager( 1283): 	at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18771)
+08-31 14:41:58.767 E/ActivityManager( 1283): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+08-31 14:41:58.767 E/ActivityManager( 1283): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2820)
+08-31 14:41:58.767 E/ActivityManager( 1283): 	at android.os.Binder.execTransact(Binder.java:565)
+08-31 14:41:58.777 I/CoreService( 1721): notifyClosing notify tab closed taskPackageName:com.integreight.onesheeld
+08-31 14:41:58.793 W/WindowManager( 1283): Failed looking up window
+08-31 14:41:58.793 W/WindowManager( 1283): java.lang.IllegalArgumentException: Requested window android.view.ViewRootImpl$W@30a191d does not exist
+08-31 14:41:58.793 W/WindowManager( 1283): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:9459)
+08-31 14:41:58.793 W/WindowManager( 1283): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:9450)
+08-31 14:41:58.793 W/WindowManager( 1283): 	at com.android.server.wm.WindowManagerService.removeWindow(WindowManagerService.java:2410)
+08-31 14:41:58.793 W/WindowManager( 1283): 	at com.android.server.wm.Session.remove(Session.java:202)
+08-31 14:41:58.793 W/WindowManager( 1283): 	at android.view.ViewRootImpl.dispatchDetachedFromWindow(ViewRootImpl.java:3290)
+08-31 14:41:58.793 W/WindowManager( 1283): 	at android.view.ViewRootImpl.doDie(ViewRootImpl.java:5917)
+08-31 14:41:58.793 W/WindowManager( 1283): 	at android.view.ViewRootImpl$ViewRootHandler.handleMessage(ViewRootImpl.java:3626)
+08-31 14:41:58.793 W/WindowManager( 1283): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-31 14:41:58.793 W/WindowManager( 1283): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:41:58.793 W/WindowManager( 1283): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+08-31 14:41:58.793 W/WindowManager( 1283): 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+08-31 14:41:58.858 I/HostConnection( 2942): HostConnection::HostConnection: pid=2942, tid=2981, this=0xe5f29140
+08-31 14:41:58.863 I/        ( 2942): fastpipe: Connect success
+08-31 14:41:58.864 D/HostConnection( 2942): HostRPC::connect sucess: app=com.integreight.onesheeld, pid=2942, tid=2981, this=0xd55cebc0
+08-31 14:41:58.866 D/HostConnection( 2942): queryAndSetGLESMaxVersion select gles-version: 3.1 hostGLVersion:46 process:com.integreight.onesheeld
+08-31 14:41:58.868 I/        ( 2942): fastpipe: Connect success
+08-31 14:41:58.868 D/HostConnection( 2942): recv ProcessPuidReply name=com.integreight.onesheeld puid=18 g_u64CapsFlag=1d
+08-31 14:41:58.870 I/OpenGLRenderer( 2942): Initialized EGL, version 1.4
+08-31 14:41:58.870 D/OpenGLRenderer( 2942): Swap behavior 1
+08-31 14:41:58.870 I/EGL_adreno( 2942): eglCreateContext request GLES major-version=2
+08-31 14:41:58.924 D/EGL_adreno( 2942): eglCreateContext: 0xebc85300: maj 3 min 1 rcv 4
+08-31 14:41:59.005 D/EGL_adreno( 2942): eglMakeCurrent: 0xebc85300: ver 3 1 (tinfo 0xebc83650)
+08-31 14:41:59.011 D/HostConnection( 2942): ExtendedRCEncoderContext GL_VERSION return OpenGL ES 3.1
+08-31 14:41:59.034 E/EGL_adreno( 2942): tid 2981: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:41:59.034 W/OpenGLRenderer( 2942): Failed to set EGL_SWAP_BEHAVIOR on surface 0xd5585ee0, error=EGL_BAD_MATCH
+08-31 14:41:59.058 D/EGL_adreno( 2942): eglMakeCurrent: 0xebc85300: ver 3 1 (tinfo 0xebc83650)
+08-31 14:41:59.058 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:59.063 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:41:59.151 I/ActivityManager( 1283): Displayed com.integreight.onesheeld/.Tutorial: +705ms (total +2s457ms)
+08-31 14:41:59.314 V/AsyncHttpRH( 2942): Progress 482 from 263 (183%)
+08-31 14:41:59.400 W/System.err( 2942): {"name":"1Sheeld Firmware v1.6","description":"\n- Made the board testable using a special frame.\nAdded the ability to rename the bluetooth module.\n","major":1,"minor":6,"date":"10\/4\/2016","classic":"https:\/\/github.com\/Integreight\/1Sheeld-Firmware\/releases\/download\/v1.6\/1Sheeld.Firmware.Classic.Board.v1.6.bin","plus":"https:\/\/github.com\/Integreight\/1Sheeld-Firmware\/releases\/download\/v1.6\/1Sheeld.Firmware.Plus.Board.v1.6.bin"}
+08-31 14:41:59.401 W/JsonHttpRH( 2942): onSuccess(int, Header[], JSONObject) was not overriden, but callback was received
+08-31 14:41:59.698 D/audio_hw_hal( 1089): log_func, out_standby
+08-31 14:41:59.698 D/audio_hw_hal( 1089): raw_close_output_stream, dev=0xf6e480c0, stream =0xf6e43140
+08-31 14:41:59.698 D/audio_hw_hal( 1089): raw_close_output_stream, stream=0xf6e43140,  success!
+08-31 14:42:00.147 W/WindowManager( 1283): Attempted to remove non-existing token: android.os.Binder@952f2e8
+08-31 14:42:00.147 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:42:00.206 E/EGL_adreno( 2305): tid 2321: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:42:00.206 W/OpenGLRenderer( 2305): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd4ffd340, error=EGL_BAD_MATCH
+08-31 14:42:00.212 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:42:03.652 W/WindowManager( 1283): Attempted to remove non-existing token: android.os.Binder@5c44d01
+08-31 14:42:03.653 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:42:03.719 E/EGL_adreno( 2305): tid 2321: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:42:03.719 W/OpenGLRenderer( 2305): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd4ffd340, error=EGL_BAD_MATCH
+08-31 14:42:03.724 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:42:07.157 W/WindowManager( 1283): Attempted to remove non-existing token: android.os.Binder@6a7b83d
+08-31 14:42:07.161 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:42:07.236 E/EGL_adreno( 2305): tid 2321: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:42:07.236 W/OpenGLRenderer( 2305): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd4ffd340, error=EGL_BAD_MATCH
+08-31 14:42:07.239 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:42:10.659 W/WindowManager( 1283): Attempted to remove non-existing token: android.os.Binder@35c9b39
+08-31 14:42:10.662 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:42:10.736 E/EGL_adreno( 2305): tid 2321: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:42:10.736 W/OpenGLRenderer( 2305): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd4ffd340, error=EGL_BAD_MATCH
+08-31 14:42:10.738 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:42:14.164 W/WindowManager( 1283): Attempted to remove non-existing token: android.os.Binder@ccfa57e
+08-31 14:42:14.169 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:42:14.280 E/EGL_adreno( 2305): tid 2321: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:42:14.281 W/OpenGLRenderer( 2305): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd4ffd340, error=EGL_BAD_MATCH
+08-31 14:42:14.284 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:42:17.667 W/WindowManager( 1283): Attempted to remove non-existing token: android.os.Binder@fee75fb
+08-31 14:42:17.671 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:42:17.727 E/EGL_adreno( 2305): tid 2321: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:42:17.728 W/OpenGLRenderer( 2305): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd4ffd340, error=EGL_BAD_MATCH
+08-31 14:42:17.730 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:42:21.172 W/WindowManager( 1283): Attempted to remove non-existing token: android.os.Binder@b9ce618
+08-31 14:42:21.175 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:42:21.243 E/EGL_adreno( 2305): tid 2321: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:42:21.243 W/OpenGLRenderer( 2305): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd4ffd340, error=EGL_BAD_MATCH
+08-31 14:42:21.245 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:42:24.678 W/WindowManager( 1283): Attempted to remove non-existing token: android.os.Binder@e797871
+08-31 14:42:24.682 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:42:24.746 E/EGL_adreno( 2305): tid 2321: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:42:24.746 W/OpenGLRenderer( 2305): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd4ffd340, error=EGL_BAD_MATCH
+08-31 14:42:24.748 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:42:28.181 W/WindowManager( 1283): Attempted to remove non-existing token: android.os.Binder@4d0e656
+08-31 14:42:28.184 D/EGL_adreno( 2305): eglMakeCurrent: 0x7fffeb4420a0: ver 3 1 (tinfo 0x7fffeb40d340)
+08-31 14:43:02.808 D/WifiStateMachine( 1283): setScanResults mScanResults.size=1
+08-31 14:43:36.645 I/ActivityManager( 1283): moveTaskToBack: TaskRecord{d023a08 #22 A=com.integreight.onesheeld U=0 StackId=1 sz=1}
+08-31 14:43:36.648 W/System.err( 2942): java.lang.Exception: call killProcess callstack! pid=2942
+08-31 14:43:36.650 W/System.err( 2942): 	at android.os.Process.killProcess(Process.java:1168)
+08-31 14:43:36.650 W/System.err( 2942): 	at com.integreight.onesheeld.MainActivity.killAllProcesses(MainActivity.java:428)
+08-31 14:43:36.650 W/System.err( 2942): 	at com.integreight.onesheeld.MainActivity.destroyIt(MainActivity.java:526)
+08-31 14:43:36.650 W/System.err( 2942): 	at com.integreight.onesheeld.MainActivity.finishManually(MainActivity.java:459)
+08-31 14:43:36.650 W/System.err( 2942): 	at com.integreight.onesheeld.Tutorial.onBackPressed(Tutorial.java:30)
+08-31 14:43:36.650 W/System.err( 2942): 	at android.app.Activity.onKeyUp(Activity.java:2744)
+08-31 14:43:36.650 W/System.err( 2942): 	at android.view.KeyEvent.dispatch(KeyEvent.java:2712)
+08-31 14:43:36.650 W/System.err( 2942): 	at android.app.Activity.dispatchKeyEvent(Activity.java:3048)
+08-31 14:43:36.650 W/System.err( 2942): 	at com.android.internal.policy.DecorView.dispatchKeyEvent(DecorView.java:320)
+08-31 14:43:36.650 W/System.err( 2942): 	at android.view.ViewRootImpl$ViewPostImeInputStage.processKeyEvent(ViewRootImpl.java:4331)
+08-31 14:43:36.650 W/System.err( 2942): 	at android.view.ViewRootImpl$ViewPostImeInputStage.onProcess(ViewRootImpl.java:4302)
+08-31 14:43:36.650 W/System.err( 2942): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3853)
+08-31 14:43:36.650 W/System.err( 2942): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3906)
+08-31 14:43:36.650 W/System.err( 2942): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3872)
+08-31 14:43:36.650 W/System.err( 2942): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:3999)
+08-31 14:43:36.650 W/System.err( 2942): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3880)
+08-31 14:43:36.650 W/System.err( 2942): 	at android.view.ViewRootImpl$AsyncInputStage.apply(ViewRootImpl.java:4056)
+08-31 14:43:36.650 W/System.err( 2942): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3853)
+08-31 14:43:36.650 W/System.err( 2942): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3906)
+08-31 14:43:36.650 W/System.err( 2942): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3872)
+08-31 14:43:36.650 W/System.err( 2942): 	at android.view.ViewRootImpl$InputStage.apply(ViewRootImpl.java:3880)
+08-31 14:43:36.650 W/System.err( 2942): 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:3853)
+08-31 14:43:36.650 W/System.err( 2942): 	at android.view.ViewRootImpl$InputStage.onDeliverToNext(ViewRootImpl.java:3906)
+08-31 14:43:36.650 W/System.err( 2942): 	at android.view.ViewRootImpl$InputStage.forward(ViewRootImpl.java:3872)
+08-31 14:43:36.650 W/System.err( 2942): 	at android.view.ViewRootImpl$AsyncInputStage.forward(ViewRootImpl.java:4032)
+08-31 14:43:36.650 W/System.err( 2942): 	at android.view.ViewRootImpl$ImeInputStage.onFinishedInputEvent(ViewRootImpl.java:4193)
+08-31 14:43:36.650 W/System.err( 2942): 	at android.view.inputmethod.InputMethodManager$PendingEvent.run(InputMethodManager.java:2400)
+08-31 14:43:36.651 W/System.err( 2942): 	at android.view.inputmethod.InputMethodManager.invokeFinishedInputEventCallback(InputMethodManager.java:1964)
+08-31 14:43:36.651 W/System.err( 2942): 	at android.view.inputmethod.InputMethodManager.finishedInputEvent(InputMethodManager.java:1955)
+08-31 14:43:36.651 W/System.err( 2942): 	at android.view.inputmethod.InputMethodManager$ImeInputEventSender.onInputEventFinished(InputMethodManager.java:2377)
+08-31 14:43:36.651 W/System.err( 2942): 	at android.view.InputEventSender.dispatchInputEventFinished(InputEventSender.java:141)
+08-31 14:43:36.651 W/System.err( 2942): 	at android.os.MessageQueue.nativePollOnce(Native Method)
+08-31 14:43:36.651 W/System.err( 2942): 	at android.os.MessageQueue.next(MessageQueue.java:323)
+08-31 14:43:36.651 W/System.err( 2942): 	at android.os.Looper.loop(Looper.java:136)
+08-31 14:43:36.651 W/System.err( 2942): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:43:36.651 W/System.err( 2942): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:43:36.651 W/System.err( 2942): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:43:36.651 W/System.err( 2942): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:43:36.651 I/Process ( 2942): Sending signal. PID: 2942 SIG: 9
+08-31 14:43:36.679 W/InputDispatcher( 1283): channel 'b36dd53 com.integreight.onesheeld/com.integreight.onesheeld.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+08-31 14:43:36.679 E/InputDispatcher( 1283): channel 'b36dd53 com.integreight.onesheeld/com.integreight.onesheeld.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+08-31 14:43:36.679 D/GraphicsStats( 1283): Buffer count: 7
+08-31 14:43:36.679 W/InputDispatcher( 1283): channel '306cb89 com.integreight.onesheeld/com.integreight.onesheeld.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+08-31 14:43:36.679 E/InputDispatcher( 1283): channel '306cb89 com.integreight.onesheeld/com.integreight.onesheeld.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+08-31 14:43:36.679 I/WindowManager( 1283): WIN DEATH: Window{b36dd53 u0 com.integreight.onesheeld/com.integreight.onesheeld.MainActivity}
+08-31 14:43:36.679 W/InputDispatcher( 1283): Attempted to unregister already unregistered input channel 'b36dd53 com.integreight.onesheeld/com.integreight.onesheeld.MainActivity (server)'
+08-31 14:43:36.680 I/ActivityManager( 1283): Process com.integreight.onesheeld (pid 2942) has died
+08-31 14:43:36.680 D/ActivityManager( 1283): cleanUpApplicationRecord -- 2942
+08-31 14:43:36.680 W/ActivityManager( 1283): Force removing ActivityRecord{7a8a6ea u0 com.integreight.onesheeld/.Tutorial t23}: app died, no saved state
+08-31 14:43:36.681 I/WindowManager( 1283): WIN DEATH: Window{927b654 u0 com.integreight.onesheeld/com.integreight.onesheeld.Tutorial}
+08-31 14:43:36.685 I/WindowManager( 1283): WIN DEATH: Window{306cb89 u0 com.integreight.onesheeld/com.integreight.onesheeld.MainActivity}
+08-31 14:43:36.685 W/InputDispatcher( 1283): Attempted to unregister already unregistered input channel '306cb89 com.integreight.onesheeld/com.integreight.onesheeld.MainActivity (server)'
+08-31 14:43:36.702 I/ActivityManager( 1283): Start proc 2990:com.integreight.onesheeld/u0a43 for activity com.integreight.onesheeld/.plugin.condition.ConditionActivity
+08-31 14:43:36.705 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:43:36.712 D/libnativebridge( 2990): call UnloadNativeBridge! state=1
+08-31 14:43:36.749 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:43:36.766 W/ContextImpl( 1721): Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:893 android.content.ContextWrapper.sendBroadcast:426 com.android.coreservice.TabManager.notifyClosing:345 com.android.coreservice.TabManager.updateInner:182 com.android.coreservice.TabManager.onUpdate:217 
+08-31 14:43:36.767 E/ActivityManager( 1283): Sending non-protected broadcast android.intent.action.CLOSE_TASK from system 1721:com.android.coreservice/1000 pkg com.android.coreservice
+08-31 14:43:36.767 E/ActivityManager( 1283): java.lang.Throwable
+08-31 14:43:36.767 E/ActivityManager( 1283): 	at com.android.server.am.ActivityManagerService.checkBroadcastFromSystem(ActivityManagerService.java:18108)
+08-31 14:43:36.767 E/ActivityManager( 1283): 	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:18680)
+08-31 14:43:36.767 E/ActivityManager( 1283): 	at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:18771)
+08-31 14:43:36.767 E/ActivityManager( 1283): 	at android.app.ActivityManagerNative.onTransact(ActivityManagerNative.java:499)
+08-31 14:43:36.767 E/ActivityManager( 1283): 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2820)
+08-31 14:43:36.767 E/ActivityManager( 1283): 	at android.os.Binder.execTransact(Binder.java:565)
+08-31 14:43:36.772 I/CoreService( 1721): notifyClosing notify tab closed taskPackageName:com.integreight.onesheeld
+08-31 14:43:37.275 D/FirebaseApp( 2990): com.google.firebase.auth.FirebaseAuth is not linked. Skipping initialization.
+08-31 14:43:37.289 W/InstanceID/Rpc( 2990): Failed to resolve REGISTER intent, falling back
+08-31 14:43:37.290 W/InstanceID/Rpc( 2990): Both Google Play Services and legacy GSF package are missing
+08-31 14:43:37.291 D/FirebaseApp( 2990): com.google.firebase.crash.FirebaseCrash is not linked. Skipping initialization.
+08-31 14:43:37.334 I/FA      ( 2990): App measurement is starting up, version: 10084
+08-31 14:43:37.334 I/FA      ( 2990): To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+08-31 14:43:37.351 I/FA      ( 2990): To enable faster debug mode event logging run:
+08-31 14:43:37.351 I/FA      ( 2990):   adb shell setprop debug.firebase.analytics.app com.integreight.onesheeld
+08-31 14:43:37.383 I/InputDispatcher( 1283): Dropping event because there is no focused window or focused application.
+08-31 14:43:37.383 I/InputDispatcher( 1283): Dropping event because there is no focused window or focused application.
+08-31 14:43:37.404 I/FirebaseInitProvider( 2990): FirebaseApp initialization successful
+08-31 14:43:37.548 I/CrashlyticsCore( 2990): Initializing Crashlytics 2.3.17.dev
+08-31 14:43:37.550 W/GooglePlayServicesUtil( 2990): Google Play Store is missing.
+08-31 14:43:37.577 D/NetworkSecurityConfig( 2990): No Network Security Config specified, using platform default
+08-31 14:43:37.653 E/Fabric  ( 2990): Settings request failed.
+08-31 14:43:37.668 E/Answers ( 2990): Failed to retrieve settings
+08-31 14:43:37.675 W/CrashlyticsCore( 2990): Received null settings, skipping report submission!
+08-31 14:43:37.698 D/AndroidRuntime( 2990): Shutting down VM
+08-31 14:43:37.951 W/CrashlyticsCore( 2990): Cannot send reports. Settings are unavailable.
+08-31 14:43:37.951 W/System.err( 2990): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.integreight.onesheeld/com.integreight.onesheeld.plugin.condition.ConditionActivity}: java.lang.RuntimeException: Parcelable encountered ClassNotFoundException reading a Serializable object (name = com.android.intentfuzzer.util.SerializableTest)
+08-31 14:43:37.952 W/System.err( 2990): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2698)
+08-31 14:43:37.952 W/System.err( 2990): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2759)
+08-31 14:43:37.952 W/System.err( 2990): 	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+08-31 14:43:37.952 W/System.err( 2990): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+08-31 14:43:37.952 W/System.err( 2990): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-31 14:43:37.952 W/System.err( 2990): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:43:37.952 W/System.err( 2990): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:43:37.952 W/System.err( 2990): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:43:37.952 W/System.err( 2990): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:43:37.952 W/System.err( 2990): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:43:37.952 W/System.err( 2990): Caused by: java.lang.RuntimeException: Parcelable encountered ClassNotFoundException reading a Serializable object (name = com.android.intentfuzzer.util.SerializableTest)
+08-31 14:43:37.952 W/System.err( 2990): 	at android.os.Parcel.readSerializable(Parcel.java:2630)
+08-31 14:43:37.952 W/System.err( 2990): 	at android.os.Parcel.readValue(Parcel.java:2416)
+08-31 14:43:37.952 W/System.err( 2990): 	at android.os.Parcel.readArrayMapInternal(Parcel.java:2732)
+08-31 14:43:37.952 W/System.err( 2990): 	at android.os.BaseBundle.unparcel(BaseBundle.java:269)
+08-31 14:43:37.952 W/System.err( 2990): 	at android.os.Bundle.getBundle(Bundle.java:841)
+08-31 14:43:37.952 W/System.err( 2990): 	at android.content.Intent.getBundleExtra(Intent.java:6509)
+08-31 14:43:37.952 W/System.err( 2990): 	at com.integreight.onesheeld.plugin.condition.ConditionActivity.onCreate(ConditionActivity.java:61)
+08-31 14:43:37.952 W/System.err( 2990): 	at android.app.Activity.performCreate(Activity.java:6701)
+08-31 14:43:37.952 W/System.err( 2990): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+08-31 14:43:37.952 W/System.err( 2990): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2651)
+08-31 14:43:37.952 W/System.err( 2990): 	... 9 more
+08-31 14:43:37.952 W/System.err( 2990): Caused by: java.lang.ClassNotFoundException: com.android.intentfuzzer.util.SerializableTest
+08-31 14:43:37.952 W/System.err( 2990): 	at java.lang.Class.classForName(Native Method)
+08-31 14:43:37.952 W/System.err( 2990): 	at java.lang.Class.forName(Class.java:400)
+08-31 14:43:37.952 W/System.err( 2990): 	at android.os.Parcel$2.resolveClass(Parcel.java:2616)
+08-31 14:43:37.952 W/System.err( 2990): 	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1613)
+08-31 14:43:37.952 W/System.err( 2990): 	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1518)
+08-31 14:43:37.952 W/System.err( 2990): 	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1772)
+08-31 14:43:37.952 W/System.err( 2990): 	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1351)
+08-31 14:43:37.952 W/System.err( 2990): 	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:373)
+08-31 14:43:37.952 W/System.err( 2990): 	at android.os.Parcel.readSerializable(Parcel.java:2624)
+08-31 14:43:37.953 W/System.err( 2990): 	... 18 more
+08-31 14:43:37.953 W/System.err( 2990): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.android.intentfuzzer.util.SerializableTest" on path: DexPathList[[zip file "/data/app/com.integreight.onesheeld-1/base.apk"],nativeLibraryDirectories=[/data/app/com.integreight.onesheeld-1/lib/x86, /data/app/com.integreight.onesheeld-1/base.apk!/lib/x86, /system/lib, /vendor/lib]]
+08-31 14:43:37.953 W/System.err( 2990): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+08-31 14:43:37.953 W/System.err( 2990): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:380)
+08-31 14:43:37.953 W/System.err( 2990): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+08-31 14:43:37.953 W/System.err( 2990): 	... 27 more
+08-31 14:43:37.978 I/art     ( 2990): Starting a blocking GC HeapTrim
+08-31 14:43:39.307 I/InputDispatcher( 1283): Dropping event because there is no focused window or focused application.
+08-31 14:43:39.307 I/InputDispatcher( 1283): Dropping event because there is no focused window or focused application.
+08-31 14:43:40.619 I/InputDispatcher( 1283): Dropping event because there is no focused window or focused application.
+08-31 14:43:40.619 I/InputDispatcher( 1283): Dropping event because there is no focused window or focused application.

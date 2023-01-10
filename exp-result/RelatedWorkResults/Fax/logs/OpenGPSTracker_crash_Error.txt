@@ -1,0 +1,66 @@
+BugInfo:
+hash:29181634
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{nl.sogeti.android.gpstracker/nl.sogeti.android.gpstracker.actions.ShareTrack}: java.lang.NullPointerException: uri
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: uri
+	at com.android.internal.util.Preconditions.checkNotNull(Preconditions.java:128)
+	at android.content.ContentResolver.query(ContentResolver.java:743)
+	at android.content.ContentResolver.query(ContentResolver.java:710)
+	at android.content.ContentResolver.query(ContentResolver.java:668)
+	at nl.sogeti.android.gpstracker.actions.ShareTrack.queryForTrackName(ShareTrack.java:617)
+	at nl.sogeti.android.gpstracker.actions.ShareTrack.onCreate(ShareTrack.java:206)
+	at android.app.Activity.performCreate(Activity.java:7183)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1220)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2910)
+	... 9 more
+
+ICC Msgs:
+32	nl.sogeti.android.gpstracker.actions.ShareTrack	null;;null;;null;;null;;
+
+35	nl.sogeti.android.gpstracker.actions.ShareTrack	null;;null;;null;;null;;Serializable->serObj->SerializableObj,
+
+33	nl.sogeti.android.gpstracker.actions.ShareTrack	"A";;null;;null;;null;;
+
+34	nl.sogeti.android.gpstracker.actions.ShareTrack	null;;null;;null;;null;;Parcelable->parObj->ParcelableObj,
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:1552191402
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{nl.sogeti.android.gpstracker/nl.sogeti.android.gpstracker.viewer.LoggerMap}: java.lang.NumberFormatException: For input string: "A"
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NumberFormatException: For input string: "A"
+	at java.lang.Long.parseLong(Long.java:590)
+	at java.lang.Long.parseLong(Long.java:632)
+	at nl.sogeti.android.gpstracker.viewer.LoggerMap.onRestoreInstanceState(LoggerMap.java:353)
+	at nl.sogeti.android.gpstracker.viewer.LoggerMap.onCreate(LoggerMap.java:223)
+	at android.app.Activity.performCreate(Activity.java:7183)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1220)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2910)
+	... 9 more
+
+ICC Msgs:
+9	nl.sogeti.android.gpstracker.viewer.LoggerMap	null;;null;;"A";;null;;
+
+------------------------------------------------------------------------
+

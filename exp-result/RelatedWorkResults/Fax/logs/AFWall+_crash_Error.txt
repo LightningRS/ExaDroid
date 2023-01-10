@@ -1,0 +1,27 @@
+BugInfo:
+hash:1251061621
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{dev.ukanth.ufirewall/dev.ukanth.ufirewall.plugin.LocaleEdit}: java.lang.NumberFormatException: For input string: "999999999999999999999999999999999999999999999999999"
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NumberFormatException: For input string: "999999999999999999999999999999999999999999999999999"
+	at java.lang.Integer.parseInt(Integer.java:611)
+	at java.lang.Integer.parseInt(Integer.java:643)
+	at dev.ukanth.ufirewall.plugin.LocaleEdit.onCreate(LocaleEdit.java:109)
+	at android.app.Activity.performCreate(Activity.java:7183)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1220)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2910)
+	... 9 more
+
+ICC Msgs:
+56	dev.ukanth.ufirewall.plugin.LocaleEdit	null;;null;;null;;null;;Bundle->com.twofortyfouram.locale.intent.extra.BUNDLE->BundleObj,(,String->dev.ukanth.ufirewall.plugin.APPLY_PROFILE->999999999999999999999999999999999999999999999999999,),
+
+------------------------------------------------------------------------

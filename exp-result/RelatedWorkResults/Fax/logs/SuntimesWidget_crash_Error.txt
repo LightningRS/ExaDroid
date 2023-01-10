@@ -1,0 +1,389 @@
+BugInfo:
+hash:521105120
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to destroy activity {com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.MoonWidget0ConfigActivity_2x1}: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4605)
+	at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:4623)
+	at android.app.ActivityThread.-wrap5(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1757)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at com.forrestguice.suntimeswidget.SuntimesConfigActivity0.onDestroy(SuntimesConfigActivity0.java:191)
+	at android.app.Activity.performDestroy(Activity.java:7522)
+	at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1255)
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4592)
+	... 9 more
+
+ICC Msgs:
+1	com.forrestguice.suntimeswidget.MoonWidget0ConfigActivity_2x1	null;;null;;null;;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:211849442
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to destroy activity {com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesConfigActivity2_3x1}: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4605)
+	at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:4623)
+	at android.app.ActivityThread.-wrap5(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1757)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at com.forrestguice.suntimeswidget.SuntimesConfigActivity0.onDestroy(SuntimesConfigActivity0.java:191)
+	at android.app.Activity.performDestroy(Activity.java:7522)
+	at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1255)
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4592)
+	... 9 more
+
+ICC Msgs:
+85	com.forrestguice.suntimeswidget.SuntimesConfigActivity2_3x1	null;;null;;null;;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:1395008627
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to resume activity {com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.alarmclock.ui.AlarmDismissActivity}: java.lang.NumberFormatException: For input string: "A"
+	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:3790)
+	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:3830)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3038)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NumberFormatException: For input string: "A"
+	at java.lang.Long.parseLong(Long.java:590)
+	at java.lang.Long.parseLong(Long.java:632)
+	at android.content.ContentUris.parseId(ContentUris.java:86)
+	at com.forrestguice.suntimeswidget.alarmclock.ui.AlarmDismissActivity.onResume(AlarmDismissActivity.java:223)
+	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1361)
+	at android.app.Activity.performResume(Activity.java:7415)
+	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:3765)
+	... 10 more
+
+ICC Msgs:
+44	com.forrestguice.suntimeswidget.alarmclock.ui.AlarmDismissActivity	null;;null;;"A";;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:-1349437116
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+	at com.forrestguice.suntimeswidget.LocationConfigView.bundleData(LocationConfigView.java:743)
+	at com.forrestguice.suntimeswidget.LocationConfigView.bundleData(LocationConfigView.java:735)
+	at com.forrestguice.suntimeswidget.LocationConfigView.loadSettings(LocationConfigView.java:682)
+	at com.forrestguice.suntimeswidget.LocationConfigDialog.onCreateDialog(LocationConfigDialog.java:276)
+	at android.support.v4.app.DialogFragment.onGetLayoutInflater(DialogFragment.java:310)
+	at android.support.v4.app.Fragment.performGetLayoutInflater(Fragment.java:1166)
+	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1340)
+	at android.support.v4.app.FragmentManagerImpl.moveFragmentToExpectedState(FragmentManager.java:1569)
+	at android.support.v4.app.FragmentManagerImpl.moveToState(FragmentManager.java:1636)
+	at android.support.v4.app.BackStackRecord.executeOps(BackStackRecord.java:758)
+	at android.support.v4.app.FragmentManagerImpl.executeOps(FragmentManager.java:2415)
+	at android.support.v4.app.FragmentManagerImpl.executeOpsTogether(FragmentManager.java:2201)
+	at android.support.v4.app.FragmentManagerImpl.optimizeAndExecuteOps(FragmentManager.java:2155)
+	at android.support.v4.app.FragmentManagerImpl.execPendingActions(FragmentManager.java:2064)
+	at android.support.v4.app.FragmentController.execPendingActions(FragmentController.java:379)
+	at android.support.v4.app.FragmentActivity.onStart(FragmentActivity.java:607)
+	at android.support.v7.app.AppCompatActivity.onStart(AppCompatActivity.java:178)
+	at com.forrestguice.suntimeswidget.SuntimesActivity.onStart(SuntimesActivity.java:348)
+	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1340)
+	at android.app.Activity.performStart(Activity.java:7200)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2920)
+	... 9 more
+
+ICC Msgs:
+54	com.forrestguice.suntimeswidget.SuntimesActivity	"aaaaaag";;null;;"l";;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:-1235557111
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to destroy activity {com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SolsticeWidget0ConfigActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4605)
+	at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:4623)
+	at android.app.ActivityThread.-wrap5(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1757)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at com.forrestguice.suntimeswidget.SuntimesConfigActivity0.onDestroy(SuntimesConfigActivity0.java:191)
+	at android.app.Activity.performDestroy(Activity.java:7522)
+	at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1255)
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4592)
+	... 9 more
+
+ICC Msgs:
+10	com.forrestguice.suntimeswidget.SolsticeWidget0ConfigActivity	null;;null;;null;;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:-1905649973
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to destroy activity {com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesConfigActivity2}: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4605)
+	at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:4623)
+	at android.app.ActivityThread.-wrap5(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1757)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at com.forrestguice.suntimeswidget.SuntimesConfigActivity0.onDestroy(SuntimesConfigActivity0.java:191)
+	at android.app.Activity.performDestroy(Activity.java:7522)
+	at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1255)
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4592)
+	... 9 more
+
+ICC Msgs:
+82	com.forrestguice.suntimeswidget.SuntimesConfigActivity2	null;;null;;null;;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:502607373
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to destroy activity {com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesConfigActivity0}: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4605)
+	at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:4623)
+	at android.app.ActivityThread.-wrap5(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1757)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at com.forrestguice.suntimeswidget.SuntimesConfigActivity0.onDestroy(SuntimesConfigActivity0.java:191)
+	at android.app.Activity.performDestroy(Activity.java:7522)
+	at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1255)
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4592)
+	... 9 more
+
+ICC Msgs:
+57	com.forrestguice.suntimeswidget.SuntimesConfigActivity0	null;;null;;null;;null;;
+
+58	com.forrestguice.suntimeswidget.SuntimesConfigActivity0	null;;null;;null;;null;;Extras->ExtrasObj->ExtrasObj,(,),
+
+59	com.forrestguice.suntimeswidget.SuntimesConfigActivity0	null;;null;;null;;null;;Extras->ExtrasObj->ExtrasObj,(,int->appWidgetId->Integer.MAX_VALUE,),
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:-1467941073
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to destroy activity {com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.MoonWidget0ConfigActivity_3x1}: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4605)
+	at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:4623)
+	at android.app.ActivityThread.-wrap5(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1757)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at com.forrestguice.suntimeswidget.SuntimesConfigActivity0.onDestroy(SuntimesConfigActivity0.java:191)
+	at android.app.Activity.performDestroy(Activity.java:7522)
+	at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1255)
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4592)
+	... 9 more
+
+ICC Msgs:
+13	com.forrestguice.suntimeswidget.MoonWidget0ConfigActivity_3x1	null;;null;;null;;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:985221362
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to destroy activity {com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.MoonWidget0ConfigActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4605)
+	at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:4623)
+	at android.app.ActivityThread.-wrap5(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1757)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at com.forrestguice.suntimeswidget.SuntimesConfigActivity0.onDestroy(SuntimesConfigActivity0.java:191)
+	at android.app.Activity.performDestroy(Activity.java:7522)
+	at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1255)
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4592)
+	... 9 more
+
+ICC Msgs:
+16	com.forrestguice.suntimeswidget.MoonWidget0ConfigActivity	null;;null;;null;;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:1738970579
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to destroy activity {com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.ClockWidget0ConfigActivity_3x1}: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4605)
+	at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:4623)
+	at android.app.ActivityThread.-wrap5(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1757)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at com.forrestguice.suntimeswidget.SuntimesConfigActivity0.onDestroy(SuntimesConfigActivity0.java:191)
+	at android.app.Activity.performDestroy(Activity.java:7522)
+	at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1255)
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4592)
+	... 9 more
+
+ICC Msgs:
+30	com.forrestguice.suntimeswidget.ClockWidget0ConfigActivity_3x1	null;;null;;null;;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:313663994
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to destroy activity {com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.ClockWidget0ConfigActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4605)
+	at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:4623)
+	at android.app.ActivityThread.-wrap5(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1757)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at com.forrestguice.suntimeswidget.SuntimesConfigActivity0.onDestroy(SuntimesConfigActivity0.java:191)
+	at android.app.Activity.performDestroy(Activity.java:7522)
+	at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1255)
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4592)
+	... 9 more
+
+ICC Msgs:
+19	com.forrestguice.suntimeswidget.ClockWidget0ConfigActivity	null;;null;;null;;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:-451892145
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to destroy activity {com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesConfigActivity0_2x1}: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4605)
+	at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:4623)
+	at android.app.ActivityThread.-wrap5(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1757)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at com.forrestguice.suntimeswidget.SuntimesConfigActivity0.onDestroy(SuntimesConfigActivity0.java:191)
+	at android.app.Activity.performDestroy(Activity.java:7522)
+	at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1255)
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4592)
+	... 9 more
+
+ICC Msgs:
+7	com.forrestguice.suntimeswidget.SuntimesConfigActivity0_2x1	null;;null;;null;;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:846273427
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to destroy activity {com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesConfigActivity2_3x2}: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4605)
+	at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:4623)
+	at android.app.ActivityThread.-wrap5(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1757)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at com.forrestguice.suntimeswidget.SuntimesConfigActivity0.onDestroy(SuntimesConfigActivity0.java:191)
+	at android.app.Activity.performDestroy(Activity.java:7522)
+	at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1255)
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4592)
+	... 9 more
+
+ICC Msgs:
+88	com.forrestguice.suntimeswidget.SuntimesConfigActivity2_3x2	null;;null;;null;;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:844927546
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to destroy activity {com.forrestguice.suntimeswidget/com.forrestguice.suntimeswidget.SuntimesConfigActivity1}: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4605)
+	at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:4623)
+	at android.app.ActivityThread.-wrap5(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1757)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.forrestguice.suntimeswidget.LocationConfigView.cancelGetFix()' on a null object reference
+	at com.forrestguice.suntimeswidget.SuntimesConfigActivity0.onDestroy(SuntimesConfigActivity0.java:191)
+	at android.app.Activity.performDestroy(Activity.java:7522)
+	at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1255)
+	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:4592)
+	... 9 more
+
+ICC Msgs:
+62	com.forrestguice.suntimeswidget.SuntimesConfigActivity1	null;;null;;null;;null;;
+
+------------------------------------------------------------------------
+

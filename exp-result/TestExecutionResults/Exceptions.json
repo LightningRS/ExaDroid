@@ -1,0 +1,19 @@
+{
+    "android.util.SuperNotCalledException": 1,
+    "java.io.FileNotFoundException": 6,
+    "java.io.IOException": 1,
+    "java.lang.AssertionError": 3,
+    "java.lang.ClassCastException": 17,
+    "java.lang.IllegalArgumentException": 3,
+    "java.lang.IndexOutOfBoundsException": 1,
+    "java.lang.NullPointerException": 64,
+    "java.lang.NumberFormatException": 9,
+    "java.lang.RuntimeException": 89,
+    "java.lang.StringIndexOutOfBoundsException": 1,
+    "java.lang.UnsupportedOperationException": 2,
+    "java.net.MalformedURLException": 1,
+    "java.security.cert.CertificateException": 1,
+    "oauth.signpost.exception.OAuthCommunicationException": 1,
+    "oauth.signpost.exception.OAuthExpectationFailedException": 4,
+    "oauth.signpost.exception.OAuthMessageSignerException": 1
+}

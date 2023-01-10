@@ -1,0 +1,33 @@
+BugInfo:
+hash:-607032838
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{net.mabako.steamgifts/net.mabako.steamgifts.activities.UrlHandlingActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.toString()' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.toString()' on a null object reference
+	at net.mabako.steamgifts.activities.UrlHandlingActivity.getIntentForUri(UrlHandlingActivity.java:39)
+	at net.mabako.steamgifts.activities.UrlHandlingActivity.onCreate(UrlHandlingActivity.java:151)
+	at android.app.Activity.performCreate(Activity.java:7183)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1220)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2910)
+	... 9 more
+
+ICC Msgs:
+46	net.mabako.steamgifts.activities.UrlHandlingActivity	null;;null;;null;;null;;
+
+47	net.mabako.steamgifts.activities.UrlHandlingActivity	"A";;null;;null;;null;;
+
+48	net.mabako.steamgifts.activities.UrlHandlingActivity	null;;null;;null;;null;;Parcelable->parObj->ParcelableObj,
+
+49	net.mabako.steamgifts.activities.UrlHandlingActivity	null;;null;;null;;null;;Serializable->serObj->SerializableObj,
+
+------------------------------------------------------------------------
+

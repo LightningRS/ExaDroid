@@ -1,0 +1,291 @@
+--------- beginning of system
+09-01 10:47:12.146 I/ActivityManager( 1282): START u0 {cmp=felixwiemuth.lincal/.ui.CalendarListActivity} from uid 10064 on display 0
+--------- beginning of main
+09-01 10:47:12.151 D/audio_hw_hal( 1088): raw_start_output_stream, stream=0xf6e43140, sampleRate=48000, channel=2, bps=16, bufSize=4096
+09-01 10:47:12.156 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+09-01 10:47:12.164 W/System.err( 3247): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=felixwiemuth.lincal/.ui.CalendarListActivity }
+09-01 10:47:12.166 W/System.err( 3247): 	at android.widget.Toast.show(Toast.java:130)
+09-01 10:47:12.166 W/System.err( 3247): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+09-01 10:47:12.166 W/System.err( 3247): 	at android.view.View.performClick(View.java:5637)
+09-01 10:47:12.166 W/System.err( 3247): 	at android.view.View$PerformClick.run(View.java:22429)
+09-01 10:47:12.166 W/System.err( 3247): 	at android.os.Handler.handleCallback(Handler.java:751)
+09-01 10:47:12.166 W/System.err( 3247): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+09-01 10:47:12.166 W/System.err( 3247): 	at android.os.Looper.loop(Looper.java:154)
+09-01 10:47:12.166 W/System.err( 3247): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+09-01 10:47:12.166 W/System.err( 3247): 	at java.lang.reflect.Method.invoke(Native Method)
+09-01 10:47:12.167 W/System.err( 3247): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+09-01 10:47:12.167 W/System.err( 3247): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+09-01 10:47:12.171 I/ActivityManager( 1282): START u0 {cmp=felixwiemuth.lincal/.ui.CalendarViewActivity} from uid 10064 on display 0
+09-01 10:47:12.171 W/ActivityManager( 1282): Permission Denial: starting Intent { cmp=felixwiemuth.lincal/.ui.CalendarViewActivity } from ProcessRecord{666ac7e 3247:com.android.intentfuzzer/u0a64} (pid=3247, uid=10064) not exported from uid 10050
+09-01 10:47:12.177 W/System.err( 3247): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+09-01 10:47:12.177 W/System.err( 3247): 	at android.widget.Toast.show(Toast.java:130)
+09-01 10:47:12.177 W/System.err( 3247): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+09-01 10:47:12.177 W/System.err( 3247): 	at android.view.View.performClick(View.java:5637)
+09-01 10:47:12.177 W/System.err( 3247): 	at android.view.View$PerformClick.run(View.java:22429)
+09-01 10:47:12.177 W/System.err( 3247): 	at android.os.Handler.handleCallback(Handler.java:751)
+09-01 10:47:12.177 W/System.err( 3247): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+09-01 10:47:12.177 W/System.err( 3247): 	at android.os.Looper.loop(Looper.java:154)
+09-01 10:47:12.177 W/System.err( 3247): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+09-01 10:47:12.177 W/System.err( 3247): 	at java.lang.reflect.Method.invoke(Native Method)
+09-01 10:47:12.177 W/System.err( 3247): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+09-01 10:47:12.177 W/System.err( 3247): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+09-01 10:47:12.179 I/ActivityManager( 1282): START u0 {cmp=felixwiemuth.lincal/.ui.AddCalendarActivity} from uid 10064 on display 0
+09-01 10:47:12.186 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+09-01 10:47:12.188 W/System.err( 3247): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=felixwiemuth.lincal/.ui.AddCalendarActivity }
+09-01 10:47:12.188 W/System.err( 3247): 	at android.widget.Toast.show(Toast.java:130)
+09-01 10:47:12.188 W/System.err( 3247): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+09-01 10:47:12.188 W/System.err( 3247): 	at android.view.View.performClick(View.java:5637)
+09-01 10:47:12.188 W/System.err( 3247): 	at android.view.View$PerformClick.run(View.java:22429)
+09-01 10:47:12.188 W/System.err( 3247): 	at android.os.Handler.handleCallback(Handler.java:751)
+09-01 10:47:12.188 W/System.err( 3247): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+09-01 10:47:12.189 W/System.err( 3247): 	at android.os.Looper.loop(Looper.java:154)
+09-01 10:47:12.189 W/System.err( 3247): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+09-01 10:47:12.189 W/System.err( 3247): 	at java.lang.reflect.Method.invoke(Native Method)
+09-01 10:47:12.189 W/System.err( 3247): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+09-01 10:47:12.189 W/System.err( 3247): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+09-01 10:47:12.482 I/ActivityManager( 1282): START u0 {cmp=felixwiemuth.lincal/.ui.SettingsActivity} from uid 10064 on display 0
+09-01 10:47:12.482 W/ActivityManager( 1282): Permission Denial: starting Intent { cmp=felixwiemuth.lincal/.ui.SettingsActivity } from ProcessRecord{666ac7e 3247:com.android.intentfuzzer/u0a64} (pid=3247, uid=10064) not exported from uid 10050
+09-01 10:47:12.484 W/System.err( 3247): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+09-01 10:47:12.484 W/System.err( 3247): 	at android.widget.Toast.show(Toast.java:130)
+09-01 10:47:12.484 W/System.err( 3247): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+09-01 10:47:12.484 W/System.err( 3247): 	at android.view.View.performClick(View.java:5637)
+09-01 10:47:12.484 W/System.err( 3247): 	at android.view.View$PerformClick.run(View.java:22429)
+09-01 10:47:12.484 W/System.err( 3247): 	at android.os.Handler.handleCallback(Handler.java:751)
+09-01 10:47:12.484 W/System.err( 3247): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+09-01 10:47:12.484 W/System.err( 3247): 	at android.os.Looper.loop(Looper.java:154)
+09-01 10:47:12.484 W/System.err( 3247): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+09-01 10:47:12.484 W/System.err( 3247): 	at java.lang.reflect.Method.invoke(Native Method)
+09-01 10:47:12.484 W/System.err( 3247): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+09-01 10:47:12.484 W/System.err( 3247): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+09-01 10:47:12.488 I/ActivityManager( 1282): START u0 {cmp=felixwiemuth.lincal/org.acra.dialog.CrashReportDialog} from uid 10064 on display 0
+09-01 10:47:12.488 W/ActivityManager( 1282): Permission Denial: starting Intent { cmp=felixwiemuth.lincal/org.acra.dialog.CrashReportDialog } from ProcessRecord{666ac7e 3247:com.android.intentfuzzer/u0a64} (pid=3247, uid=10064) not exported from uid 10050
+09-01 10:47:12.490 W/System.err( 3247): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+09-01 10:47:12.490 W/System.err( 3247): 	at android.widget.Toast.show(Toast.java:130)
+09-01 10:47:12.490 W/System.err( 3247): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+09-01 10:47:12.490 W/System.err( 3247): 	at android.view.View.performClick(View.java:5637)
+09-01 10:47:12.490 W/System.err( 3247): 	at android.view.View$PerformClick.run(View.java:22429)
+09-01 10:47:12.490 W/System.err( 3247): 	at android.os.Handler.handleCallback(Handler.java:751)
+09-01 10:47:12.490 W/System.err( 3247): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+09-01 10:47:12.490 W/System.err( 3247): 	at android.os.Looper.loop(Looper.java:154)
+09-01 10:47:12.490 W/System.err( 3247): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+09-01 10:47:12.490 W/System.err( 3247): 	at java.lang.reflect.Method.invoke(Native Method)
+09-01 10:47:12.490 W/System.err( 3247): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+09-01 10:47:12.490 W/System.err( 3247): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+09-01 10:47:12.533 I/ActivityManager( 1282): Start proc 3381:felixwiemuth.lincal/u0a50 for activity felixwiemuth.lincal/.ui.AddCalendarActivity
+09-01 10:47:12.545 D/libnativebridge( 3381): call UnloadNativeBridge! state=1
+09-01 10:47:12.607 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+09-01 10:47:12.619 E/EGL_adreno( 3247): tid 3263: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+09-01 10:47:12.619 W/OpenGLRenderer( 3247): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7ffff2feb400, error=EGL_BAD_MATCH
+09-01 10:47:12.625 D/EGL_adreno( 3247): eglMakeCurrent: 0x7ffff2f37040: ver 3 1 (tinfo 0x7ffff2ee2ba0)
+09-01 10:47:13.036 W/System  ( 3381): ClassLoader referenced unknown path: /data/app/felixwiemuth.lincal-2/lib/x86_64
+09-01 10:47:13.088 I/ACRA    ( 3381): ACRA is enabled for felixwiemuth.lincal, initializing...
+09-01 10:47:13.169 W/art     ( 3381): Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+09-01 10:47:13.329 W/System.err( 3381): java.lang.Exception: show AlertDialog! title=
+09-01 10:47:13.329 W/System.err( 3381): 	at android.app.AlertDialog.show(AlertDialog.java:134)
+09-01 10:47:13.329 W/System.err( 3381): 	at android.app.AlertDialog$Builder.show(AlertDialog.java:1125)
+09-01 10:47:13.329 W/System.err( 3381): 	at felixwiemuth.lincal.util.Util.showMessageDialog(Util.java:47)
+09-01 10:47:13.329 W/System.err( 3381): 	at felixwiemuth.lincal.util.Util.showMessageDialog(Util.java:51)
+09-01 10:47:13.329 W/System.err( 3381): 	at felixwiemuth.lincal.ui.AddCalendarActivity.onCreate(AddCalendarActivity.java:114)
+09-01 10:47:13.329 W/System.err( 3381): 	at android.app.Activity.performCreate(Activity.java:6701)
+09-01 10:47:13.329 W/System.err( 3381): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+09-01 10:47:13.329 W/System.err( 3381): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2651)
+09-01 10:47:13.329 W/System.err( 3381): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2759)
+09-01 10:47:13.329 W/System.err( 3381): 	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+09-01 10:47:13.329 W/System.err( 3381): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+09-01 10:47:13.329 W/System.err( 3381): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+09-01 10:47:13.329 W/System.err( 3381): 	at android.os.Looper.loop(Looper.java:154)
+09-01 10:47:13.329 W/System.err( 3381): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+09-01 10:47:13.329 W/System.err( 3381): 	at java.lang.reflect.Method.invoke(Native Method)
+09-01 10:47:13.329 W/System.err( 3381): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+09-01 10:47:13.329 W/System.err( 3381): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+09-01 10:47:13.356 I/HostConnection( 3381): HostConnection::HostConnection: pid=3381, tid=3381, this=0x7fffe8b9f5c0
+09-01 10:47:13.358 I/        ( 3381): fastpipe: Connect success
+09-01 10:47:13.358 D/HostConnection( 3381): HostRPC::connect sucess: app=felixwiemuth.lincal, pid=3381, tid=3381, this=0x7fffd5cdc100
+09-01 10:47:13.360 D/HostConnection( 3381): queryAndSetGLESMaxVersion select gles-version: 3.1 hostGLVersion:46 process:felixwiemuth.lincal
+09-01 10:47:13.361 I/        ( 3381): fastpipe: Connect success
+09-01 10:47:13.362 D/HostConnection( 3381): recv ProcessPuidReply name=felixwiemuth.lincal puid=33 g_u64CapsFlag=1d
+09-01 10:47:13.379 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+09-01 10:47:13.421 I/HostConnection( 3381): HostConnection::HostConnection: pid=3381, tid=3403, this=0x7fffeb41c600
+09-01 10:47:13.424 I/        ( 3381): fastpipe: Connect success
+09-01 10:47:13.425 D/HostConnection( 3381): HostRPC::connect sucess: app=felixwiemuth.lincal, pid=3381, tid=3403, this=0x7fffeb46e140
+09-01 10:47:13.427 D/HostConnection( 3381): queryAndSetGLESMaxVersion select gles-version: 3.1 hostGLVersion:46 process:felixwiemuth.lincal
+09-01 10:47:13.429 I/OpenGLRenderer( 3381): Initialized EGL, version 1.4
+09-01 10:47:13.429 D/OpenGLRenderer( 3381): Swap behavior 1
+09-01 10:47:13.430 I/EGL_adreno( 3381): eglCreateContext request GLES major-version=2
+09-01 10:47:13.451 D/EGL_adreno( 3381): eglCreateContext: 0x7fffeb43d5a0: maj 3 min 1 rcv 4
+09-01 10:47:13.526 D/EGL_adreno( 3381): eglMakeCurrent: 0x7fffeb43d5a0: ver 3 1 (tinfo 0x7fffeb40d460)
+09-01 10:47:13.541 D/HostConnection( 3381): ExtendedRCEncoderContext GL_VERSION return OpenGL ES 3.1
+09-01 10:47:13.564 E/EGL_adreno( 3381): tid 3403: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+09-01 10:47:13.564 W/OpenGLRenderer( 3381): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5eb280, error=EGL_BAD_MATCH
+09-01 10:47:13.724 E/EGL_adreno( 3381): tid 3403: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+09-01 10:47:13.724 W/OpenGLRenderer( 3381): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5eb2c0, error=EGL_BAD_MATCH
+09-01 10:47:13.726 D/EGL_adreno( 3381): eglMakeCurrent: 0x7fffeb43d5a0: ver 3 1 (tinfo 0x7fffeb40d460)
+09-01 10:47:13.779 D/EGL_adreno( 3381): eglMakeCurrent: 0x7fffeb43d5a0: ver 3 1 (tinfo 0x7fffeb40d460)
+09-01 10:47:13.860 I/ActivityManager( 1282): Displayed felixwiemuth.lincal/.ui.AddCalendarActivity: +1s368ms
+09-01 10:47:13.890 W/art     ( 3381): Before Android 4.1, method int android.support.v7.widget.ListViewCompat.lookForSelectablePosition(int, boolean) would have incorrectly overridden the package-private method in android.widget.ListView
+09-01 10:47:13.908 D/EGL_adreno( 3381): eglMakeCurrent: 0x7fffeb43d5a0: ver 3 1 (tinfo 0x7fffeb40d460)
+09-01 10:47:13.935 D/EGL_adreno( 3381): eglMakeCurrent: 0x7fffeb43d5a0: ver 3 1 (tinfo 0x7fffeb40d460)
+09-01 10:47:14.990 D/EGL_adreno( 3381): eglMakeCurrent: 0x7fffeb43d5a0: ver 3 1 (tinfo 0x7fffeb40d460)
+09-01 10:47:15.088 D/EGL_adreno( 3381): eglMakeCurrent: 0x7fffeb43d5a0: ver 3 1 (tinfo 0x7fffeb40d460)
+09-01 10:47:15.102 D/EGL_adreno( 3381): eglMakeCurrent: 0x7fffeb43d5a0: ver 3 1 (tinfo 0x7fffeb40d460)
+09-01 10:47:15.253 D/audio_hw_hal( 1088): log_func, out_standby
+09-01 10:47:15.253 D/audio_hw_hal( 1088): raw_close_output_stream, dev=0xf6e480c0, stream =0xf6e43140
+09-01 10:47:15.253 D/audio_hw_hal( 1088): raw_close_output_stream, stream=0xf6e43140,  success!
+09-01 10:47:15.593 D/EGL_adreno( 3381): eglMakeCurrent: 0x7fffeb43d5a0: ver 3 1 (tinfo 0x7fffeb40d460)
+09-01 10:47:15.673 D/EGL_adreno( 3247): eglMakeCurrent: 0x7ffff2f37040: ver 3 1 (tinfo 0x7ffff2ee2ba0)
+09-01 10:47:15.685 W/WindowManager( 1282): Attempted to remove non-existing token: android.os.Binder@e5f5e39
+09-01 10:47:15.794 E/EGL_adreno( 3247): tid 3263: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+09-01 10:47:15.794 W/OpenGLRenderer( 3247): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7ffff2feb400, error=EGL_BAD_MATCH
+09-01 10:47:15.802 D/EGL_adreno( 3247): eglMakeCurrent: 0x7ffff2f37040: ver 3 1 (tinfo 0x7ffff2ee2ba0)
+09-01 10:47:19.195 D/EGL_adreno( 3247): eglMakeCurrent: 0x7ffff2f37040: ver 3 1 (tinfo 0x7ffff2ee2ba0)
+09-01 10:47:19.201 W/WindowManager( 1282): Attempted to remove non-existing token: android.os.Binder@dcea4f5
+09-01 10:47:19.301 E/EGL_adreno( 3247): tid 3263: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+09-01 10:47:19.301 W/OpenGLRenderer( 3247): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7ffff2feb400, error=EGL_BAD_MATCH
+09-01 10:47:19.305 D/EGL_adreno( 3247): eglMakeCurrent: 0x7ffff2f37040: ver 3 1 (tinfo 0x7ffff2ee2ba0)
+09-01 10:47:22.720 D/EGL_adreno( 3247): eglMakeCurrent: 0x7ffff2f37040: ver 3 1 (tinfo 0x7ffff2ee2ba0)
+09-01 10:47:22.735 W/WindowManager( 1282): Attempted to remove non-existing token: android.os.Binder@8b19b71
+09-01 10:47:22.846 E/EGL_adreno( 3247): tid 3263: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+09-01 10:47:22.846 W/OpenGLRenderer( 3247): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7ffff2feb400, error=EGL_BAD_MATCH
+09-01 10:47:22.853 D/EGL_adreno( 3247): eglMakeCurrent: 0x7ffff2f37040: ver 3 1 (tinfo 0x7ffff2ee2ba0)
+09-01 10:47:26.242 D/EGL_adreno( 3247): eglMakeCurrent: 0x7ffff2f37040: ver 3 1 (tinfo 0x7ffff2ee2ba0)
+09-01 10:47:26.251 W/WindowManager( 1282): Attempted to remove non-existing token: android.os.Binder@b61cd56
+09-01 10:47:26.344 E/EGL_adreno( 3247): tid 3263: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+09-01 10:47:26.344 W/OpenGLRenderer( 3247): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7ffff2feb400, error=EGL_BAD_MATCH
+09-01 10:47:26.351 D/EGL_adreno( 3247): eglMakeCurrent: 0x7ffff2f37040: ver 3 1 (tinfo 0x7ffff2ee2ba0)
+09-01 10:47:29.767 D/EGL_adreno( 3247): eglMakeCurrent: 0x7ffff2f37040: ver 3 1 (tinfo 0x7ffff2ee2ba0)
+09-01 10:47:29.767 W/WindowManager( 1282): Attempted to remove non-existing token: android.os.Binder@bb8d1d7
+09-01 10:48:09.735 D/EGL_adreno( 3381): eglMakeCurrent: 0x7fffeb43d5a0: ver 3 1 (tinfo 0x7fffeb40d460)
+09-01 10:48:09.740 D/audio_hw_hal( 1088): raw_start_output_stream, stream=0xf6e43140, sampleRate=48000, channel=2, bps=16, bufSize=4096
+09-01 10:48:09.744 D/EGL_adreno( 3381): eglMakeCurrent: 0x7fffeb43d5a0: ver 3 1 (tinfo 0x7fffeb40d460)
+09-01 10:48:09.769 D/EGL_adreno( 3381): eglMakeCurrent: 0x7fffeb43d5a0: ver 3 1 (tinfo 0x7fffeb40d460)
+09-01 10:48:09.776 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+09-01 10:48:09.783 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+09-01 10:48:09.791 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+09-01 10:48:10.899 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+09-01 10:48:10.983 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+09-01 10:48:11.100 E/EGL_adreno( 3381): tid 3403: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+09-01 10:48:11.100 W/OpenGLRenderer( 3381): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd4766600, error=EGL_BAD_MATCH
+09-01 10:48:11.141 D/EGL_adreno( 3381): eglMakeCurrent: 0x7fffeb43d5a0: ver 3 1 (tinfo 0x7fffeb40d460)
+09-01 10:48:11.191 I/ActivityManager( 1282): Displayed felixwiemuth.lincal/.ui.CalendarListActivity: +296ms
+09-01 10:48:11.193 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+09-01 10:48:11.259 W/IInputConnectionWrapper( 3381): finishComposingText on inactive InputConnection
+09-01 10:48:12.565 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+09-01 10:48:12.572 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+09-01 10:48:12.710 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+09-01 10:48:12.713 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+09-01 10:48:12.724 E/EGL_adreno( 3247): tid 3263: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+09-01 10:48:12.724 W/OpenGLRenderer( 3247): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7ffff2feb400, error=EGL_BAD_MATCH
+09-01 10:48:12.725 D/EGL_adreno( 3247): eglMakeCurrent: 0x7ffff2f37040: ver 3 1 (tinfo 0x7ffff2ee2ba0)
+09-01 10:48:12.788 D/EGL_adreno( 3381): eglMakeCurrent: 0x7fffeb43d5a0: ver 3 1 (tinfo 0x7fffeb40d460)
+09-01 10:48:12.835 D/audio_hw_hal( 1088): log_func, out_standby
+09-01 10:48:12.836 D/audio_hw_hal( 1088): raw_close_output_stream, dev=0xf6e480c0, stream =0xf6e43140
+09-01 10:48:12.836 D/audio_hw_hal( 1088): raw_close_output_stream, stream=0xf6e43140,  success!
+09-01 10:48:13.906 D/audio_hw_hal( 1088): raw_start_output_stream, stream=0xf6e43140, sampleRate=48000, channel=2, bps=16, bufSize=4096
+09-01 10:48:13.911 I/ActivityManager( 1282): START u0 {cmp=felixwiemuth.lincal/.ui.CalendarListActivity (has extras)} from uid 10064 on display 0
+09-01 10:48:13.915 W/System.err( 3247): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=felixwiemuth.lincal/.ui.CalendarListActivity (has extras) }
+09-01 10:48:13.915 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+09-01 10:48:13.915 W/System.err( 3247): 	at android.widget.Toast.show(Toast.java:130)
+09-01 10:48:13.915 W/System.err( 3247): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+09-01 10:48:13.915 W/System.err( 3247): 	at android.view.View.performClick(View.java:5637)
+09-01 10:48:13.915 W/System.err( 3247): 	at android.view.View$PerformClick.run(View.java:22429)
+09-01 10:48:13.915 W/System.err( 3247): 	at android.os.Handler.handleCallback(Handler.java:751)
+09-01 10:48:13.915 W/System.err( 3247): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+09-01 10:48:13.915 W/System.err( 3247): 	at android.os.Looper.loop(Looper.java:154)
+09-01 10:48:13.915 W/System.err( 3247): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+09-01 10:48:13.915 W/System.err( 3247): 	at java.lang.reflect.Method.invoke(Native Method)
+09-01 10:48:13.915 W/System.err( 3247): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+09-01 10:48:13.915 W/System.err( 3247): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+09-01 10:48:13.917 I/ActivityManager( 1282): START u0 {cmp=felixwiemuth.lincal/.ui.CalendarViewActivity (has extras)} from uid 10064 on display 0
+09-01 10:48:13.917 W/ActivityManager( 1282): Permission Denial: starting Intent { cmp=felixwiemuth.lincal/.ui.CalendarViewActivity (has extras) } from ProcessRecord{666ac7e 3247:com.android.intentfuzzer/u0a64} (pid=3247, uid=10064) not exported from uid 10050
+09-01 10:48:13.919 W/System.err( 3247): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+09-01 10:48:13.919 W/System.err( 3247): 	at android.widget.Toast.show(Toast.java:130)
+09-01 10:48:13.919 W/System.err( 3247): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+09-01 10:48:13.919 W/System.err( 3247): 	at android.view.View.performClick(View.java:5637)
+09-01 10:48:13.919 W/System.err( 3247): 	at android.view.View$PerformClick.run(View.java:22429)
+09-01 10:48:13.919 W/System.err( 3247): 	at android.os.Handler.handleCallback(Handler.java:751)
+09-01 10:48:13.919 W/System.err( 3247): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+09-01 10:48:13.919 W/System.err( 3247): 	at android.os.Looper.loop(Looper.java:154)
+09-01 10:48:13.919 W/System.err( 3247): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+09-01 10:48:13.919 W/System.err( 3247): 	at java.lang.reflect.Method.invoke(Native Method)
+09-01 10:48:13.919 W/System.err( 3247): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+09-01 10:48:13.919 W/System.err( 3247): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+09-01 10:48:13.922 I/ActivityManager( 1282): START u0 {cmp=felixwiemuth.lincal/.ui.AddCalendarActivity (has extras)} from uid 10064 on display 0
+09-01 10:48:13.927 W/System.err( 3247): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=felixwiemuth.lincal/.ui.AddCalendarActivity (has extras) }
+09-01 10:48:13.927 W/System.err( 3247): 	at android.widget.Toast.show(Toast.java:130)
+09-01 10:48:13.927 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+09-01 10:48:13.927 W/System.err( 3247): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+09-01 10:48:13.927 W/System.err( 3247): 	at android.view.View.performClick(View.java:5637)
+09-01 10:48:13.927 W/System.err( 3247): 	at android.view.View$PerformClick.run(View.java:22429)
+09-01 10:48:13.927 W/System.err( 3247): 	at android.os.Handler.handleCallback(Handler.java:751)
+09-01 10:48:13.927 W/System.err( 3247): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+09-01 10:48:13.927 W/System.err( 3247): 	at android.os.Looper.loop(Looper.java:154)
+09-01 10:48:13.927 W/System.err( 3247): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+09-01 10:48:13.927 W/System.err( 3247): 	at java.lang.reflect.Method.invoke(Native Method)
+09-01 10:48:13.927 W/System.err( 3247): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+09-01 10:48:13.927 W/System.err( 3247): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+09-01 10:48:13.930 I/ActivityManager( 1282): START u0 {cmp=felixwiemuth.lincal/.ui.SettingsActivity (has extras)} from uid 10064 on display 0
+09-01 10:48:13.931 W/ActivityManager( 1282): Permission Denial: starting Intent { cmp=felixwiemuth.lincal/.ui.SettingsActivity (has extras) } from ProcessRecord{666ac7e 3247:com.android.intentfuzzer/u0a64} (pid=3247, uid=10064) not exported from uid 10050
+09-01 10:48:13.932 W/System.err( 3247): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+09-01 10:48:13.933 W/System.err( 3247): 	at android.widget.Toast.show(Toast.java:130)
+09-01 10:48:13.933 W/System.err( 3247): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+09-01 10:48:13.933 W/System.err( 3247): 	at android.view.View.performClick(View.java:5637)
+09-01 10:48:13.933 W/System.err( 3247): 	at android.view.View$PerformClick.run(View.java:22429)
+09-01 10:48:13.933 W/System.err( 3247): 	at android.os.Handler.handleCallback(Handler.java:751)
+09-01 10:48:13.933 W/System.err( 3247): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+09-01 10:48:13.933 W/System.err( 3247): 	at android.os.Looper.loop(Looper.java:154)
+09-01 10:48:13.933 W/System.err( 3247): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+09-01 10:48:13.933 W/System.err( 3247): 	at java.lang.reflect.Method.invoke(Native Method)
+09-01 10:48:13.933 W/System.err( 3247): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+09-01 10:48:13.933 W/System.err( 3247): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+09-01 10:48:13.935 I/ActivityManager( 1282): START u0 {cmp=felixwiemuth.lincal/org.acra.dialog.CrashReportDialog (has extras)} from uid 10064 on display 0
+09-01 10:48:13.935 W/ActivityManager( 1282): Permission Denial: starting Intent { cmp=felixwiemuth.lincal/org.acra.dialog.CrashReportDialog (has extras) } from ProcessRecord{666ac7e 3247:com.android.intentfuzzer/u0a64} (pid=3247, uid=10064) not exported from uid 10050
+09-01 10:48:13.937 W/System.err( 3247): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+09-01 10:48:13.937 W/System.err( 3247): 	at android.widget.Toast.show(Toast.java:130)
+09-01 10:48:13.937 W/System.err( 3247): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+09-01 10:48:13.937 W/System.err( 3247): 	at android.view.View.performClick(View.java:5637)
+09-01 10:48:13.937 W/System.err( 3247): 	at android.view.View$PerformClick.run(View.java:22429)
+09-01 10:48:13.937 W/System.err( 3247): 	at android.os.Handler.handleCallback(Handler.java:751)
+09-01 10:48:13.937 W/System.err( 3247): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+09-01 10:48:13.937 W/System.err( 3247): 	at android.os.Looper.loop(Looper.java:154)
+09-01 10:48:13.937 W/System.err( 3247): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+09-01 10:48:13.937 W/System.err( 3247): 	at java.lang.reflect.Method.invoke(Native Method)
+09-01 10:48:13.937 W/System.err( 3247): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+09-01 10:48:13.937 W/System.err( 3247): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+09-01 10:48:13.997 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+09-01 10:48:14.007 E/EGL_adreno( 3247): tid 3263: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+09-01 10:48:14.007 W/OpenGLRenderer( 3247): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd16a4e40, error=EGL_BAD_MATCH
+09-01 10:48:14.015 D/EGL_adreno( 3247): eglMakeCurrent: 0x7ffff2f37040: ver 3 1 (tinfo 0x7ffff2ee2ba0)
+09-01 10:48:14.053 D/EGL_adreno( 3247): eglMakeCurrent: 0x7ffff2f37040: ver 3 1 (tinfo 0x7ffff2ee2ba0)
+09-01 10:48:14.109 E/EGL_adreno( 3381): tid 3403: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+09-01 10:48:14.110 W/OpenGLRenderer( 3381): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd4766600, error=EGL_BAD_MATCH
+09-01 10:48:14.128 D/EGL_adreno( 3381): eglMakeCurrent: 0x7fffeb43d5a0: ver 3 1 (tinfo 0x7fffeb40d460)
+09-01 10:48:14.219 I/ActivityManager( 1282): Displayed felixwiemuth.lincal/.ui.AddCalendarActivity: +277ms
+09-01 10:48:14.223 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+09-01 10:48:14.228 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+09-01 10:48:14.231 D/EGL_adreno( 3247): eglMakeCurrent: 0x7ffff2f37040: ver 3 1 (tinfo 0x7ffff2ee2ba0)
+09-01 10:48:14.235 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+09-01 10:48:17.001 D/audio_hw_hal( 1088): log_func, out_standby
+09-01 10:48:17.001 D/audio_hw_hal( 1088): raw_close_output_stream, dev=0xf6e480c0, stream =0xf6e43140
+09-01 10:48:17.001 D/audio_hw_hal( 1088): raw_close_output_stream, stream=0xf6e43140,  success!
+09-01 10:48:17.421 W/WindowManager( 1282): Attempted to remove non-existing token: android.os.Binder@64ffdf2
+09-01 10:48:17.478 E/EGL_adreno( 3247): tid 3263: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+09-01 10:48:17.478 W/OpenGLRenderer( 3247): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd16a4e40, error=EGL_BAD_MATCH
+09-01 10:48:17.485 D/EGL_adreno( 3247): eglMakeCurrent: 0x7ffff2f37040: ver 3 1 (tinfo 0x7ffff2ee2ba0)
+09-01 10:48:20.927 W/WindowManager( 1282): Attempted to remove non-existing token: android.os.Binder@a9b0c43
+09-01 10:48:20.930 D/EGL_adreno( 3247): eglMakeCurrent: 0x7ffff2f37040: ver 3 1 (tinfo 0x7ffff2ee2ba0)
+09-01 10:48:20.981 E/EGL_adreno( 3247): tid 3263: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+09-01 10:48:20.981 W/OpenGLRenderer( 3247): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd16a4e40, error=EGL_BAD_MATCH
+09-01 10:48:20.986 D/EGL_adreno( 3247): eglMakeCurrent: 0x7ffff2f37040: ver 3 1 (tinfo 0x7ffff2ee2ba0)
+09-01 10:48:24.432 W/WindowManager( 1282): Attempted to remove non-existing token: android.os.Binder@958299f
+09-01 10:48:24.436 D/EGL_adreno( 3247): eglMakeCurrent: 0x7ffff2f37040: ver 3 1 (tinfo 0x7ffff2ee2ba0)
+09-01 10:48:24.492 E/EGL_adreno( 3247): tid 3263: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+09-01 10:48:24.492 W/OpenGLRenderer( 3247): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd16a4e40, error=EGL_BAD_MATCH
+09-01 10:48:24.503 D/EGL_adreno( 3247): eglMakeCurrent: 0x7ffff2f37040: ver 3 1 (tinfo 0x7ffff2ee2ba0)
+09-01 10:48:27.938 W/WindowManager( 1282): Attempted to remove non-existing token: android.os.Binder@7325aec
+09-01 10:48:27.941 D/EGL_adreno( 3247): eglMakeCurrent: 0x7ffff2f37040: ver 3 1 (tinfo 0x7ffff2ee2ba0)
+09-01 10:48:27.991 E/EGL_adreno( 3247): tid 3263: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+09-01 10:48:27.991 W/OpenGLRenderer( 3247): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffd16a4e40, error=EGL_BAD_MATCH
+09-01 10:48:27.993 D/EGL_adreno( 3247): eglMakeCurrent: 0x7ffff2f37040: ver 3 1 (tinfo 0x7ffff2ee2ba0)
+09-01 10:48:31.440 W/WindowManager( 1282): Attempted to remove non-existing token: android.os.Binder@6acceb5
+09-01 10:48:31.442 D/EGL_adreno( 3247): eglMakeCurrent: 0x7ffff2f37040: ver 3 1 (tinfo 0x7ffff2ee2ba0)
+09-01 10:48:53.827 D/WifiStateMachine( 1282): setScanResults mScanResults.size=1

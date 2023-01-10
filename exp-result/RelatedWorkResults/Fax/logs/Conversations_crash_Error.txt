@@ -1,0 +1,22 @@
+BugInfo:
+hash:-2090995054
+FATAL EXCEPTION: main
+java.lang.NullPointerException: Attempt to invoke virtual method 'int java.util.ArrayList.size()' on a null object reference
+	at eu.siacs.conversations.ui.ShareWithActivity.refreshUiReal(ShareWithActivity.java:197)
+	at eu.siacs.conversations.ui.ShareWithActivity.onBackendConnected(ShareWithActivity.java:153)
+	at eu.siacs.conversations.ui.XmppActivity$1.onServiceConnected(XmppActivity.java:112)
+	at android.app.LoadedApk$ServiceDispatcher.doConnected(LoadedApk.java:1658)
+	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:1687)
+	at android.os.Handler.handleCallback(Handler.java:789)
+	at android.os.Handler.dispatchMessage(Handler.java:98)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+
+ICC Msgs:
+85	eu.siacs.conversations.ui.ShareWithActivity	"android.intent.action.SEND_MULTIPLE";;null;;null;;null;;
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,178 @@
+BugInfo:
+hash:958002817
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{fr.ybo.transportsrennes/fr.ybo.transportsrennes.activity.widgets.TransportsWidget21Configure}: java.lang.NullPointerException: Attempt to invoke virtual method 'int android.os.Bundle.getInt(java.lang.String, int)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2698)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2759)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6190)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'int android.os.Bundle.getInt(java.lang.String, int)' on a null object reference
+	at fr.ybo.transportsrennes.activity.widgets.TransportsWidget21Configure.onCreate(TransportsWidget21Configure.java)
+	at android.app.Activity.performCreate(Activity.java:6701)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2651)
+	... 9 more
+
+ICC Msgs:
+26	fr.ybo.transportsrennes.activity.widgets.TransportsWidget21Configure	null;;null;;null;;null;;Extras->ExtrasObj->ExtrasObj,(,int->appWidgetId->Integer.MAX_VALUE,),
+
+27	fr.ybo.transportsrennes.activity.widgets.TransportsWidget21Configure	null;;null;;null;;null;;
+
+28	fr.ybo.transportsrennes.activity.widgets.TransportsWidget21Configure	null;;null;;null;;null;;Extras->ExtrasObj->ExtrasObj,(,),
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:-1383724462
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{fr.ybo.transportsrennes/fr.ybo.transportsrennes.activity.widgets.TransportsWidgetConfigure}: java.lang.NullPointerException: Attempt to invoke virtual method 'int android.os.Bundle.getInt(java.lang.String, int)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2698)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2759)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6190)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'int android.os.Bundle.getInt(java.lang.String, int)' on a null object reference
+	at fr.ybo.transportsrennes.activity.widgets.TransportsWidgetConfigure.onCreate(TransportsWidgetConfigure.java)
+	at android.app.Activity.performCreate(Activity.java:6701)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2651)
+	... 9 more
+
+ICC Msgs:
+15	fr.ybo.transportsrennes.activity.widgets.TransportsWidgetConfigure	null;;null;;null;;null;;Extras->ExtrasObj->ExtrasObj,(,int->appWidgetId->Integer.MAX_VALUE,),
+
+16	fr.ybo.transportsrennes.activity.widgets.TransportsWidgetConfigure	null;;null;;null;;null;;
+
+17	fr.ybo.transportsrennes.activity.widgets.TransportsWidgetConfigure	null;;null;;null;;null;;Extras->ExtrasObj->ExtrasObj,(,),
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:-969202610
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{fr.ybo.transportsrennes/fr.ybo.transportsrennes.activity.bus.ListArret}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.io.Serializable android.os.Bundle.getSerializable(java.lang.String)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2698)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2759)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6190)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.io.Serializable android.os.Bundle.getSerializable(java.lang.String)' on a null object reference
+	at fr.ybo.transportscommun.activity.bus.AbstractListArret.onCreate(AbstractListArret.java)
+	at android.app.Activity.performCreate(Activity.java:6701)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2651)
+	... 9 more
+
+ICC Msgs:
+102	fr.ybo.transportsrennes.activity.bus.ListArret	null;;null;;null;;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:1743803827
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{fr.ybo.transportsrennes/fr.ybo.transportsrennes.activity.timeo.TimeoActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.getLastPathSegment()' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2698)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2759)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6190)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.getLastPathSegment()' on a null object reference
+	at fr.ybo.transportsrennes.activity.timeo.TimeoActivity.onCreate(TimeoActivity.java)
+	at android.app.Activity.performCreate(Activity.java:6701)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2651)
+	... 9 more
+
+ICC Msgs:
+34	fr.ybo.transportsrennes.activity.timeo.TimeoActivity	null;;null;;null;;null;;Serializable->serObj->SerializableObj,
+
+31	fr.ybo.transportsrennes.activity.timeo.TimeoActivity	"A";;null;;null;;null;;
+
+32	fr.ybo.transportsrennes.activity.timeo.TimeoActivity	null;;null;;null;;null;;
+
+33	fr.ybo.transportsrennes.activity.timeo.TimeoActivity	null;;null;;null;;null;;Parcelable->parObj->ParcelableObj,
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:-1930810284
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{fr.ybo.transportsrennes/fr.ybo.transportsrennes.activity.widgets.TransportsWidgetLowResConfigure}: java.lang.NullPointerException: Attempt to invoke virtual method 'int android.os.Bundle.getInt(java.lang.String, int)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2698)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2759)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6190)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'int android.os.Bundle.getInt(java.lang.String, int)' on a null object reference
+	at fr.ybo.transportsrennes.activity.widgets.TransportsWidgetLowResConfigure.onCreate(TransportsWidgetLowResConfigure.java)
+	at android.app.Activity.performCreate(Activity.java:6701)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2651)
+	... 9 more
+
+ICC Msgs:
+45	fr.ybo.transportsrennes.activity.widgets.TransportsWidgetLowResConfigure	null;;null;;null;;null;;
+
+44	fr.ybo.transportsrennes.activity.widgets.TransportsWidgetLowResConfigure	null;;null;;null;;null;;Extras->ExtrasObj->ExtrasObj,(,int->appWidgetId->Integer.MAX_VALUE,),
+
+46	fr.ybo.transportsrennes.activity.widgets.TransportsWidgetLowResConfigure	null;;null;;null;;null;;Extras->ExtrasObj->ExtrasObj,(,),
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:-1559913290
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{fr.ybo.transportsrennes/fr.ybo.transportsrennes.activity.widgets.TransportsWidget11Configure}: java.lang.NullPointerException: Attempt to invoke virtual method 'int android.os.Bundle.getInt(java.lang.String, int)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2698)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2759)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6190)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'int android.os.Bundle.getInt(java.lang.String, int)' on a null object reference
+	at fr.ybo.transportsrennes.activity.widgets.TransportsWidget11Configure.onCreate(TransportsWidget11Configure.java)
+	at android.app.Activity.performCreate(Activity.java:6701)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2651)
+	... 9 more
+
+ICC Msgs:
+96	fr.ybo.transportsrennes.activity.widgets.TransportsWidget11Configure	null;;null;;null;;null;;Extras->ExtrasObj->ExtrasObj,(,),
+
+95	fr.ybo.transportsrennes.activity.widgets.TransportsWidget11Configure	null;;null;;null;;null;;
+
+94	fr.ybo.transportsrennes.activity.widgets.TransportsWidget11Configure	null;;null;;null;;null;;Extras->ExtrasObj->ExtrasObj,(,int->appWidgetId->Integer.MAX_VALUE,),
+
+------------------------------------------------------------------------
+

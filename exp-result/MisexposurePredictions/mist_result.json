@@ -1,0 +1,206 @@
+{
+    "ch.hgdev.toposuite": {
+        "ch.hgdev.toposuite.entry.MainActivity": "mustEA",
+        "ch.hgdev.toposuite.jobs.JobsActivity": "unclear",
+        "ch.hgdev.toposuite.points.PointsManagerActivity": "unclear"
+    },
+    "com.csipsimple": {
+        "com.csipsimple.ui.SipHome": "mustEA",
+        "com.csipsimple.ui.incall.InCallActivity": "mustEA",
+        "com.csipsimple.ui.outgoingcall.OutgoingCallChooser": "mustEA",
+        "com.csipsimple.ui.prefs.PrefsFast": "mustEA",
+        "com.csipsimple.ui.prefs.cupcake.MainPrefs": "mustEA",
+        "com.csipsimple.ui.prefs.hc.MainPrefs": "mustEA",
+        "com.csipsimple.widgets.AccountWidgetConfigure": "mustIA",
+        "com.csipsimple.widgets.ShortcutWidgetConfigure": "mustIA"
+    },
+    "com.etesync.syncadapter": {
+        "at.bitfire.cert4android.TrustCertificateActivity": "unclear",
+        "com.etesync.syncadapter.ui.AccountsActivity": "mustEA",
+        "com.etesync.syncadapter.ui.DebugInfoActivity": "mustIA",
+        "com.etesync.syncadapter.ui.setup.LoginActivity": "mustIA"
+    },
+    "com.farmerbb.taskbar": {
+        "com.farmerbb.taskbar.MainActivity": "mustEA",
+        "com.farmerbb.taskbar.activity.HomeActivity": "mustIA",
+        "com.farmerbb.taskbar.activity.IconPackApplyActivity": "unclear",
+        "com.farmerbb.taskbar.activity.KeyboardShortcutActivity": "mustIA",
+        "com.farmerbb.taskbar.activity.ShortcutActivity": "mustIA",
+        "com.farmerbb.taskbar.activity.StartTaskbarActivity": "unclear"
+    },
+    "com.forrestguice.suntimeswidget": {
+        "com.forrestguice.suntimeswidget.ClockWidget0ConfigActivity": "mustIA",
+        "com.forrestguice.suntimeswidget.ClockWidget0ConfigActivity_3x1": "mustIA",
+        "com.forrestguice.suntimeswidget.MoonWidget0ConfigActivity": "mustIA",
+        "com.forrestguice.suntimeswidget.MoonWidget0ConfigActivity_2x1": "mustIA",
+        "com.forrestguice.suntimeswidget.MoonWidget0ConfigActivity_3x1": "mustIA",
+        "com.forrestguice.suntimeswidget.SolsticeWidget0ConfigActivity": "mustIA",
+        "com.forrestguice.suntimeswidget.SuntimesActivity": "mustEA",
+        "com.forrestguice.suntimeswidget.SuntimesConfigActivity0": "mustIA",
+        "com.forrestguice.suntimeswidget.SuntimesConfigActivity0_2x1": "mustIA",
+        "com.forrestguice.suntimeswidget.SuntimesConfigActivity1": "mustIA",
+        "com.forrestguice.suntimeswidget.SuntimesConfigActivity2": "mustIA",
+        "com.forrestguice.suntimeswidget.SuntimesConfigActivity2_3x1": "mustIA",
+        "com.forrestguice.suntimeswidget.SuntimesConfigActivity2_3x2": "mustIA",
+        "com.forrestguice.suntimeswidget.alarmclock.ui.AlarmClockActivity": "unclear",
+        "com.forrestguice.suntimeswidget.alarmclock.ui.AlarmDismissActivity": "unclear"
+    },
+    "com.fsck.k9": {
+        "com.fsck.k9.activity.Accounts": "mustEA",
+        "com.fsck.k9.activity.FolderList": "mustIA",
+        "com.fsck.k9.activity.LauncherShortcuts": "mustIA",
+        "com.fsck.k9.activity.MessageCompose": "mustEA",
+        "com.fsck.k9.activity.MessageList": "mustEA",
+        "com.fsck.k9.activity.Search": "mustIA",
+        "com.fsck.k9.activity.UnreadWidgetConfiguration": "mustIA"
+    },
+    "com.ichi2.anki": {
+        "com.ichi2.anki.IntentHandler": "mustEA",
+        "com.ichi2.anki.NoteEditor": "mustEA",
+        "com.ichi2.anki.Reviewer": "unclear"
+    },
+    "com.integreight.onesheeld": {
+        "com.integreight.onesheeld.MainActivity": "mustEA",
+        "com.integreight.onesheeld.plugin.action.ActionActivity": "mustIA",
+        "com.integreight.onesheeld.plugin.condition.ConditionActivity": "mustIA"
+    },
+    "com.mikifus.padland": {
+        "com.mikifus.padland.PadListActivity": "unclear",
+        "com.mikifus.padland.PadViewActivity": "unclear",
+        "com.mikifus.padland.SplashActivity": "mustEA"
+    },
+    "com.nutomic.syncthingandroid": {
+        "com.nutomic.syncthingandroid.activities.FirstStartActivity": "mustEA",
+        "com.nutomic.syncthingandroid.activities.LogActivity": "unclear",
+        "com.nutomic.syncthingandroid.activities.ShareActivity": "unclear"
+    },
+    "com.oriondev.moneywallet": {
+        "com.oriondev.moneywallet.ui.activity.LauncherActivity": "mustEA"
+    },
+    "de.danoeh.antennapod": {
+        "de.danoeh.antennapod.activity.AudioplayerActivity": "unclear",
+        "de.danoeh.antennapod.activity.FlattrAuthActivity": "unclear",
+        "de.danoeh.antennapod.activity.OnlineFeedViewActivity": "unclear",
+        "de.danoeh.antennapod.activity.OpmlImportFromIntentActivity": "unclear",
+        "de.danoeh.antennapod.activity.SplashActivity": "mustEA",
+        "de.danoeh.antennapod.activity.VideoplayerActivity": "unclear",
+        "de.danoeh.antennapod.activity.gpoddernet.GpodnetAuthenticationActivity": "unclear"
+    },
+    "de.tobiasbielefeld.solitaire": {
+        "de.tobiasbielefeld.solitaire.ui.GameSelector": "mustEA"
+    },
+    "dev.ukanth.ufirewall": {
+        "dev.ukanth.ufirewall.MainActivity": "mustEA",
+        "dev.ukanth.ufirewall.plugin.LocaleEdit": "mustIA",
+        "dev.ukanth.ufirewall.widget.ToggleWidgetActivity": "mustIA",
+        "dev.ukanth.ufirewall.widget.ToggleWidgetOldActivity": "mustIA"
+    },
+    "es.usc.citius.servando.calendula": {
+        "es.usc.citius.servando.calendula.activities.StartActivity": "mustEA",
+        "es.usc.citius.servando.calendula.activities.UpdateFromFileActivity": "unclear"
+    },
+    "eu.vranckaert.worktime": {
+        "eu.vranckaert.worktime.activities.HomeActivity": "mustEA",
+        "eu.vranckaert.worktime.activities.backup.BackupRestoreInfoActivity": "unclear",
+        "eu.vranckaert.worktime.activities.backup.BackupSendFromSDActivity": "unclear",
+        "eu.vranckaert.worktime.activities.backup.BackupToSDActivity": "unclear",
+        "eu.vranckaert.worktime.activities.backup.RestoreFromSDActivity": "unclear",
+        "eu.vranckaert.worktime.activities.widget.Configuration2x1Activity": "mustIA"
+    },
+    "felixwiemuth.lincal": {
+        "felixwiemuth.lincal.ui.AddCalendarActivity": "unclear",
+        "felixwiemuth.lincal.ui.CalendarListActivity": "mustEA"
+    },
+    "fr.ybo.transportsrennes": {
+        "fr.ybo.transportsrennes.activity.TransportsRennes": "mustEA",
+        "fr.ybo.transportsrennes.activity.bus.BusFavorisShortcutPicker": "mustIA",
+        "fr.ybo.transportsrennes.activity.bus.BusShortcutPicker": "mustIA",
+        "fr.ybo.transportsrennes.activity.bus.ListArret": "mustIA",
+        "fr.ybo.transportsrennes.activity.bus.TabFavoris": "mustIA",
+        "fr.ybo.transportsrennes.activity.parkrelais.ListParkRelais": "mustIA",
+        "fr.ybo.transportsrennes.activity.parkrelais.ParkRelaisShortcutPicker": "mustIA",
+        "fr.ybo.transportsrennes.activity.timeo.TimeoActivity": "unclear",
+        "fr.ybo.transportsrennes.activity.velos.ListStationsByPosition": "mustIA",
+        "fr.ybo.transportsrennes.activity.velos.ListStationsFavoris": "mustIA",
+        "fr.ybo.transportsrennes.activity.velos.StationsFavorisShortcutPicker": "mustIA",
+        "fr.ybo.transportsrennes.activity.velos.StationsShortcutPicker": "mustIA",
+        "fr.ybo.transportsrennes.activity.widgets.TransportsWidget11Configure": "mustIA",
+        "fr.ybo.transportsrennes.activity.widgets.TransportsWidget21Configure": "mustIA",
+        "fr.ybo.transportsrennes.activity.widgets.TransportsWidgetConfigure": "mustIA",
+        "fr.ybo.transportsrennes.activity.widgets.TransportsWidgetLowResConfigure": "mustIA"
+    },
+    "me.blog.korn123.easydiary": {
+        "me.blog.korn123.easydiary.activities.IntroActivity": "mustEA"
+    },
+    "net.mabako.steamgifts": {
+        "net.mabako.steamgifts.activities.MainActivity": "mustEA",
+        "net.mabako.steamgifts.activities.UrlHandlingActivity": "unclear"
+    },
+    "net.osmand.plus": {
+        "net.osmand.plus.activities.MapActivity": "mustEA",
+        "net.osmand.plus.activities.search.GeoIntentActivity": "unclear",
+        "net.osmand.plus.osmo.OsMoGroupsActivity": "unclear",
+        "net.osmand.plus.wikivoyage.explore.WikivoyageExploreActivity": "unclear"
+    },
+    "nl.sogeti.android.gpstracker": {
+        "nl.sogeti.android.gpstracker.actions.ShareTrack": "unclear",
+        "nl.sogeti.android.gpstracker.oauth.PrepareRequestTokenActivity": "unclear",
+        "nl.sogeti.android.gpstracker.viewer.LoggerMap": "mustEA",
+        "nl.sogeti.android.gpstracker.viewer.TrackList": "unclear",
+        "nl.sogeti.android.gpstracker.viewer.TracksLiveFolder": "unclear"
+    },
+    "org.epstudios.epmobile": {
+        "org.epstudios.epmobile.EpMobile": "mustEA"
+    },
+    "org.inaturalist.android": {
+        "com.google.android.gms.appinvite.PreviewActivity": "mustEA",
+        "com.google.android.gms.tagmanager.TagManagerPreviewActivity": "mustEA",
+        "org.inaturalist.android.ObservationEditor": "unclear",
+        "org.inaturalist.android.ObservationListActivity": "mustEA"
+    },
+    "org.liberty.android.fantastischmemo": {
+        "org.liberty.android.fantastischmemo.ui.AnyMemo": "mustEA",
+        "org.liberty.android.fantastischmemo.ui.ShareScreen": "unclear"
+    },
+    "org.ligi.passandroid": {
+        "org.ligi.passandroid.ui.ExtractURLAsIphoneActivity": "unclear",
+        "org.ligi.passandroid.ui.PassImportActivity": "unclear",
+        "org.ligi.passandroid.ui.PassListActivity": "mustEA",
+        "org.ligi.passandroid.ui.PassViewActivity": "unclear",
+        "org.ligi.passandroid.ui.quirk_fix.URLRewriteActivity": "unclear",
+        "org.ligi.passandroid.ui.quirk_fix.USAirwaysLoadActivity": "unclear"
+    },
+    "org.smssecure.smssecure": {
+        "org.smssecure.smssecure.ConversationListActivity": "mustEA",
+        "org.smssecure.smssecure.PanicResponderActivity": "unclear",
+        "org.smssecure.smssecure.ShareActivity": "unclear",
+        "org.smssecure.smssecure.SmsSendtoActivity": "unclear"
+    },
+    "org.sufficientlysecure.keychain": {
+        "org.sufficientlysecure.keychain.ui.CreateKeyActivity": "unclear",
+        "org.sufficientlysecure.keychain.ui.DebugActionsActivity": "mustIA",
+        "org.sufficientlysecure.keychain.ui.DecryptActivity": "unclear",
+        "org.sufficientlysecure.keychain.ui.EncryptFilesActivity": "unclear",
+        "org.sufficientlysecure.keychain.ui.EncryptTextActivity": "unclear",
+        "org.sufficientlysecure.keychain.ui.ImportKeysActivity": "unclear",
+        "org.sufficientlysecure.keychain.ui.ImportKeysProxyActivity": "unclear",
+        "org.sufficientlysecure.keychain.ui.MainActivity": "mustEA",
+        "org.sufficientlysecure.keychain.ui.PanicResponderActivity": "unclear",
+        "org.sufficientlysecure.keychain.ui.RedirectImportKeysActivity": "unclear",
+        "org.sufficientlysecure.keychain.ui.SettingsActivity": "unclear",
+        "org.sufficientlysecure.keychain.ui.UsbEventReceiverActivity": "mustIA",
+        "org.sufficientlysecure.keychain.ui.keyview.ViewKeyActivity": "unclear"
+    },
+    "org.tasks": {
+        "com.todoroo.astrid.activity.FilterShortcutActivity": "mustIA",
+        "com.todoroo.astrid.activity.ShareLinkActivity": "unclear",
+        "com.todoroo.astrid.activity.ShortcutActivity": "mustIA",
+        "com.todoroo.astrid.activity.TaskEditActivity": "unclear",
+        "com.todoroo.astrid.activity.TaskListActivity": "mustEA",
+        "com.todoroo.astrid.widget.WidgetConfigActivity": "mustIA",
+        "org.tasks.voice.VoiceCommandActivity": "mustEA"
+    },
+    "pt.joaomneto.titancompanion": {
+        "pt.joaomneto.titancompanion.MainActivity": "mustEA"
+    }
+}

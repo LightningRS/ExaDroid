@@ -1,0 +1,72 @@
+BugInfo:
+hash:-2000548784
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{org.liberty.android.fantastischmemo/org.liberty.android.fantastischmemo.ui.ShareScreen}: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2698)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2759)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6190)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+	at org.liberty.android.fantastischmemo.ui.ShareScreen.onCreate(ShareScreen.java)
+	at android.app.Activity.performCreate(Activity.java:6701)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2651)
+	... 9 more
+
+ICC Msgs:
+121	org.liberty.android.fantastischmemo.ui.ShareScreen	null;;null;;null;;null;;Parcelable->parObj->ParcelableObj,
+
+115	org.liberty.android.fantastischmemo.ui.ShareScreen	null;;null;;null;;null;;Extras->ExtrasObj->ExtrasObj,(,String->android.intent.extra.SUBJECT->!@#$%^ds:+_,),
+
+122	org.liberty.android.fantastischmemo.ui.ShareScreen	null;;null;;null;;null;;Serializable->serObj->SerializableObj,
+
+112	org.liberty.android.fantastischmemo.ui.ShareScreen	null;;null;;null;;null;;Extras->ExtrasObj->ExtrasObj,(,String->android.intent.extra.TEXT->999999999999999999999999999999999999999999999999999,String->android.intent.extra.SUBJECT->!@#$%^ds:+_,),
+
+114	org.liberty.android.fantastischmemo.ui.ShareScreen	null;;null;;null;;null;;Extras->ExtrasObj->ExtrasObj,(,String->android.intent.extra.TEXT->999999999999999999999999999999999999999999999999999,),
+
+111	org.liberty.android.fantastischmemo.ui.ShareScreen	null;;null;;null;;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:-1439277260
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{org.liberty.android.fantastischmemo/org.liberty.android.fantastischmemo.ui.ShareScreen}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.os.Bundle.getString(java.lang.String)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2698)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2759)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6190)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.os.Bundle.getString(java.lang.String)' on a null object reference
+	at org.liberty.android.fantastischmemo.ui.ShareScreen.onCreate(ShareScreen.java)
+	at android.app.Activity.performCreate(Activity.java:6701)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2651)
+	... 9 more
+
+ICC Msgs:
+119	org.liberty.android.fantastischmemo.ui.ShareScreen	"android.intent.action.SEND";;null;;null;;null;;
+
+113	org.liberty.android.fantastischmemo.ui.ShareScreen	"android.intent.action.SEND";;null;;null;;null;;Extras->ExtrasObj->ExtrasObj,(,),
+
+116	org.liberty.android.fantastischmemo.ui.ShareScreen	"android.intent.action.SEND";;null;;null;;null;;Extras->ExtrasObj->ExtrasObj,(,String->android.intent.extra.SUBJECT->999999999999999999999999999999999999999999999999999,),
+
+117	org.liberty.android.fantastischmemo.ui.ShareScreen	"android.intent.action.SEND";;null;;null;;null;;Extras->ExtrasObj->ExtrasObj,(,String->android.intent.extra.TEXT->!@#$%^ds:+_,String->android.intent.extra.SUBJECT->999999999999999999999999999999999999999999999999999,),
+
+120	org.liberty.android.fantastischmemo.ui.ShareScreen	"android.intent.action.SEND";;null;;null;;null;;Extras->ExtrasObj->ExtrasObj,(,String->android.intent.extra.SUBJECT->!@#$%^ds:+_,),
+
+110	org.liberty.android.fantastischmemo.ui.ShareScreen	"android.intent.action.SEND";;null;;null;;null;;Extras->ExtrasObj->ExtrasObj,(,String->android.intent.extra.TEXT->!@#$%^ds:+_,),
+
+------------------------------------------------------------------------
+

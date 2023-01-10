@@ -1,0 +1,128 @@
+
+BugInfo:
+hash:-2021764689
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{org.ligi.passandroid/org.ligi.passandroid.ui.quirk_fix.USAirwaysLoadActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.toString()' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.toString()' on a null object reference
+	at org.ligi.passandroid.ui.quirk_fix.USAirwaysLoadActivity.onCreate(SourceFile:15)
+	at android.app.Activity.performCreate(Activity.java:7183)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1220)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2910)
+	... 9 more
+
+ICC Msgs:
+32	org.ligi.passandroid.ui.quirk_fix.USAirwaysLoadActivity	null;;null;;null;;null;;Parcelable->parObj->ParcelableObj,
+
+28	org.ligi.passandroid.ui.quirk_fix.USAirwaysLoadActivity	"aaaaaag";;null;;null;;null;;
+
+26	org.ligi.passandroid.ui.quirk_fix.USAirwaysLoadActivity	null;;null;;null;;null;;
+
+27	org.ligi.passandroid.ui.quirk_fix.USAirwaysLoadActivity	"aaaag";;null;;null;;null;;
+
+33	org.ligi.passandroid.ui.quirk_fix.USAirwaysLoadActivity	null;;null;;null;;null;;Serializable->serObj->SerializableObj,
+
+30	org.ligi.passandroid.ui.quirk_fix.USAirwaysLoadActivity	"A";;null;;null;;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:171873084
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{org.ligi.passandroid/org.ligi.passandroid.ui.quirk_fix.USAirwaysLoadActivity}: java.lang.ArrayIndexOutOfBoundsException: length=1; index=-1
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: length=1; index=-1
+	at org.ligi.passandroid.ui.quirk_fix.USAirwaysLoadActivity.onCreate(SourceFile:23)
+	at android.app.Activity.performCreate(Activity.java:7183)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1220)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2910)
+	... 9 more
+
+ICC Msgs:
+31	org.ligi.passandroid.ui.quirk_fix.USAirwaysLoadActivity	"aaaaaag";;null;;"l";;null;;
+
+29	org.ligi.passandroid.ui.quirk_fix.USAirwaysLoadActivity	null;;null;;"l";;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:-1991128891
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{org.ligi.passandroid/org.ligi.passandroid.ui.quirk_fix.URLRewriteActivity}: java.lang.IllegalArgumentException: Parameter specified as non-null is null: method kotlin.jvm.internal.Intrinsics.b, parameter uri
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.IllegalArgumentException: Parameter specified as non-null is null: method kotlin.jvm.internal.Intrinsics.b, parameter uri
+	at org.ligi.passandroid.ui.quirk_fix.URLRewriteController.a(Unknown Source:16)
+	at org.ligi.passandroid.ui.quirk_fix.URLRewriteActivity.onCreate(SourceFile:17)
+	at android.app.Activity.performCreate(Activity.java:7183)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1220)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2910)
+	... 9 more
+
+ICC Msgs:
+21	org.ligi.passandroid.ui.quirk_fix.URLRewriteActivity	null;;null;;null;;null;;Serializable->serObj->SerializableObj,
+
+18	org.ligi.passandroid.ui.quirk_fix.URLRewriteActivity	null;;null;;null;;null;;
+
+20	org.ligi.passandroid.ui.quirk_fix.URLRewriteActivity	null;;null;;null;;null;;Parcelable->parObj->ParcelableObj,
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:651398685
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{org.ligi.passandroid/org.ligi.passandroid.ui.ExtractURLAsIphoneActivity}: java.lang.IllegalStateException: intent.data must not be null
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2957)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3032)
+	at android.app.ActivityThread.-wrap11(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1696)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6944)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:327)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1374)
+Caused by: java.lang.IllegalStateException: intent.data must not be null
+	at org.ligi.passandroid.ui.ExtractURLAsIphoneActivity.onCreate(SourceFile:26)
+	at android.app.Activity.performCreate(Activity.java:7183)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1220)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2910)
+	... 9 more
+
+ICC Msgs:
+23	org.ligi.passandroid.ui.ExtractURLAsIphoneActivity	"A";;null;;null;;null;;
+
+24	org.ligi.passandroid.ui.ExtractURLAsIphoneActivity	null;;null;;null;;null;;Parcelable->parObj->ParcelableObj,
+
+22	org.ligi.passandroid.ui.ExtractURLAsIphoneActivity	null;;null;;null;;null;;
+
+25	org.ligi.passandroid.ui.ExtractURLAsIphoneActivity	null;;null;;null;;null;;Serializable->serObj->SerializableObj,
+
+------------------------------------------------------------------------
+

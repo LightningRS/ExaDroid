@@ -1,0 +1,1458 @@
+--------- beginning of system
+08-31 14:50:42.553 I/ActivityManager( 1281): START u0 {cmp=com.android.intentfuzzer/.FuzzerActivity} from uid 10064 on display 0
+--------- beginning of main
+08-31 14:50:42.555 D/audio_hw_hal( 1087): raw_start_output_stream, stream=0xf6e43140, sampleRate=48000, channel=2, bps=16, bufSize=4096
+08-31 14:50:42.561 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:50:42.577 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:50:43.039 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:50:43.039 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:50:43.040 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:50:43.067 I/ActivityManager( 1281): Displayed com.android.intentfuzzer/.FuzzerActivity: +506ms (total +3m33s227ms)
+08-31 14:50:43.069 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:50:43.123 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:50:44.390 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.CountrySelectionActivity} from uid 10064 on display 0
+08-31 14:50:44.391 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.CountrySelectionActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.394 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.394 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.394 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.394 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.394 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.394 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.394 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.394 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.394 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.394 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.394 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.394 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.396 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.ImportExportActivity} from uid 10064 on display 0
+08-31 14:50:44.396 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.ImportExportActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.397 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.397 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.397 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.397 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.397 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.397 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.397 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.397 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.397 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.397 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.397 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.397 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.398 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.PromptMmsActivity} from uid 10064 on display 0
+08-31 14:50:44.398 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.PromptMmsActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.399 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.399 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.399 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.399 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.399 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.399 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.399 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.399 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.399 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.399 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.399 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.399 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.400 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.preferences.MmsPreferencesActivity} from uid 10064 on display 0
+08-31 14:50:44.400 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.preferences.MmsPreferencesActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.401 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.401 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.401 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.401 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.401 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.401 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.401 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.401 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.401 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.401 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.401 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.401 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.402 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.ShareActivity} from uid 10064 on display 0
+08-31 14:50:44.416 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:50:44.418 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=org.smssecure.smssecure/.ShareActivity }
+08-31 14:50:44.419 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.419 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:50:44.419 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.419 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.419 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.419 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.419 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.419 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.419 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.419 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.419 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.420 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.ConversationListActivity} from uid 10064 on display 0
+08-31 14:50:44.427 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:50:44.432 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=org.smssecure.smssecure/.ConversationListActivity }
+08-31 14:50:44.432 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.433 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:50:44.433 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.433 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.433 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.433 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.433 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.433 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.433 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.433 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.433 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.433 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.RoutingActivity} from uid 10064 on display 0
+08-31 14:50:44.436 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=org.smssecure.smssecure/.RoutingActivity }
+08-31 14:50:44.436 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.436 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:50:44.436 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.436 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.436 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.436 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.436 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.436 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.436 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.436 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.436 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.437 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.ConversationListArchiveActivity} from uid 10064 on display 0
+08-31 14:50:44.437 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.ConversationListArchiveActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.440 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.440 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.440 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.440 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.440 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.440 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.441 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.441 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.441 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.441 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.441 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.441 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.442 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.ConversationActivity} from uid 10064 on display 0
+08-31 14:50:44.442 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.ConversationActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.444 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.444 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.444 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.444 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.444 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.444 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.444 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.444 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.444 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.444 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.444 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.445 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.445 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.ConversationPopupActivity} from uid 10064 on display 0
+08-31 14:50:44.446 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.ConversationPopupActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.448 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.448 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.448 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.448 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.448 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.448 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.448 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.448 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.448 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.448 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.448 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.448 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.449 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.MessageDetailsActivity} from uid 10064 on display 0
+08-31 14:50:44.449 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.MessageDetailsActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.452 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.452 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.452 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.452 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.452 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.452 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.452 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.452 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.452 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.452 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.452 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.452 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.453 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.GroupCreateActivity} from uid 10064 on display 0
+08-31 14:50:44.453 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.GroupCreateActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.455 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.456 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.456 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.456 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.456 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.456 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.456 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.456 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.456 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.456 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.456 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.456 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.458 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.DatabaseMigrationActivity} from uid 10064 on display 0
+08-31 14:50:44.458 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.DatabaseMigrationActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.461 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.461 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.462 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.462 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.462 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.462 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.462 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.462 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.462 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.462 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.462 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.462 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.464 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.DatabaseUpgradeActivity} from uid 10064 on display 0
+08-31 14:50:44.464 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.DatabaseUpgradeActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.465 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.465 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.465 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.465 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.465 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.465 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.465 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.465 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.465 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.465 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.465 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.465 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.466 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.IntroScreenActivity} from uid 10064 on display 0
+08-31 14:50:44.466 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.IntroScreenActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.467 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.467 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.467 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.467 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.467 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.467 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.467 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.467 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.467 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.467 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.467 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.467 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.471 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.PassphraseCreateActivity} from uid 10064 on display 0
+08-31 14:50:44.471 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.PassphraseCreateActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.472 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.473 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.473 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.473 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.473 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.473 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.473 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.473 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.473 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.473 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.473 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.473 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.474 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.PassphrasePromptActivity} from uid 10064 on display 0
+08-31 14:50:44.474 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.PassphrasePromptActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.477 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.477 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.477 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.477 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.477 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.477 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.477 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.477 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.477 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.477 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.477 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.477 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.478 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.NewConversationActivity} from uid 10064 on display 0
+08-31 14:50:44.478 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.NewConversationActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.480 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.481 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.481 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.481 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.481 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.481 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.481 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.481 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.481 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.481 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.481 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.481 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.482 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.PushContactSelectionActivity} from uid 10064 on display 0
+08-31 14:50:44.482 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.PushContactSelectionActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.483 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.483 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.483 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.484 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.484 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.484 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.484 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.484 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.484 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.484 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.484 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.484 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.485 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.ViewIdentityActivity} from uid 10064 on display 0
+08-31 14:50:44.485 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.ViewIdentityActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.486 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.487 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.487 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.487 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.487 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.487 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.487 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.487 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.487 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.487 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.487 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.487 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.488 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.ViewLocalIdentityActivity} from uid 10064 on display 0
+08-31 14:50:44.488 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.ViewLocalIdentityActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.491 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.491 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.491 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.491 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.491 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.491 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.491 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.491 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.491 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.491 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.492 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.492 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.492 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.PassphraseChangeActivity} from uid 10064 on display 0
+08-31 14:50:44.493 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.PassphraseChangeActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.494 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.494 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.494 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.494 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.494 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.494 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.494 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.494 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.494 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.494 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.494 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.494 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.496 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.VerifyIdentityActivity} from uid 10064 on display 0
+08-31 14:50:44.496 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.VerifyIdentityActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.497 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.498 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.498 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.498 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.498 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.498 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.498 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.498 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.498 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.498 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.498 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.498 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.499 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.ApplicationPreferencesActivity} from uid 10064 on display 0
+08-31 14:50:44.499 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.ApplicationPreferencesActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.501 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.501 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.501 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.501 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.501 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.501 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.501 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.501 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.501 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.501 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.501 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.501 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.503 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.LogSubmitActivity} from uid 10064 on display 0
+08-31 14:50:44.503 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.LogSubmitActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.505 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.505 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.505 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.505 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.505 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.505 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.505 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.505 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.506 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.506 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.506 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.506 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.507 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.MediaPreviewActivity} from uid 10064 on display 0
+08-31 14:50:44.507 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.MediaPreviewActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.509 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.509 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.509 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.509 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.509 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.509 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.509 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.509 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.509 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.509 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.509 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.509 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.510 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.MediaOverviewActivity} from uid 10064 on display 0
+08-31 14:50:44.510 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.MediaOverviewActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.512 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.512 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.513 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.513 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.513 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.513 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.513 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.513 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.513 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.513 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.513 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.513 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.514 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.DummyActivity} from uid 10064 on display 0
+08-31 14:50:44.514 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.DummyActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.515 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.516 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.516 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.516 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.516 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.516 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.516 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.516 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.516 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.516 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.516 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.516 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.518 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.SmsSendtoActivity} from uid 10064 on display 0
+08-31 14:50:44.527 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:50:44.529 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=org.smssecure.smssecure/.SmsSendtoActivity }
+08-31 14:50:44.529 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.529 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:50:44.529 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.529 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.529 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.529 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.529 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.529 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.529 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.529 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.529 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.530 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.RecipientPreferenceActivity} from uid 10064 on display 0
+08-31 14:50:44.530 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.RecipientPreferenceActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.533 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.534 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.534 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.534 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.534 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.534 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.534 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.534 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.534 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.534 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.534 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.534 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.535 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.BlockedContactsActivity} from uid 10064 on display 0
+08-31 14:50:44.535 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.BlockedContactsActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.537 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.537 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.537 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.537 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.537 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.537 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.537 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.537 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.537 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.537 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.537 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.537 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.538 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.PanicResponderActivity} from uid 10064 on display 0
+08-31 14:50:44.539 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:50:44.542 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Null Intent { cmp=org.smssecure.smssecure/.PanicResponderActivity }
+08-31 14:50:44.543 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.543 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:165)
+08-31 14:50:44.543 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.543 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.543 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.543 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.543 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.543 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.543 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.543 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.543 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.544 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.ExitActivity} from uid 10064 on display 0
+08-31 14:50:44.544 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.ExitActivity } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:50:44.546 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:50:44.546 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:50:44.546 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$3.onClick(FuzzerActivity.java:167)
+08-31 14:50:44.546 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:50:44.546 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:50:44.546 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:50:44.546 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:50:44.546 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:44.546 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:44.547 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:44.547 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:44.547 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:44.552 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:50:44.665 W/ActivityManager( 1281): Slow operation: 106ms so far, now at startProcess: returned from zygote!
+08-31 14:50:44.665 W/ActivityManager( 1281): Slow operation: 106ms so far, now at startProcess: done updating battery stats
+08-31 14:50:44.665 W/ActivityManager( 1281): Slow operation: 106ms so far, now at startProcess: building log message
+08-31 14:50:44.665 I/ActivityManager( 1281): Start proc 2016:org.smssecure.smssecure/u0a60 for activity org.smssecure.smssecure/.PanicResponderActivity
+08-31 14:50:44.665 W/ActivityManager( 1281): Slow operation: 106ms so far, now at startProcess: starting to update pids map
+08-31 14:50:44.665 W/ActivityManager( 1281): Slow operation: 106ms so far, now at startProcess: done updating pids map
+08-31 14:50:44.665 W/ActivityManager( 1281): Slow operation: 106ms so far, now at startProcess: done starting proc!
+08-31 14:50:44.690 D/PermissionCache( 1082): checking android.permission.READ_FRAME_BUFFER for uid=1000 => granted (558 us)
+08-31 14:50:44.692 D/libnativebridge( 2016): call UnloadNativeBridge! state=1
+08-31 14:50:44.703 I/HostConnection( 1281): HostConnection::HostConnection: pid=1281, tid=1761, this=0x7fffcdb62c00
+08-31 14:50:44.705 I/        ( 1281): fastpipe: Connect success
+08-31 14:50:44.705 D/HostConnection( 1281): HostRPC::connect sucess: app=system_server, pid=1281, tid=1761, this=0x7fffcb765200
+08-31 14:50:44.708 D/HostConnection( 1281): queryAndSetGLESMaxVersion select gles-version: 3.1 hostGLVersion:46 process:system_server
+08-31 14:50:44.722 E/EGL_adreno( 1082): tid 1082: eglCreateSyncKHR(2089): error 0x3004 (EGL_BAD_ATTRIBUTE)
+08-31 14:50:44.911 W/art     ( 1281): Long monitor contention with owner Binder:1281_8 (1761) at void com.android.server.am.ActivityManagerService.activityPaused(android.os.IBinder)(ActivityManagerService.java:7045) waiters=0 in void com.android.server.am.ActivityManagerService.serviceDoneExecuting(android.os.IBinder, int, int, int) for 351ms
+08-31 14:50:44.912 W/art     ( 1281): Long monitor contention with owner Binder:1281_8 (1761) at void com.android.server.am.ActivityManagerService.activityPaused(android.os.IBinder)(ActivityManagerService.java:7045) waiters=1 in void com.android.server.am.ActivityManagerService.dispatchUidsChanged() for 351ms
+08-31 14:50:44.956 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:50:44.957 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:50:44.960 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:50:44.991 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:50:45.012 I/art     ( 1281): Background partial concurrent mark sweep GC freed 32346(1739KB) AllocSpace objects, 31(620KB) LOS objects, 33% free, 11MB/16MB, paused 262us total 104.882ms
+08-31 14:50:45.816 W/PartProvider( 2016): onCreate()
+08-31 14:50:45.944 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:50:45.981 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:50:45.996 D/AndroidRuntime( 2016): Shutting down VM
+--------- beginning of crash
+08-31 14:50:46.001 E/AndroidRuntime( 2016): FATAL EXCEPTION: main
+08-31 14:50:46.001 E/AndroidRuntime( 2016): Process: org.smssecure.smssecure, PID: 2016
+08-31 14:50:46.001 E/AndroidRuntime( 2016): java.lang.RuntimeException: Unable to start activity ComponentInfo{org.smssecure.smssecure/org.smssecure.smssecure.SmsSendtoActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+08-31 14:50:46.001 E/AndroidRuntime( 2016): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2698)
+08-31 14:50:46.001 E/AndroidRuntime( 2016): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2759)
+08-31 14:50:46.001 E/AndroidRuntime( 2016): 	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+08-31 14:50:46.001 E/AndroidRuntime( 2016): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+08-31 14:50:46.001 E/AndroidRuntime( 2016): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-31 14:50:46.001 E/AndroidRuntime( 2016): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:46.001 E/AndroidRuntime( 2016): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:50:46.001 E/AndroidRuntime( 2016): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:50:46.001 E/AndroidRuntime( 2016): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:50:46.001 E/AndroidRuntime( 2016): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:50:46.001 E/AndroidRuntime( 2016): Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+08-31 14:50:46.001 E/AndroidRuntime( 2016): 	at org.smssecure.smssecure.SmsSendtoActivity.getNextIntent(SmsSendtoActivity.java:33)
+08-31 14:50:46.001 E/AndroidRuntime( 2016): 	at org.smssecure.smssecure.SmsSendtoActivity.onCreate(SmsSendtoActivity.java:25)
+08-31 14:50:46.001 E/AndroidRuntime( 2016): 	at android.app.Activity.performCreate(Activity.java:6701)
+08-31 14:50:46.001 E/AndroidRuntime( 2016): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+08-31 14:50:46.001 E/AndroidRuntime( 2016): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2651)
+08-31 14:50:46.001 E/AndroidRuntime( 2016): 	... 9 more
+08-31 14:50:46.003 W/ActivityManager( 1281):   Force finishing activity org.smssecure.smssecure/.SmsSendtoActivity
+08-31 14:50:46.009 W/ActivityManager( 1281):   Force finishing activity com.android.intentfuzzer/.FuzzerActivity
+08-31 14:50:46.021 W/System.err( 1281): java.lang.Exception: show AlertDialog! title=Silence已停止运行
+08-31 14:50:46.025 W/System.err( 1281): 	at android.app.AlertDialog.show(AlertDialog.java:134)
+08-31 14:50:46.025 W/System.err( 1281): 	at com.android.server.am.AppErrors.handleShowAppErrorUi(AppErrors.java:719)
+08-31 14:50:46.025 W/System.err( 1281): 	at com.android.server.am.ActivityManagerService$UiHandler.handleMessage(ActivityManagerService.java:1637)
+08-31 14:50:46.025 W/System.err( 1281): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-31 14:50:46.025 W/System.err( 1281): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:46.025 W/System.err( 1281): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+08-31 14:50:46.025 W/System.err( 1281): 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+08-31 14:50:46.079 I/HostConnection( 1281): HostConnection::HostConnection: pid=1281, tid=1989, this=0x7fffcdb9dd60
+08-31 14:50:46.082 I/        ( 1281): fastpipe: Connect success
+08-31 14:50:46.082 D/HostConnection( 1281): HostRPC::connect sucess: app=system_server, pid=1281, tid=1989, this=0x7fffcb5f2f00
+08-31 14:50:46.086 D/HostConnection( 1281): queryAndSetGLESMaxVersion select gles-version: 3.1 hostGLVersion:46 process:system_server
+08-31 14:50:46.086 I/OpenGLRenderer( 1281): Initialized EGL, version 1.4
+08-31 14:50:46.086 D/OpenGLRenderer( 1281): Swap behavior 1
+08-31 14:50:46.087 I/EGL_adreno( 1281): eglCreateContext request GLES major-version=2
+08-31 14:50:46.143 D/EGL_adreno( 1281): eglCreateContext: 0x7fffccffacc0: maj 3 min 1 rcv 4
+08-31 14:50:46.227 D/EGL_adreno( 1281): eglMakeCurrent: 0x7fffccffacc0: ver 3 1 (tinfo 0x7fffcdb14d40)
+08-31 14:50:46.258 E/EGL_adreno( 1281): tid 1989: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:50:46.258 W/OpenGLRenderer( 1281): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb52c980, error=EGL_BAD_MATCH
+08-31 14:50:46.264 D/EGL_adreno( 1281): eglMakeCurrent: 0x7fffccffacc0: ver 3 1 (tinfo 0x7fffcdb14d40)
+08-31 14:50:46.510 W/ActivityManager( 1281): Activity pause timeout for ActivityRecord{b86ace2 u0 org.smssecure.smssecure/.SmsSendtoActivity t3 f}
+08-31 14:50:46.559 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:50:46.563 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:50:46.701 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:50:46.701 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:50:46.702 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:50:46.898 W/WindowManager( 1281): Failed looking up window
+08-31 14:50:46.898 W/WindowManager( 1281): java.lang.IllegalArgumentException: Requested window android.view.ViewRootImpl$W@eab8860 does not exist
+08-31 14:50:46.898 W/WindowManager( 1281): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:9459)
+08-31 14:50:46.898 W/WindowManager( 1281): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:9450)
+08-31 14:50:46.898 W/WindowManager( 1281): 	at com.android.server.wm.WindowManagerService.removeWindow(WindowManagerService.java:2410)
+08-31 14:50:46.898 W/WindowManager( 1281): 	at com.android.server.wm.Session.remove(Session.java:202)
+08-31 14:50:46.898 W/WindowManager( 1281): 	at android.view.ViewRootImpl.dispatchDetachedFromWindow(ViewRootImpl.java:3290)
+08-31 14:50:46.898 W/WindowManager( 1281): 	at android.view.ViewRootImpl.doDie(ViewRootImpl.java:5917)
+08-31 14:50:46.898 W/WindowManager( 1281): 	at android.view.ViewRootImpl$ViewRootHandler.handleMessage(ViewRootImpl.java:3626)
+08-31 14:50:46.898 W/WindowManager( 1281): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-31 14:50:46.898 W/WindowManager( 1281): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:50:46.898 W/WindowManager( 1281): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+08-31 14:50:46.898 W/WindowManager( 1281): 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+08-31 14:50:47.513 D/audio_hw_hal( 1087): log_func, out_standby
+08-31 14:50:47.513 D/audio_hw_hal( 1087): raw_close_output_stream, dev=0xf6e480c0, stream =0xf6e43140
+08-31 14:50:47.513 D/audio_hw_hal( 1087): raw_close_output_stream, stream=0xf6e43140,  success!
+08-31 14:50:47.910 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@cccfff
+08-31 14:50:48.193 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:50:48.193 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:50:48.199 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:50:48.228 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:50:51.423 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@cce71cc
+08-31 14:50:51.523 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:50:51.523 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:50:51.526 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:50:54.930 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:50:54.939 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@a5acc15
+08-31 14:50:55.042 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:50:55.042 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:50:55.043 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:50:56.895 W/ActivityManager( 1281): Activity destroy timeout for ActivityRecord{b86ace2 u0 org.smssecure.smssecure/.SmsSendtoActivity t3 f}
+08-31 14:50:56.895 W/ActivityManager( 1281): Activity destroy timeout for ActivityRecord{516125c u0 org.smssecure.smssecure/.PanicResponderActivity t3 f}
+08-31 14:50:58.447 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:50:58.456 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@157b2a
+08-31 14:50:58.566 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:50:58.566 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:50:58.568 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:01.962 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:01.973 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@e3f37ce
+08-31 14:51:02.074 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:51:02.075 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:51:02.077 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:05.477 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:05.489 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@81b02da
+08-31 14:51:05.599 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:51:05.599 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:51:05.601 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:08.997 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:09.006 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@89b65e8
+08-31 14:51:09.111 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:51:09.111 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:51:09.114 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:12.512 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:12.522 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@ca74401
+08-31 14:51:12.643 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:51:12.643 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:51:12.644 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:16.029 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:16.039 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@3b672a6
+08-31 14:51:16.135 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:51:16.135 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:51:16.156 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:19.544 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:19.556 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@e0194e7
+08-31 14:51:19.659 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:51:19.659 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:51:19.661 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:23.064 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:23.072 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@3b4f894
+08-31 14:51:23.175 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:51:23.176 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:51:23.178 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:26.580 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:26.590 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@e431f3d
+08-31 14:51:26.692 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:51:26.692 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:51:26.693 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:30.097 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:30.106 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@c471332
+08-31 14:51:30.209 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:51:30.209 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:51:30.211 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:33.618 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:33.623 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@cc89883
+08-31 14:51:33.724 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:51:33.724 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:51:33.726 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:37.129 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:37.139 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@8330a00
+08-31 14:51:37.240 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:51:37.240 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:51:37.243 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:40.647 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:40.656 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@6c77239
+08-31 14:51:40.762 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:51:40.762 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:51:40.765 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:44.162 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:44.173 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@8cf307e
+08-31 14:51:44.277 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:51:44.277 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:51:44.279 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:44.619 D/WifiStateMachine( 1281): setScanResults mScanResults.size=1
+08-31 14:51:47.679 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:47.689 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@7239df
+08-31 14:51:47.799 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:51:47.799 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:51:47.800 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:51.196 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:51.205 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@fbec62c
+08-31 14:51:51.348 W/art     ( 1281): Long monitor contention with owner android.display (1302) at void com.android.server.wm.WindowManagerService$H.handleMessage(android.os.Message)(WindowManagerService.java:8945) waiters=0 in int com.android.server.wm.WindowManagerService.relayoutWindow(com.android.server.wm.Session, android.view.IWindow, int, android.view.WindowManager$LayoutParams, int, int, int, int, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.content.res.Configuration, android.view.Surface) for 103ms
+08-31 14:51:51.410 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:51:51.410 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:51:51.411 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:54.710 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:54.723 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@6a3f8f5
+08-31 14:51:54.829 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:51:54.830 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:51:54.831 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:58.229 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:51:58.239 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@c29d68a
+08-31 14:51:58.347 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:51:58.347 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:51:58.349 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:01.745 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:01.756 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@5ea94fb
+08-31 14:52:01.858 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:52:01.858 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:52:01.860 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:05.261 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:05.272 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@3681918
+08-31 14:52:05.375 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:52:05.376 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:52:05.377 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:08.779 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:08.789 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@b882f71
+08-31 14:52:08.892 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:52:08.892 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:52:08.893 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:12.295 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:12.305 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@9d6d156
+08-31 14:52:12.413 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:52:12.414 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:52:12.417 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:15.811 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:15.822 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@2c385d7
+08-31 14:52:15.927 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:52:15.927 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:52:15.929 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:19.330 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:19.340 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@b51aec4
+08-31 14:52:19.440 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:52:19.441 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:52:19.442 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:22.852 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:22.856 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@49f51ad
+08-31 14:52:22.981 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:52:22.981 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:52:22.982 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:26.362 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:26.372 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@e8c5ba9
+08-31 14:52:26.472 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:52:26.473 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:52:26.475 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:29.875 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:29.889 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@366b52e
+08-31 14:52:30.074 W/art     ( 1281): Long monitor contention with owner Binder:1281_3 (1406) at int com.android.server.wm.WindowManagerService.relayoutWindow(com.android.server.wm.Session, android.view.IWindow, int, android.view.WindowManager$LayoutParams, int, int, int, int, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.content.res.Configuration, android.view.Surface)(WindowManagerService.java:2874) waiters=0 in void com.android.server.wm.WindowManagerService$H.handleMessage(android.os.Message) for 137ms
+08-31 14:52:30.110 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:52:30.110 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:52:30.111 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:33.394 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:33.406 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@d8358cf
+08-31 14:52:33.500 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:52:33.501 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:52:33.525 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:36.912 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:36.923 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@c06b2eb
+08-31 14:52:37.027 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:52:37.027 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c95c0, error=EGL_BAD_MATCH
+08-31 14:52:37.028 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:40.429 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:52:40.439 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@61ff848
+08-31 14:53:05.204 I/ActivityManager( 1281): Killing 2016:org.smssecure.smssecure/u0a60 (adj 900): crash
+08-31 14:53:05.204 D/ActivityManager( 1281): cleanUpApplicationRecord -- 2016
+08-31 14:53:05.206 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:53:05.215 D/EGL_adreno( 1281): eglMakeCurrent: 0x7fffccffacc0: ver 3 1 (tinfo 0x7fffcdb14d40)
+08-31 14:53:05.240 W/InputEventReceiver( 1281): Attempted to finish an input event but the input event receiver has already been disposed.
+08-31 14:53:05.244 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:53:05.251 I/HostConnection( 1281): HostConnection::~HostConnection, pid=1281, tid=1989, this=0x7fffcdb9dd60, m_stream=0x7fffcb5f2f00
+08-31 14:53:05.252 I/        ( 1281): fastpipe: close connect
+08-31 14:53:05.323 W/AppOps  ( 1281): Finishing op nesting under-run: uid 1000 pkg android code 24 time=0 duration=0 nesting=0
+08-31 14:53:06.972 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:07.005 I/ActivityManager( 1281): START u0 {cmp=com.android.intentfuzzer/.FuzzerActivity} from uid 10064 on display 0
+08-31 14:53:07.007 D/audio_hw_hal( 1087): raw_start_output_stream, stream=0xf6e43140, sampleRate=48000, channel=2, bps=16, bufSize=4096
+08-31 14:53:07.012 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:53:07.039 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:53:07.137 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:53:07.137 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9580, error=EGL_BAD_MATCH
+08-31 14:53:07.191 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:07.228 I/ActivityManager( 1281): Displayed com.android.intentfuzzer/.FuzzerActivity: +215ms (total +2m22s668ms)
+08-31 14:53:07.231 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:53:07.320 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:53:08.729 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.CountrySelectionActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.729 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.CountrySelectionActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.730 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.730 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.730 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.731 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.731 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.731 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.731 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.731 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.731 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.731 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.731 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.731 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.733 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.ImportExportActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.733 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.ImportExportActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.734 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.734 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.734 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.734 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.734 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.734 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.735 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.735 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.735 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.735 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.735 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.735 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.737 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.PromptMmsActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.737 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.PromptMmsActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.738 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.738 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.738 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.738 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.738 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.738 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.738 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.738 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.738 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.738 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.738 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.738 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.740 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.preferences.MmsPreferencesActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.740 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.preferences.MmsPreferencesActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.741 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.741 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.741 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.741 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.741 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.741 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.741 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.741 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.741 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.741 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.741 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.741 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.742 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.ShareActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.747 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=org.smssecure.smssecure/.ShareActivity (has extras) }
+08-31 14:53:08.747 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.747 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:53:08.747 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.747 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.747 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.747 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.747 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.747 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.747 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.747 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.747 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.749 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:53:08.749 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.ConversationListActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.755 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=org.smssecure.smssecure/.ConversationListActivity (has extras) }
+08-31 14:53:08.755 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.755 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:53:08.755 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.755 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.755 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.755 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.755 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.755 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.755 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.755 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.755 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.758 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:53:08.776 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.RoutingActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.778 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=org.smssecure.smssecure/.RoutingActivity (has extras) }
+08-31 14:53:08.778 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.778 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:53:08.778 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.778 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.778 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.778 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.778 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.778 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.778 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.778 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.778 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.780 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.ConversationListArchiveActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.780 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.ConversationListArchiveActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.782 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.782 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.782 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.782 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.782 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.782 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.782 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.782 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.782 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.782 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.782 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.782 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.783 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.ConversationActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.784 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.ConversationActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.785 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.785 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.785 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.785 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.785 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.785 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.785 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.785 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.785 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.786 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.786 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.786 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.787 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.ConversationPopupActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.787 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.ConversationPopupActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.789 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.789 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.789 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.789 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.789 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.789 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.789 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.789 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.789 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.789 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.789 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.789 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.791 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.MessageDetailsActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.791 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.MessageDetailsActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.792 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.793 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.793 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.793 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.793 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.793 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.793 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.793 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.793 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.793 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.793 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.793 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.795 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.GroupCreateActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.795 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.GroupCreateActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.797 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.797 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.797 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.797 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.797 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.797 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.797 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.797 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.797 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.797 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.797 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.797 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.799 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.DatabaseMigrationActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.799 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.DatabaseMigrationActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.801 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.801 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.801 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.801 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.801 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.801 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.801 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.801 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.801 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.801 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.801 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.801 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.803 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.DatabaseUpgradeActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.803 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.DatabaseUpgradeActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.805 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.805 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.805 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.805 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.805 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.805 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.805 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.805 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.805 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.805 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.805 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.805 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.807 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.IntroScreenActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.807 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.IntroScreenActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.808 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.808 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.808 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.808 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.809 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.809 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.809 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.809 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.809 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.809 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.809 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.809 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.810 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.PassphraseCreateActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.810 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.PassphraseCreateActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.811 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.812 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.812 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.812 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.812 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.812 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.812 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.812 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.812 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.812 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.812 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.812 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.813 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.PassphrasePromptActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.814 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.PassphrasePromptActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.816 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.816 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.816 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.816 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.816 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.816 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.816 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.816 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.816 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.816 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.816 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.816 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.818 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.NewConversationActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.818 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.NewConversationActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.819 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.819 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.819 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.820 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.820 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.820 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.820 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.820 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.820 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.820 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.820 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.820 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.821 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.PushContactSelectionActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.821 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.PushContactSelectionActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.822 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.822 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.822 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.822 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.822 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.822 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.822 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.822 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.822 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.823 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.823 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.823 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.823 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.ViewIdentityActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.824 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.ViewIdentityActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.825 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.825 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.825 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.825 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.825 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.825 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.825 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.825 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.825 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.825 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.825 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.825 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.826 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.ViewLocalIdentityActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.827 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.ViewLocalIdentityActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.828 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.829 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.829 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.829 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.829 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.829 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.829 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.829 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.829 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.829 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.829 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.829 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.831 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.PassphraseChangeActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.831 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.PassphraseChangeActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.832 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.832 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.832 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.832 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.832 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.832 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.832 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.832 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.833 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.833 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.833 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.833 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.835 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.VerifyIdentityActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.835 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.VerifyIdentityActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.837 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.837 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.837 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.837 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.837 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.837 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.837 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.837 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.838 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.838 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.838 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.838 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.839 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.ApplicationPreferencesActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.839 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.ApplicationPreferencesActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.841 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.841 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.841 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.841 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.841 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.841 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.841 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.841 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.841 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.841 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.841 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.841 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.842 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.LogSubmitActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.843 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.LogSubmitActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.844 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.844 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.844 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.844 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.844 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.844 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.844 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.844 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.844 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.844 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.844 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.844 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.846 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.MediaPreviewActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.846 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.MediaPreviewActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.847 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.847 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.847 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.847 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.847 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.847 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.847 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.847 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.847 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.847 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.847 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.847 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.849 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.MediaOverviewActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.849 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.MediaOverviewActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.850 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.850 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.850 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.850 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.850 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.850 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.850 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.850 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.850 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.850 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.850 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.850 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.852 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.DummyActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.852 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.DummyActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.853 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.853 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.853 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.853 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.853 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.853 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.854 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.854 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.854 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.854 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.854 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.854 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.855 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.SmsSendtoActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.863 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:53:08.864 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=org.smssecure.smssecure/.SmsSendtoActivity (has extras) }
+08-31 14:53:08.864 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.864 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:53:08.864 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.864 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.864 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.864 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.864 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.864 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.864 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.864 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.864 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.866 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.RecipientPreferenceActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.866 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.RecipientPreferenceActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.867 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.867 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.867 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.867 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.867 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.867 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.867 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.867 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.867 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.867 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.867 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.867 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.868 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.BlockedContactsActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.868 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.BlockedContactsActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.869 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.869 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.869 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.869 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.870 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.870 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.870 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.870 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.870 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.870 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.870 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.870 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.876 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.PanicResponderActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.881 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Sent Serializeable Intent { cmp=org.smssecure.smssecure/.PanicResponderActivity (has extras) }
+08-31 14:53:08.881 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.881 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:184)
+08-31 14:53:08.881 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.881 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.881 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.881 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.881 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.881 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.881 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.881 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.881 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.883 I/ActivityManager( 1281): START u0 {cmp=org.smssecure.smssecure/.ExitActivity (has extras)} from uid 10064 on display 0
+08-31 14:53:08.883 W/ActivityManager( 1281): Permission Denial: starting Intent { cmp=org.smssecure.smssecure/.ExitActivity (has extras) } from ProcessRecord{bda5613 1935:com.android.intentfuzzer/u0a64} (pid=1935, uid=10064) not exported from uid 10060
+08-31 14:53:08.884 W/System.err( 1935): java.lang.Exception: Toast callstack! strTip=Send Intent Failed!
+08-31 14:53:08.884 W/System.err( 1935): 	at android.widget.Toast.show(Toast.java:130)
+08-31 14:53:08.884 W/System.err( 1935): 	at com.android.intentfuzzer.FuzzerActivity$4.onClick(FuzzerActivity.java:186)
+08-31 14:53:08.885 W/System.err( 1935): 	at android.view.View.performClick(View.java:5637)
+08-31 14:53:08.885 W/System.err( 1935): 	at android.view.View$PerformClick.run(View.java:22429)
+08-31 14:53:08.885 W/System.err( 1935): 	at android.os.Handler.handleCallback(Handler.java:751)
+08-31 14:53:08.885 W/System.err( 1935): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+08-31 14:53:08.885 W/System.err( 1935): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:08.885 W/System.err( 1935): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:08.885 W/System.err( 1935): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:08.885 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:08.885 W/System.err( 1935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:08.887 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:53:08.892 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:53:08.922 I/ActivityManager( 1281): Start proc 2041:org.smssecure.smssecure/u0a60 for activity org.smssecure.smssecure/.PanicResponderActivity
+08-31 14:53:08.928 D/libnativebridge( 2041): call UnloadNativeBridge! state=1
+08-31 14:53:08.962 I/HostConnection( 1281): HostConnection::HostConnection: pid=1281, tid=1406, this=0x7fffd7a3e180
+08-31 14:53:08.964 I/        ( 1281): fastpipe: Connect success
+08-31 14:53:08.964 D/HostConnection( 1281): HostRPC::connect sucess: app=system_server, pid=1281, tid=1406, this=0x7fffd7b4f1c0
+08-31 14:53:08.965 D/HostConnection( 1281): queryAndSetGLESMaxVersion select gles-version: 3.1 hostGLVersion:46 process:system_server
+08-31 14:53:08.983 E/EGL_adreno( 1082): tid 1082: eglCreateSyncKHR(2089): error 0x3004 (EGL_BAD_ATTRIBUTE)
+08-31 14:53:09.186 W/art     ( 1281): Long monitor contention with owner Binder:1281_3 (1406) at void com.android.server.am.ActivityManagerService.activityPaused(android.os.IBinder)(ActivityManagerService.java:7045) waiters=0 in void com.android.server.am.ActivityManagerService.dispatchUidsChanged() for 287ms
+08-31 14:53:09.188 W/art     ( 1281): Long monitor contention with owner Binder:1281_3 (1406) at void com.android.server.am.ActivityManagerService.activityPaused(android.os.IBinder)(ActivityManagerService.java:7045) waiters=1 in void com.android.server.am.ActivityManagerService.trimApplications() for 288ms
+08-31 14:53:09.192 W/art     ( 1281): Long monitor contention with owner Binder:1281_3 (1406) at void com.android.server.am.ActivityManagerService.activityPaused(android.os.IBinder)(ActivityManagerService.java:7045) waiters=3 in void com.android.server.am.ActivityManagerService.attachApplication(android.app.IApplicationThread) for 223ms
+08-31 14:53:09.228 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:53:09.270 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:53:09.270 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:53:09.301 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:09.884 W/PartProvider( 2041): onCreate()
+08-31 14:53:09.926 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:53:09.936 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:53:09.951 D/AndroidRuntime( 2041): Shutting down VM
+08-31 14:53:09.952 E/AndroidRuntime( 2041): FATAL EXCEPTION: main
+08-31 14:53:09.952 E/AndroidRuntime( 2041): Process: org.smssecure.smssecure, PID: 2041
+08-31 14:53:09.952 E/AndroidRuntime( 2041): java.lang.RuntimeException: Unable to start activity ComponentInfo{org.smssecure.smssecure/org.smssecure.smssecure.SmsSendtoActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+08-31 14:53:09.952 E/AndroidRuntime( 2041): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2698)
+08-31 14:53:09.952 E/AndroidRuntime( 2041): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2759)
+08-31 14:53:09.952 E/AndroidRuntime( 2041): 	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+08-31 14:53:09.952 E/AndroidRuntime( 2041): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+08-31 14:53:09.952 E/AndroidRuntime( 2041): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-31 14:53:09.952 E/AndroidRuntime( 2041): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:09.952 E/AndroidRuntime( 2041): 	at android.app.ActivityThread.main(ActivityThread.java:6190)
+08-31 14:53:09.952 E/AndroidRuntime( 2041): 	at java.lang.reflect.Method.invoke(Native Method)
+08-31 14:53:09.952 E/AndroidRuntime( 2041): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+08-31 14:53:09.952 E/AndroidRuntime( 2041): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+08-31 14:53:09.952 E/AndroidRuntime( 2041): Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+08-31 14:53:09.952 E/AndroidRuntime( 2041): 	at org.smssecure.smssecure.SmsSendtoActivity.getNextIntent(SmsSendtoActivity.java:33)
+08-31 14:53:09.952 E/AndroidRuntime( 2041): 	at org.smssecure.smssecure.SmsSendtoActivity.onCreate(SmsSendtoActivity.java:25)
+08-31 14:53:09.952 E/AndroidRuntime( 2041): 	at android.app.Activity.performCreate(Activity.java:6701)
+08-31 14:53:09.952 E/AndroidRuntime( 2041): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+08-31 14:53:09.952 E/AndroidRuntime( 2041): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2651)
+08-31 14:53:09.952 E/AndroidRuntime( 2041): 	... 9 more
+08-31 14:53:09.957 W/ActivityManager( 1281):   Force finishing activity org.smssecure.smssecure/.SmsSendtoActivity
+08-31 14:53:09.960 W/ActivityManager( 1281):   Force finishing activity com.android.intentfuzzer/.FuzzerActivity
+08-31 14:53:09.964 W/System.err( 1281): java.lang.Exception: show AlertDialog! title=Silence已停止运行
+08-31 14:53:09.964 W/System.err( 1281): 	at android.app.AlertDialog.show(AlertDialog.java:134)
+08-31 14:53:09.964 W/System.err( 1281): 	at com.android.server.am.AppErrors.handleShowAppErrorUi(AppErrors.java:719)
+08-31 14:53:09.964 W/System.err( 1281): 	at com.android.server.am.ActivityManagerService$UiHandler.handleMessage(ActivityManagerService.java:1637)
+08-31 14:53:09.964 W/System.err( 1281): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-31 14:53:09.964 W/System.err( 1281): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:09.964 W/System.err( 1281): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+08-31 14:53:09.964 W/System.err( 1281): 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+08-31 14:53:10.009 I/HostConnection( 1281): HostConnection::HostConnection: pid=1281, tid=1989, this=0x7fffcdb9dd60
+08-31 14:53:10.012 I/        ( 1281): fastpipe: Connect success
+08-31 14:53:10.012 D/HostConnection( 1281): HostRPC::connect sucess: app=system_server, pid=1281, tid=1989, this=0x7fffcb5f2f00
+08-31 14:53:10.017 D/HostConnection( 1281): queryAndSetGLESMaxVersion select gles-version: 3.1 hostGLVersion:46 process:system_server
+08-31 14:53:10.021 I/OpenGLRenderer( 1281): Initialized EGL, version 1.4
+08-31 14:53:10.021 D/OpenGLRenderer( 1281): Swap behavior 1
+08-31 14:53:10.022 I/EGL_adreno( 1281): eglCreateContext request GLES major-version=2
+08-31 14:53:10.104 D/EGL_adreno( 1281): eglCreateContext: 0x7fffccffacc0: maj 3 min 1 rcv 4
+08-31 14:53:10.191 D/EGL_adreno( 1281): eglMakeCurrent: 0x7fffccffacc0: ver 3 1 (tinfo 0x7fffcdb14d40)
+08-31 14:53:10.228 E/EGL_adreno( 1281): tid 1989: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:53:10.228 W/OpenGLRenderer( 1281): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb4eed00, error=EGL_BAD_MATCH
+08-31 14:53:10.232 D/EGL_adreno( 1281): eglMakeCurrent: 0x7fffccffacc0: ver 3 1 (tinfo 0x7fffcdb14d40)
+08-31 14:53:10.461 W/ActivityManager( 1281): Activity pause timeout for ActivityRecord{97ee996 u0 org.smssecure.smssecure/.SmsSendtoActivity t3 f}
+08-31 14:53:10.507 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:53:10.527 W/ContextImpl( 1676): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1358 android.content.ContextWrapper.startService:613 android.content.ContextWrapper.startService:613 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3073 
+08-31 14:53:10.676 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:53:10.676 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5c9580, error=EGL_BAD_MATCH
+08-31 14:53:10.677 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:10.880 W/WindowManager( 1281): Failed looking up window
+08-31 14:53:10.880 W/WindowManager( 1281): java.lang.IllegalArgumentException: Requested window android.view.ViewRootImpl$W@89d334 does not exist
+08-31 14:53:10.880 W/WindowManager( 1281): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:9459)
+08-31 14:53:10.880 W/WindowManager( 1281): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:9450)
+08-31 14:53:10.880 W/WindowManager( 1281): 	at com.android.server.wm.WindowManagerService.removeWindow(WindowManagerService.java:2410)
+08-31 14:53:10.880 W/WindowManager( 1281): 	at com.android.server.wm.Session.remove(Session.java:202)
+08-31 14:53:10.880 W/WindowManager( 1281): 	at android.view.ViewRootImpl.dispatchDetachedFromWindow(ViewRootImpl.java:3290)
+08-31 14:53:10.880 W/WindowManager( 1281): 	at android.view.ViewRootImpl.doDie(ViewRootImpl.java:5917)
+08-31 14:53:10.880 W/WindowManager( 1281): 	at android.view.ViewRootImpl$ViewRootHandler.handleMessage(ViewRootImpl.java:3626)
+08-31 14:53:10.880 W/WindowManager( 1281): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+08-31 14:53:10.880 W/WindowManager( 1281): 	at android.os.Looper.loop(Looper.java:154)
+08-31 14:53:10.880 W/WindowManager( 1281): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+08-31 14:53:10.880 W/WindowManager( 1281): 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+08-31 14:53:11.853 D/audio_hw_hal( 1087): log_func, out_standby
+08-31 14:53:11.853 D/audio_hw_hal( 1087): raw_close_output_stream, dev=0xf6e480c0, stream =0xf6e43140
+08-31 14:53:11.853 D/audio_hw_hal( 1087): raw_close_output_stream, stream=0xf6e43140,  success!
+08-31 14:53:12.239 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@354fb5e
+08-31 14:53:12.345 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:53:12.345 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:53:12.349 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:15.748 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:15.756 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@879db3f
+08-31 14:53:15.857 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:53:15.858 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:53:15.859 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:19.263 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:19.272 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@e69bc0c
+08-31 14:53:19.376 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:53:19.377 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:53:19.378 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:20.885 W/ActivityManager( 1281): Activity destroy timeout for ActivityRecord{97ee996 u0 org.smssecure.smssecure/.SmsSendtoActivity t3 f}
+08-31 14:53:20.885 W/ActivityManager( 1281): Activity destroy timeout for ActivityRecord{eda4970 u0 org.smssecure.smssecure/.PanicResponderActivity t3 f}
+08-31 14:53:22.779 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:22.790 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@798e955
+08-31 14:53:22.885 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:53:22.885 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:53:22.887 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:26.297 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:26.306 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@fbaec5b
+08-31 14:53:26.419 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:53:26.419 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:53:26.421 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:29.813 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:29.822 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@de4f80e
+08-31 14:53:29.936 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:53:29.936 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:53:29.938 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:33.329 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:33.340 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@8da403c
+08-31 14:53:33.448 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:53:33.448 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:53:33.449 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:36.855 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:36.856 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@ee7d1c5
+08-31 14:53:36.975 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:53:36.975 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:53:36.977 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:40.363 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:40.373 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@dfc871a
+08-31 14:53:40.474 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:53:40.474 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:53:40.477 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:43.881 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:43.889 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@dcba24b
+08-31 14:53:44.015 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:53:44.015 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:53:44.016 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:47.396 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:47.405 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@c292428
+08-31 14:53:47.509 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:53:47.509 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:53:47.510 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:50.911 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:50.922 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@578c541
+08-31 14:53:51.026 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:53:51.026 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:53:51.028 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:54.428 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:54.439 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@1cbfae6
+08-31 14:53:54.561 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:53:54.561 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:53:54.563 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:57.945 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:53:57.956 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@e301827
+08-31 14:53:58.058 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:53:58.058 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:53:58.060 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:01.462 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:01.472 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@7005ad4
+08-31 14:54:01.576 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:54:01.577 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:54:01.579 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:04.977 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:04.989 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@acb747d
+08-31 14:54:05.091 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:54:05.091 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:54:05.092 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:08.494 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:08.508 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@bccdf72
+08-31 14:54:08.609 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:54:08.609 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:54:08.611 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:12.015 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:12.022 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@67c0fc3
+08-31 14:54:12.125 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:54:12.125 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:54:12.126 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:15.527 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:15.539 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@3725040
+08-31 14:54:15.643 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:54:15.644 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:54:15.645 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:19.046 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:19.056 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@d9fdb79
+08-31 14:54:19.158 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:54:19.158 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:54:19.159 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:22.588 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:22.589 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@a8580be
+08-31 14:54:22.709 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:54:22.710 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:54:22.711 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:24.624 D/WifiStateMachine( 1281): setScanResults mScanResults.size=1
+08-31 14:54:26.094 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:26.106 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@905e51f
+08-31 14:54:26.209 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:54:26.209 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:54:26.212 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:29.614 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:29.622 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@84c306c
+08-31 14:54:29.727 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:54:29.727 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:54:29.730 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:33.147 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:33.155 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@eb9b635
+08-31 14:54:33.274 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:54:33.274 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:54:33.276 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:36.661 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:36.673 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@c94eaca
+08-31 14:54:36.793 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:54:36.793 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:54:36.795 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:40.180 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:40.189 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@d2db43b
+08-31 14:54:40.292 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:54:40.292 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:54:40.293 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:43.695 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:43.706 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@a01e758
+08-31 14:54:43.809 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:54:43.809 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:54:43.810 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:47.213 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:47.222 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@d5c80b1
+08-31 14:54:47.336 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:54:47.336 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:54:47.339 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:50.729 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:50.739 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@f8776ed
+08-31 14:54:50.839 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:54:50.839 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:54:50.842 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:54.244 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:54.256 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@b380922
+08-31 14:54:54.359 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:54:54.359 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:54:54.360 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:57.763 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:54:57.772 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@bf06fb3
+08-31 14:54:57.885 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:54:57.885 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:54:57.887 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:55:01.277 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:55:01.289 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@f8540f
+08-31 14:55:01.404 E/EGL_adreno( 1935): tid 1952: eglSurfaceAttrib(1338): error 0x3009 (EGL_BAD_MATCH)
+08-31 14:55:01.404 W/OpenGLRenderer( 1935): Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fffeb5f5b80, error=EGL_BAD_MATCH
+08-31 14:55:01.405 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:55:04.794 D/EGL_adreno( 1935): eglMakeCurrent: 0x7fffeb454c20: ver 3 1 (tinfo 0x7fffeb40d8a0)
+08-31 14:55:04.805 W/WindowManager( 1281): Attempted to remove non-existing token: android.os.Binder@5f28c9c

@@ -1,0 +1,95 @@
+BugInfo:
+hash:1951473729
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{org.smssecure.smssecure/org.smssecure.smssecure.SmsSendtoActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.toString()' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2698)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2759)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6190)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.toString()' on a null object reference
+	at org.smssecure.smssecure.SmsSendtoActivity.getDestinationForView(SmsSendtoActivity.java)
+	at org.smssecure.smssecure.SmsSendtoActivity.getNextIntent(SmsSendtoActivity.java)
+	at org.smssecure.smssecure.SmsSendtoActivity.onCreate(SmsSendtoActivity.java)
+	at android.app.Activity.performCreate(Activity.java:6701)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2651)
+	... 9 more
+
+ICC Msgs:
+1769	org.smssecure.smssecure.SmsSendtoActivity	"aaaag";;null;;null;;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:1831144322
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{org.smssecure.smssecure/org.smssecure.smssecure.SmsSendtoActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2698)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2759)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6190)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+	at org.smssecure.smssecure.SmsSendtoActivity.getNextIntent(SmsSendtoActivity.java)
+	at org.smssecure.smssecure.SmsSendtoActivity.onCreate(SmsSendtoActivity.java)
+	at android.app.Activity.performCreate(Activity.java:6701)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2651)
+	... 9 more
+
+ICC Msgs:
+1768	org.smssecure.smssecure.SmsSendtoActivity	null;;null;;null;;null;;
+
+1771	org.smssecure.smssecure.SmsSendtoActivity	null;;null;;"t";;null;;
+
+1778	org.smssecure.smssecure.SmsSendtoActivity	null;;null;;null;;null;;Parcelable->parObj->ParcelableObj,
+
+1780	org.smssecure.smssecure.SmsSendtoActivity	null;;null;;null;;null;;Serializable->serObj->SerializableObj,
+
+1774	org.smssecure.smssecure.SmsSendtoActivity	null;;null;;null;;null;;String->sms_body->!@#$%^ds:+_,
+
+1777	org.smssecure.smssecure.SmsSendtoActivity	null;;null;;"l";;null;;
+
+------------------------------------------------------------------------
+
+BugInfo:
+hash:-866756633
+FATAL EXCEPTION: main
+java.lang.RuntimeException: Unable to start activity ComponentInfo{org.smssecure.smssecure/org.smssecure.smssecure.SmsSendtoActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.getSchemeSpecificPart()' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2698)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2759)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6190)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:892)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:782)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.net.Uri.getSchemeSpecificPart()' on a null object reference
+	at org.smssecure.smssecure.SmsSendtoActivity.getDestinationForSendTo(SmsSendtoActivity.java)
+	at org.smssecure.smssecure.SmsSendtoActivity.getNextIntent(SmsSendtoActivity.java)
+	at org.smssecure.smssecure.SmsSendtoActivity.onCreate(SmsSendtoActivity.java)
+	at android.app.Activity.performCreate(Activity.java:6701)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2651)
+	... 9 more
+
+ICC Msgs:
+1772	org.smssecure.smssecure.SmsSendtoActivity	"android.intent.action.SENDTO";;null;;null;;null;;
+
+1770	org.smssecure.smssecure.SmsSendtoActivity	"android.intent.action.SENDTO";;null;;null;;null;;String->sms_body->!@#$%^ds:+_,
+
+------------------------------------------------------------------------
+

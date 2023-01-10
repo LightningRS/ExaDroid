@@ -1,0 +1,13 @@
+{
+    "android.util.SuperNotCalledException": 1,
+    "java.io.FileNotFoundException": 2,
+    "java.lang.ClassNotFoundException": 20,
+    "java.lang.Exception": 11,
+    "java.lang.IllegalArgumentException": 1,
+    "java.lang.NullPointerException": 12,
+    "java.lang.RuntimeException": 32,
+    "java.lang.Throwable": 1,
+    "kotlin.UninitializedPropertyAccessException": 1,
+    "org.acra.sender.ReportSenderException": 1,
+    "org.apache.http.conn.ConnectTimeoutException": 1
+}
