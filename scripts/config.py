@@ -5,17 +5,17 @@ import os
 import shutil
 import zipfile
 
-JAVA_8_PATH = "D:/Programs/jdk1.8.0_202/bin/java.exe"
-JAVA_17_PATH = "D:/Programs/jdk-18.0.2/bin/java.exe"
+JAVA_8_PATH = "/path/to/java1.8"
+JAVA_17_PATH = "/path/to/java17+"
 
 # ICCBot Arguments
 ICCBOT_TIME = 60
 ICCBOT_MAX_PATH_NUM = 100
 
 # AACT Arguments
-DEVICE_SERIAL = 'emulator-5556'
+DEVICE_SERIAL = 'emulator-5554'
 LAUNCHER_PKG_NAME = 'com.android.launcher3'
-STRATEGIES = 'iccBot; random; randomWithStruct; iccBot+preset; iccBot+preset+randomWithStruct'
+STRATEGIES = 'iccBot+preset'
 RAND_SEED = 12345678
 RAND_VAL_NUM = 3
 
