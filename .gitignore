@@ -22,3 +22,5 @@ __pycache__
 *.cache/
 /libs/Mist/lib/android--1/
 /libs/Mist/sootOutput/
+/libs/Mist/data/
+!/libs/Mist/data.zip

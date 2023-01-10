@@ -3,6 +3,7 @@
 
 import os
 import shutil
+import zipfile
 
 JAVA_8_PATH = "D:/Programs/jdk1.8.0_202/bin/java.exe"
 JAVA_17_PATH = "D:/Programs/jdk-18.0.2/bin/java.exe"
@@ -45,6 +46,8 @@ ICCBOT_RESULT_PATH = os.path.join(DEFAULT_RESULT_PATH, "ICCResult")
 
 # Mist
 MIST_ROOT = os.path.join(LIB_PATH, "Mist")
+MIST_DATA_ZIP_PATH = os.path.join(MIST_ROOT, "data.zip")
+MIST_DATA_PATH = os.path.join(MIST_ROOT, "data")
 MIST_JAR_PATH = os.path.join(MIST_ROOT, "Mist.jar")
 MIST_ANDROID_LIB_PATH = os.path.join(MIST_ROOT, 'lib/android--1')
 MIST_ANDROID_LIB_JAR_PATH = os.path.join(MIST_ANDROID_LIB_PATH, 'android.jar')
@@ -91,6 +94,16 @@ if not os.path.exists(MIST_JAR_PATH):
 if not os.path.exists(MIST_ANALYZER_JAR_PATH):
     print("MistResultAnalyzer.jar not found! Please check config.py")
     exit(0)
+    
+if not os.path.exists(MIST_DATA_ZIP_PATH):
+    print("Mist data.zip not found! Please check config.py")
+    exit(0)
+
+if not os.path.exists(MIST_DATA_PATH):
+    f = zipfile.ZipFile(MIST_DATA_ZIP_PATH, 'r')
+    f.extractall(MIST_DATA_PATH)
+    f.close()
+    print("Unzipped Mist data files")
 
 if not os.path.exists(APKTOOL_JAR_PATH):
     print("apktool_2.3.1.jar not found! Please check config.py")
