@@ -13,7 +13,7 @@ if len(sys.argv) < 2 or len(sys.argv) > 5:
     print("output-testcase-dir: Default to /path/to/ExaDroid/result/Testcases")
     exit(2)
 
-apks_path = sys.argv[1]
+apks_path = os.path.abspath(sys.argv[1])
 icc_result_path = config.ICCBOT_RESULT_PATH
 mist_result_path = config.MIST_RESULT_PATH
 result_path = config.AACT_TESTCASES_PATH
@@ -31,7 +31,7 @@ def main():
     mist_result_path = os.path.join(mist_result_path, 'mist_result.json')
     if not os.path.exists(mist_result_path):
         print("mist_result.json not found!")
-        exit(1)
+        # exit(1)
 
     aact_cmd = \
         f'{config.JAVA_17_PATH} ' + \
@@ -42,7 +42,6 @@ def main():
         f'-s {config.RAND_SEED if config.RAND_SEED is not None else 12345678} ' + \
         f'-r {config.RAND_VAL_NUM if config.RAND_VAL_NUM is not None else 3} ' + \
         f'-st {config.STRATEGIES if config.STRATEGIES is not None else "iccBot+preset"} ' + \
-        f'-mr "{mist_result_path}" ' + \
         '-og -oe'
     print("[INFO] Executing: " + aact_cmd)
 

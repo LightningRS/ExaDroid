@@ -10,7 +10,7 @@ if len(sys.argv) < 2 or len(sys.argv) > 3:
     print("output-icc-result-path: Default to /path/to/ExaDroid/result/ICCResult")
     exit(2)
 
-apk_path = sys.argv[1]
+apk_path = os.path.abspath(sys.argv[1])
 result_path = config.ICCBOT_RESULT_PATH
 if len(sys.argv) > 2:
     result_path = sys.argv[2]

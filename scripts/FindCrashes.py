@@ -15,7 +15,7 @@ if len(sys.argv) < 2 or len(sys.argv) > 5:
     exit(2)
     # sys.argv = [sys.argv[0], 'D:/Projects/MIST-AACT/$MIST30-APKs']
 
-apks_path = sys.argv[1]
+apks_path = os.path.abspath(sys.argv[1])
 icc_result_path = config.ICCBOT_RESULT_PATH
 mist_result_path = config.MIST_RESULT_PATH
 testcases_path = config.AACT_TESTCASES_PATH

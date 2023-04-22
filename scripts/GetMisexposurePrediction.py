@@ -11,7 +11,7 @@ if len(sys.argv) < 2 or len(sys.argv) > 3:
     print("output-mist-result-dir: Default to /path/to/ExaDroid/result/MistResult")
     exit(2)
 
-apk_root = sys.argv[1]
+apk_root = os.path.abspath(sys.argv[1])
 result_path = config.MIST_RESULT_PATH
 if len(sys.argv) > 2:
     result_path = sys.argv[2]
@@ -142,7 +142,8 @@ def run_ea_classifier():
 
 def cleanup():
     shutil.rmtree(config.TEMP_PATH)
-    shutil.rmtree(os.path.join(config.MIST_ROOT, 'sootOutput'))
+    if os.path.exists(os.path.join(config.MIST_ROOT, 'sootOutput')):
+        shutil.rmtree(os.path.join(config.MIST_ROOT, 'sootOutput'))
     os.makedirs(config.TEMP_PATH)
 
 if __name__ == '__main__':

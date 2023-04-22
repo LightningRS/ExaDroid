@@ -14,7 +14,7 @@ if len(sys.argv) < 2 or len(sys.argv) > 6:
     print("output-result-dir: Default to /path/to/ExaDroid/result/TestExecutionResult")
     exit(2)
 
-apks_path = sys.argv[1]
+apks_path = os.path.abspath(sys.argv[1])
 icc_result_path = config.ICCBOT_RESULT_PATH
 mist_result_path = config.MIST_RESULT_PATH
 testcases_path = config.AACT_TESTCASES_PATH
