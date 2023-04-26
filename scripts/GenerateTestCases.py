@@ -56,7 +56,7 @@ def cleanup():
     aact_log_path = os.path.join(config.LOGS_PATH, 'test-controller.log')
     ct_models_log_path = os.path.join(result_path, 'CTModels.log')
     os.unlink(logcat_path)
-    shutil.move(aact_log_path, ct_models_log_path)
+    shutil.copy(aact_log_path, ct_models_log_path)
 
 if __name__ == '__main__':
     main()
